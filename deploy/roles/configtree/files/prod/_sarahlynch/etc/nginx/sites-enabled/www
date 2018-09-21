@@ -1,0 +1,6 @@
+server {
+
+	server_name www.sarahlynch.net;
+
+	rewrite     ^   http://sarahlynch.net/$request_uri? permanent;
+}

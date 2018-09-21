@@ -1,0 +1,10 @@
+---
+- name: install nginx
+  become: yes
+  apt:
+    name: "nginx"
+    update_cache: True
+
+- name: set nginx to restart on reboot
+  service: name=nginx.service enabled=yes
+  become: yes

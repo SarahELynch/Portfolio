@@ -1,0 +1,11 @@
+---
+- name: "Check if {{playbook_dir}}/roles/configtree/files/{{CONFIGTREE_PATH}} exists"
+  local_action: stat path="{{playbook_dir}}/roles/configtree/files/{{CONFIGTREE_PATH}}"
+  register: file
+- name: "Copy {{playbook_dir}}/roles/configtree/files/{{CONFIGTREE_PATH}}"
+  copy:
+    src: "{{CONFIGTREE_PATH}}"
+    dest: /
+    force: true
+  become: true
+  when: file.stat.exists
