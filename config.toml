@@ -1,7 +1,7 @@
 # Site settings
-baseurl = "https://example.org/"
+baseurl = "http://sarahlynch.net/"
 languageCode = "en-us"
-title = "Agency"
+title = "Sarah Lynch's UX Design Portfolio"
 theme = "hugo-agency-theme"
 
 publishDir = "deploy/roles/configtree/files/prod/_sarahlynch/var/www/sarahlynch/"
@@ -18,8 +18,8 @@ googleAnalytics = ""
 
   # To provide some metadata for search engines feel free to add a few
   # information about you and your website.
-  name = "Your name"
-  description = "Your description"
+  name = "Sarah Lynch"
+  description = "UX / User Experience Design Portfolio"
   # email = "your@email.com"
 
   # Link custom assets relative to /static
@@ -67,22 +67,22 @@ googleAnalytics = ""
     #  weight = 10
 
     # postpended links
-    [[menu.postpend]]
-      url = "http://josephharding.net"
-      name = "mey boyfirend"
-      weight = 10
+    # [[menu.postpend]]
+    #   url = "http://josephharding.net"
+    #   name = "mey boyfirend"
+    #   weight = 10
 
 
   # Hero section
   [params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
-    title = "I am Sarah"
-    subtitle = "It's ok to meet you"
-    buttonText = "Tell me more ok"
+    title = "Sarah Lynch"
+    subtitle = "UX Designer"
+    buttonText = "See My Best Work"
 
 
-  # Services section
+  # Services section - DISABLED
   [params.services]
     enable = false
     title = "Services"
@@ -116,7 +116,7 @@ googleAnalytics = ""
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
     title = "Portfolio"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    subtitle = "As a linguist-turned-UX designer, I believe in the power of deconstructing communication. Uncovering user motivations is key to crafting interactive experiences that make sense, and I strive to accomplish exactly that through honesty, transparency, and humble observation."
 
     [params.portfolio.modal]
       client = "Client"
