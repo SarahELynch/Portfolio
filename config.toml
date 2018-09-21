@@ -68,8 +68,8 @@ googleAnalytics = ""
 
     # postpended links
     # [[menu.postpend]]
-    #   url = "http://josephharding.net"
-    #   name = "mey boyfirend"
+    #   url = "http://"
+    #   name = ""
     #   weight = 10
 
 
@@ -116,7 +116,7 @@ googleAnalytics = ""
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
     title = "Portfolio"
-    subtitle = "As a linguist-turned-UX designer, I believe in the power of deconstructing communication. Uncovering user motivations is key to crafting interactive experiences that make sense, and I strive to accomplish exactly that through honesty, transparency, and humble observation."
+    subtitle = "As a linguist-turned-UX designer, I believe in the power of deconstructing communication. <br>Uncovering user motivations is key to crafting interactive experiences that make sense, and I strive to accomplish exactly that through honesty, transparency, and humble observation.</br>"
 
     [params.portfolio.modal]
       client = "Client"
@@ -128,9 +128,9 @@ googleAnalytics = ""
     # About section
   [params.about]
     enable = true
-    title = "About"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
-    endpoint = "Be part<br>of our<br>story!"
+    title = "About My Journey"
+    subtitle = "My Growth as a UX Designer"
+    endpoint = "Stay tuned <br>for the next<br>chapter!"
 
     # The events will be listed from the top to the bottom.
     # All images are stored under 'static/img/about'.
@@ -162,55 +162,54 @@ googleAnalytics = ""
 
   # Team section
   [params.team]
-    enable = false
+    enable = true
     # Possibility to center items
     #center = true
-    title = "Our amazing team"
+    title = "About Me"
     subtitle = "Lorem ipsum dolor sit amet consectetur."
     description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
 
     # All team member's pictures are stored under 'static/img/team'.
     # Replace them with your own too.
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
+
+    # [[params.team.members]]
+    #   img = "2.jpg"
+    #   name = "Larry Parker"
+    #   position = "Lead Marketer"
+    #   social = [
+    #     ["fa-twitter", "#"],
+    #     ["fa-facebook", "#"],
+    #     ["fa-linkedin", "#"]
+    #   ]
+
     [[params.team.members]]
-      img = "1.jpg"
-      name = "Kay Garland"
-      position = "Lead Designer"
-      reportsTo = "CTO"
-      livesIn = "[Munich, Germany](#some-maps-url)"
+      img = "Sarah Pic.jpg"
+      name = "Sarah Lynch"
+      position = "UX Designer"
+      livesIn = "[Austin, TX](#some-maps-url)"
       scope = [
-        "UX for [member dashboard](#)",
-        "Maintainer for [awesome-project](#)",
-        "Open Source [community management](#)"
+        "Chatbot Design & Data Curation for [IBM](#)",
+        "UX Design Student at [General Assembly](#)",
+        "UX Design, grounded in a Linguistic & Technical [foundation](#)"
       ]
       # For bio markdown and even multiline strings are available.
-      bio = """Kay is an awesome Lead Designer with heaps of experience in the field of UX.
-She worked at Pied Piper for years until they went belly up."""
+      bio = """I am a language-lover, a foodie, a sucker for animals, and a word nerd. In everything I do, I bring my diverse background with me: Elicitation and conceptualization skills from an academic linguistic training, a rough-and-ready programming knowledge from a few years of 'figuring it out', and a love of striving to understand people, what they do, why they do it, and, ultimately, what drives us as humans in our infinite creativity and expertise."""
       social = [
         ["fa-twitter", "#"],
         ["fa-facebook", "#"],
         ["fa-linkedin", "#"]
       ]
 
-    [[params.team.members]]
-      img = "2.jpg"
-      name = "Larry Parker"
-      position = "Lead Marketer"
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
-      ]
-
-    [[params.team.members]]
-      img = "3.jpg"
-      name = "Diana Pertersen"
-      position = "Lead Developer"
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
-      ]
+    # [[params.team.members]]
+    #   img = "3.jpg"
+    #   name = "Diana Pertersen"
+    #   position = "Lead Developer"
+    #   social = [
+    #     ["fa-twitter", "#"],
+    #     ["fa-facebook", "#"],
+    #     ["fa-linkedin", "#"]
+    #   ]
 
   # Client section
     [params.clients_list]
