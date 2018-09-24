@@ -15,6 +15,10 @@ body {
     color: rgba(51,20,14,.85);
 }
 
+.text-muted-modal {
+    color: #777;
+}
+
 .text-primary {
     color: #fed136;
 }
@@ -63,7 +67,8 @@ h6 {
 }
 
 .bg-light-gray {
-    background-color: #f7f7f7;
+    /* background-color: #E2E1CE; */
+    background-color: rgba(226,225,206,.30);
 }
 
 .bg-darkest-gray {
