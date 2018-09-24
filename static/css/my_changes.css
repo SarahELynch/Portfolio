@@ -244,8 +244,9 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 5;
-    color: #F4F4ED;
-    background-color: rgba(41,65,50,.3);
+    color: #C9A029;
+    /* background-color: rgba(41,65,50,.3); */
+    background-color: rgba(226,225,206,0.1);
 }
 
 .navbar-default .navbar-nav>.active>a {

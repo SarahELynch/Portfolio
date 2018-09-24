@@ -130,35 +130,34 @@ googleAnalytics = ""
     enable = true
     title = "About My Journey"
     subtitle = "My Growth as a UX Designer"
-    endpoint = "Stay tuned <br>for the next<br>chapter!"
+    endpoint = "I'm Still <br> Digging <br> Deep."
 
     # The events will be listed from the top to the bottom.
     # All images are stored under 'static/img/about'.
     # Replace them with your own.
     [[params.about.events]]
       img = "1.jpg"
-      date = "2009-2011"
-      title = "Our Humble Beginnings"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      date = "2016"
+      title = "Seed Planted."
+      description = "My Introduction to User Experience Design: <br>Human Computer Interaction course, Spring 2016. <br></br> I was lucky enough to enroll in an HCI course during my last semester of college, as a Linguistics major and Computer Science minor. I still vividly remember the exact moment, sitting in HCI lecture about halfway through the semester, that I thought, <br>'This is what I want to do.'"
 
     [[params.about.events]]
       img = "2.jpg"
-      date = "March 2011"
-      title = "An Agency is Born"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      date = "2016 - 2018"
+      title = "Sprouting my Passion."
+      description = "Application Support Engineer at IBM<br></br>I had the privilege of working on an array of different projects during my time at IBM. During these experiences, I continually encountered mention of UX Design, witnessed its practice, and even got to help in advocating for it and applying it in the work I did. <br>I sprouted curious green UX tendrils (that would one day grow into strong, sturdy roots) at IBM."
 
     [[params.about.events]]
       img = "3.jpg"
-      date = "December 2012"
-      title = "Our Humble Beginnings"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      date = "Summer - Fall 2018"
+      title = "Nurturing my Passion."
+      description = "Pursuing UX Design: GA's UX Design Immersive<br></br>I decided to rise to the challenge of cultivating my growing passion, and began to till the field of my knowledge and skills. I attended General Assembly's UXDI in Austin, TX, where I gained hands-on experience executing all the steps in the UX Design process, and worked to solve a real world problem for a real client, using UX Design fundamentals."
 
     [[params.about.events]]
       img = "4.jpg"
-      date = "July 2014"
-      title = "Phase Two Expansion"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-
+      date = "Fall 2018"
+      title = "Diligently Cultivated, now Thriving."
+      description = "UX Designer, at last.<br></br>Now that I've finished my UXDI program and am turning my face towards the sun, I'm ready to face the challenges that the world of UX Design will bring. With a diverse background touching many parts along the spectrum from anthropology to technicality, I know I can accomplish what I put my mind to and bring a unique perspective to the challenges I face."
 
   # Team section
   [params.team]
@@ -166,8 +165,8 @@ googleAnalytics = ""
     # Possibility to center items
     #center = true
     title = "About Me"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
-    description = "I find it invaluable to keep an open mind and have the courage to ask questions."
+    subtitle = "A sincere listener for hidden solutions, and fierce advocate for quality content."
+    description = "As a UX Designer, it is my duty to keep an open mind and have the courage to ask questions."
 
     # All team member's pictures are stored under 'static/img/team'.
     # Replace them with your own too.
@@ -189,12 +188,11 @@ googleAnalytics = ""
       position = "UX Designer"
       livesIn = "[Austin, TX](#some-maps-url)"
       scope = [
-        "Chatbot Design & Data Curation for [IBM](#)",
-        "UX Design Student at [General Assembly](#)",
-        "UX Design, grounded in a Linguistic & Technical [foundation](#)"
+        "Chatbot Design & Data Curation",
+        "Information Architecture, Content Strategy, Interaction Design"
       ]
       # For bio markdown and even multiline strings are available.
-      bio = """I am a language-lover, a foodie, a sucker for animals, and a word nerd. In everything I do, I bring my diverse background with me: Elicitation and conceptualization skills from an academic linguistic training, a rough-and-ready programming knowledge from a few years of 'figuring it out', and a love of striving to understand people, what they do, why they do it, and, ultimately, what drives us as humans in our infinite creativity and expertise."""
+      bio = """I am a language-lover, a foodie, a sucker for animals, and a word nerd. I believe in doing my best possible work - because it's just the right thing to do. Though the work that I do will always be grounded by my Linguistic and technical origins, what keeps me coming back to UX Design is my instinct for striving to understand people, <br>what they do, <br>why they do it, <br>and, ultimately, <br>what drives us, as human beings, in our infinite creativity and expertise."""
       social = [
         ["fa-twitter", "#"],
         ["fa-facebook", "#"],
