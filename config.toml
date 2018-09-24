@@ -23,7 +23,7 @@ googleAnalytics = ""
   # email = "your@email.com"
 
   # Link custom assets relative to /static
-  custom_css = []
+  custom_css = ["css/my_changes.css"]
   custom_js  = []
   favicon    = "favicon.ico"
 
@@ -52,8 +52,8 @@ googleAnalytics = ""
     #logo = "logo.svg"
     services = "Snarf"
     portfolio = "Portfolio"
-    about = "About"
-    team = "Team"
+    about = "My Journey"
+    team = "About Me"
     contact = "Contact"
 
     # Add custom links. Those can be pre- and postpended to the default menu above.
@@ -167,7 +167,7 @@ googleAnalytics = ""
     #center = true
     title = "About Me"
     subtitle = "Lorem ipsum dolor sit amet consectetur."
-    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+    description = "I find it invaluable to keep an open mind and have the courage to ask questions."
 
     # All team member's pictures are stored under 'static/img/team'.
     # Replace them with your own too.
@@ -184,7 +184,7 @@ googleAnalytics = ""
     #   ]
 
     [[params.team.members]]
-      img = "Sarah Pic.jpg"
+      img = "../Sarah Pic.jpg"
       name = "Sarah Lynch"
       position = "UX Designer"
       livesIn = "[Austin, TX](#some-maps-url)"
