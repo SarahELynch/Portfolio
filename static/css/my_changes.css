@@ -575,7 +575,7 @@ section h3.section-subheading {
 
 .timeline .timeline-heading h4.subheading {
     text-transform: none;
-    color: #33140E;
+    color: #294132;
 }
 
 .timeline .timeline-body>p,
@@ -703,14 +703,15 @@ section h3.section-subheading {
 .team-member h3 {
     text-transform: none;
     font-weight: 600;
-    color: #333;
+    /* color: #333; */
+    color: #33140E;
 }
 
 .team-member h4 {
     font-size: 16px;
     text-transform: none;
-    font-weight: 400;
-    color: #777;
+    font-weight: 500;
+    color: rgba(51,20,14,1);
     margin-bottom: 0px;
 }
 
@@ -723,7 +724,7 @@ section h3.section-subheading {
     text-transform: none;
     font-style: italic;
     font-weight: 200;
-    color: #777;
+    color: rgba(51,20,14,.8);
     margin-bottom: 15px
 }
 
@@ -733,6 +734,7 @@ section h3.section-subheading {
 
 .team-member h5 a {
     text-transform: none;
+    color: #C9A029;
 }
 
 .team-member ul {
@@ -741,10 +743,12 @@ section h3.section-subheading {
     margin-top: 15px;
     margin-bottom: 15px;
     padding: 0;
+    color: rgba(51,20,14,1);
 }
 
 .team-bio {
-    padding: 15px
+    padding: 15px;
+    color: rgba(51,20,14,1);
 }
 
 @media(min-width:992px) {
@@ -867,7 +871,7 @@ ul.social-buttons li a {
     line-height: 40px;
     outline: 0;
     color: #fff;
-    background-color: #222;
+    background-color: #294132;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
@@ -876,7 +880,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-    background-color: #fed136;
+    background-color: #C9A029;
 }
 
 .btn:focus,
