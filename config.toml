@@ -116,7 +116,7 @@ googleAnalytics = ""
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
     title = "Portfolio"
-    subtitle = "As a linguist-turned-UX designer, I believe in the power of deconstructing communication. <br>Uncovering user motivations is key to crafting interactive experiences that make sense, and I strive to accomplish exactly that through honesty, transparency, and humble observation.</br>"
+    subtitle = "As a linguist-turned-UX designer, I believe in the power of deconstructing communication. <br>Uncovering user motivations is key to crafting interactive experiences that make sense.</br>"
 
     [params.portfolio.modal]
       client = "Client"

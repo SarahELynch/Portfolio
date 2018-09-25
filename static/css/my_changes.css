@@ -482,6 +482,7 @@ section h3.section-subheading {
     width: 2px;
     margin-left: -1.5px;
     background-color: #f1f1f1;
+    /* background-color: rgba(51,20,14,.4); */
 }
 
 .timeline>li {
@@ -568,11 +569,13 @@ section h3.section-subheading {
 
 .timeline .timeline-heading h4 {
     margin-top: 0;
-    color: inherit;
+    /* color: inherit; */
+    color: #33140E;
 }
 
 .timeline .timeline-heading h4.subheading {
     text-transform: none;
+    color: #33140E;
 }
 
 .timeline .timeline-body>p,
