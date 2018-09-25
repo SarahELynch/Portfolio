@@ -10,19 +10,22 @@
       </div>
       <div class="container">
         <div class="row">
-          <div class="col-lg-8 col-lg-offset-2">
+          <div class="col-lg-8">
             <div class="modal-body">
               <h2>{{ .title  | markdownify }}</h2>
               <p class="item-intro text-muted-modal">{{ .subtitle | markdownify }}</p>
               {{ $url := printf "img/portfolio/%s" .img }}
-              <img class="img-responsive img-centered" src="{{ $url | absURL }}" alt="">
-              <p>{{ .description | markdownify }}</p>
               <ul class="list-inline">
                 <li>{{ with $.Site.Params.portfolio.modal.date }}{{ . }}{{ end }}: {{ .date }}</li>
                 <li>{{ with $.Site.Params.portfolio.modal.client }}{{ . }}{{ end }}: {{ .client }}</li>
                 <li>{{ with $.Site.Params.portfolio.modal.category }}{{ . }}{{ end }}: {{ .category  | markdownify }}</li>
               </ul>
+              <img class="img-responsive img-centered" src="{{ $url | absURL }}" alt="">
+              <p>{{ .description | markdownify }}</p>
               <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> {{ with $.Site.Params.portfolio.modal.buttonText }}{{ . }}{{ end }}</button>
+              <div  class="license-disclaimer">Icons used for User Personas: <div>Icons made by <a href="https://www.iconfinder.com/UsersInsights" title=“Users Insights”>Users Insights</a> from <a href="https://www.iconfinder.com/" title=“IconFinder”>www.iconfinder.com</a> licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+              I do not own the icons used for User Personas in this case study, and I can verify that these icons were not modified in any way prior to inclusion in this webpage.
+              </div>
             </div>
           </div>
         </div>
