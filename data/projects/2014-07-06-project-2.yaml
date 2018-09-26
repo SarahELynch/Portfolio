@@ -2,8 +2,8 @@ modalID: 2
 title: Redesign of the Kindle Community
 subtitle: A forum-based platform for literary discussion.
 date: September 2018
-img:
-preview: startup-framework-preview.png
+img: Amazon_Kindle_Community.png
+preview: Amazon_Kindle_Community.png
 client: Amazon Kindle
 clientLink: "#"
 category: Mobile App Redesign
@@ -14,16 +14,11 @@ description: "**TEAM:** 3 UX Designers<br>
 MY TASKS ACCOMPLISHED:<br>
 - Recruiting & interviewing Subject Matter Experts<br>
 - Feature prioritization & User Story formulation<br>
-- Crafting of realistic User Scenarios **OPTIONAL**<br>
 - Site Map (& ideation to inspire it)<br>
 - Mapping User Flows through the App experience<br>
-- Navigation Feedback (reflecting current location in the IA of the app to the user) **OPTIONAL**<br>
-- Ensuring utilization of iOS design conventions **OPTIONAL**<br>
 - Usability Testing (preparation for & leading the interviews)<br>
 - Card Sorting<br>
-- Synthesis of data from Usability Testing<br>
-- Micro-interaction design (expandable section displaying discussion post metadata)  **TBA**<br></br>
-
+- Synthesis of data from Usability Testing<br></br>
 
 **PROBLEM:** Increase Customer Engagement by redesigning the Community feature of the Amazon Kindle app<br>
 **SOLUTION:** Design a forum-based discussion platform to replace the current Community feature<br></br>
@@ -40,22 +35,21 @@ By observing the major trends in our User Research data, we were able to craft t
 
 Primary Persona:<br>
 Jeff Bloom<br></br>
-![Primary User Persona - Jeff Bloom](/img/portfolio/Jeff_Bloom_User_Persona.png)
+![Primary User Persona - Jeff Bloom](/img/portfolio/Jeff_Bloom_User_Persona.png)<br></br>
 
 Secondary Persona:<br>
 Jenny Coolidge<br></br>
-![Secondary User Persona - Jenny Coolidge](/img/portfolio/Jenny_Coolidge_User_Persona.png)
+![Secondary User Persona - Jenny Coolidge](/img/portfolio/Jenny_Coolidge_User_Persona.png)<br>
 
 Our team worked together to prioritize features for our redesign in order to ensure we could complete a project by our designated deadline (total project duration: 2 weeks).<br>
-To do this prioritization, we completed a MoSCoW method chart, and to ensure that the features we decided to include in our scope were aligned with our user needs, I wrote a User Story corresponding with each feature.<br>
-Here are two examples of User Stories we used to align our progress during the project development.<br></br>
+To do this prioritization, we completed a MoSCoW method chart, and to ensure that the features we decided to include in our scope were aligned with our users' needs, I wrote a User Story corresponding with each feature.<br><br>
+Here are two examples of User Stories we used to align our progress during the project development:<br></br>
 
 ![Must-Include Features](/img/portfolio/MoSCoW_Must_features.png)<br></br>
 
-Having the ability to search for discussions, start a new discussion, and find and contribute to already existing discussions, are features tailored to the needs of our user personas, Jeff and Jenny.<br></br>
+These two User Stories represent features that are tailored to the major goals of our User Personas: 1) having the ability to search for discussions easily, and 2) contribute to already existing discussions, and start a brand new discussion.<br></br>
 
-After our group did a few rounds of ideation and sketching, I was able to create a Site Map, which I iterated on multiple times throughout the project, as our design solidified.<br>
-Here's the last iteration of the Site Map:<br></br>
+After our group did a few rounds of ideation and sketching, I was able to create a Site Map, which I iterated on multiple times throughout the project, as our design solidified.<br></br>
 
 ![Site Map](/img/portfolio/P3_Site_Map_w_nav_schema.png)<br></br>
 
@@ -85,14 +79,14 @@ After ideation, research, a few rounds of sketching, organizational mapping, and
 We conducted Usability Tests with three users to find out where we could improve the usability of our design.<br>
 I lead the preparation for our team's usability tests, and also lead and facilitated the tests.<br>
 As the Information Architect, I wanted to get an idea of what kind of topic category users would look in first to find a discussion, so that we could better order our categories in a hierarchy in our side menu that better reflected the mental models of our users.<br>
-I didn't want to influence our test participants with any element of the visual design, so, I conducted a 'hypothetical, reverse' card sort at the beginning of each usability test, before even opening the laptop.<br>
+I didn't want our test participants' answers to be influenced by any element of the visual design, so, I conducted a 'hypothetical, reverse' card sort at the beginning of each usability test before even opening the laptop.<br>
 I showed each participant three cards, with the categories 'Book', 'Author', and 'Genre', and I asked the participant,<br>
 'If you had these three categories to choose from in order to find a new discussion, what category would you pick first?'<br></br>
 
-Two out of the three participants we tested prioritized categories in the order 'Genre', 'Book', then 'Author', while our third participant order the categories 'Genre', 'Author', 'Book'.<br>
+Two out of the three participants we tested prioritized categories in the order 'Genre', 'Book', then 'Author', while our third participant ordered the categories 'Genre', 'Author', 'Book'.<br>
 We decided to take this information as a suggestion to reorder our categories in the hierarchy: 'Genre', 'Book', 'Author'.<br></br>
 
-After completing the card sort, I lead each participant through a usability test. I asked each participant to conduct four tasks in the prototype.<br>
+After completing the card sort, I lead each participant through a usability test, during which I asked each participant to conduct four tasks in the prototype.<br>
 1. Find discussions about the book 'Of Mice and Men'<br>
   a. Preview the first discussion in the feed.<br>
   b. View the discussion on the feed.<br>
