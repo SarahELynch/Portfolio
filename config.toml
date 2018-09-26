@@ -47,7 +47,7 @@ googleAnalytics = ""
 
   # Navigation
   [params.navigation]
-    brand = "The Agency"
+    brand = "Sarah Lynch"
     # Optional logo as brand stored in img/
     #logo = "logo.svg"
     services = "Snarf"
@@ -77,7 +77,7 @@ googleAnalytics = ""
   [params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
-    title = "Sarah Lynch"
+    title = "I believe in the power of deconstructing communication."
     subtitle = "UX Designer"
     buttonText = "See My Best Work"
 
@@ -116,7 +116,7 @@ googleAnalytics = ""
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
     title = "Portfolio"
-    subtitle = "As a linguist-turned-UX designer, I believe in the power of deconstructing communication. <br>Uncovering user motivations is key to crafting interactive experiences that make sense.</br>"
+    subtitle = "Uncovering user motivations is key to crafting interactive experiences that make sense.</br>"
 
     [params.portfolio.modal]
       client = "Client"
