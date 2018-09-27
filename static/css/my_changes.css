@@ -41,14 +41,14 @@ a.active {
 }
 
 a {
-    color: #fed136;
+    color: #C9A029;
 }
 
 a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #fec503;
+    color: #ECBD32;
 }
 
 h1,
@@ -769,14 +769,25 @@ aside .heading {
 }
 
 section#contact {
-    background-color: #222;
-    background-image: url(../img/map-image.png);
+    background-color: #294132;
+    background-image: none;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 section#contact .section-heading {
-    color: #fff;
+    color: #E2E1CE;
+    margin-bottom: 30px;
+}
+
+section#contact .section-subheading {
+    color: #C9A029;
+    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    /* font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif; */
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
 }
 
 section#contact .form-group {
@@ -830,7 +841,8 @@ section#contact:-ms-input-placeholder {
 }
 
 section#contact .text-danger {
-    color: #e74c3c;
+    /* color: #e74c3c; */
+    color: #9E2C1C;
 }
 
 section#contact .text-success {
@@ -840,6 +852,7 @@ section#contact .text-success {
 footer {
     padding: 25px 0;
     text-align: center;
+    background-color: #F4F4ED;
 }
 
 footer span.copyright {
@@ -862,6 +875,11 @@ ul.social-buttons {
     margin-bottom: 10px;
 }
 
+section#contact ul.social-buttons {
+    margin-top: 0px;
+    margin-bottom: 60px;
+}
+
 ul.social-buttons li a {
     display: block;
     width: 40px;
@@ -870,7 +888,7 @@ ul.social-buttons li a {
     font-size: 20px;
     line-height: 40px;
     outline: 0;
-    color: #fff;
+    color: #E2E1CE;
     background-color: #294132;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;

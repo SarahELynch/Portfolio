@@ -77,8 +77,8 @@ googleAnalytics = ""
   [params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
-    title = "I believe in the power of deconstructing communication."
-    subtitle = "UX Designer"
+    title = "I believe in the power of deconstructing"
+    subtitle = "Communication"
     buttonText = "See My Best Work"
 
 
@@ -165,7 +165,7 @@ googleAnalytics = ""
     # Possibility to center items
     #center = true
     title = "About Me"
-    subtitle = "A sincere listener for hidden solutions, and fierce advocate for quality content."
+    subtitle = "An attentive listener, sincere communicator, and fierce advocate for quality content."
     description = "As a UX Designer, it is my duty to keep an open mind and have the courage to ask questions."
 
     # All team member's pictures are stored under 'static/img/team'.
@@ -186,7 +186,7 @@ googleAnalytics = ""
       img = "../Sarah Pic.jpg"
       name = "Sarah Lynch"
       position = "UX Designer"
-      livesIn = "[Austin, TX](#some-maps-url)"
+      livesIn = "Austin, TX"
       scope = [
         "Chatbot Design & Data Curation",
         "Information Architecture, Content Strategy, Interaction Design"
@@ -194,9 +194,10 @@ googleAnalytics = ""
       # For bio markdown and even multiline strings are available.
       bio = """I am a language-lover, a foodie, a sucker for animals, and a word nerd. I believe in doing my best possible work - because it's just the right thing to do. Though the work that I do will always be grounded by my Linguistic and technical origins, what keeps me coming back to UX Design is my instinct for striving to understand people, <br>what they do, <br>why they do it, <br>and, ultimately, <br>what drives us, as human beings, in our infinite creativity and expertise."""
       social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
+        ["fa-twitter", "https://twitter.com/SarahELynch93"],
+        ["fa-medium", "https://medium.com/@lynch.se22"],
+        ["fa-linkedin", "https://www.linkedin.com/in/sarah-e-lynch"],
+        ["fa-envelope", "mailto:sellynch@gmail.com"]
       ]
 
     # [[params.team.members]]
@@ -239,8 +240,8 @@ googleAnalytics = ""
   # Contact section
   [params.contact]
     enable = true
-    title = "Contact us"
-    subtitle  = "Lorem ipsum dolor sit amet consectetur."
+    title = "Contact Me"
+    subtitle  = "Hey there! <br><br>Feel free to reach out via email or social media.<br> You can also send me a message using the form below!"
     buttonText = "Send message"
     # netlify = true
 
@@ -262,7 +263,7 @@ googleAnalytics = ""
     # add some custom JS script to finish the implementation.
     # postURL = "https://example.com/mailout/"
 
-    email = "your@email.com"
+    email = "sellynch2@gmail.com"
 
     # Success and error message overwrite for async contact form
     #thanks = "Thank you for awesomely contacting us."
@@ -273,19 +274,19 @@ googleAnalytics = ""
 
     # 'warning' defines error messages for invalid inputs
     [params.contact.form.name]
-      text = "Your Name *"
+      text = "What's your NAME?"
       warning = "Please enter your name."
 
     [params.contact.form.email]
-      text = "Your Email *"
+      text = "Let me know your EMAIL ADDRESS."
       warning = "Please enter your email address."
 
     [params.contact.form.phone]
-      text = "Your Phone *"
-      warning = "Please enter your phone number."
+      text = "Tell me your Phone Number, if you want. (optional)"
+      warning = ""
 
     [params.contact.form.message]
-      text = "Your Message *"
+      text = "What should we chat about?"
       warning = "Please enter a message."
 
       # Add optional form fields to identify contact forms
@@ -304,17 +305,17 @@ googleAnalytics = ""
 
     [[params.footer.social]]
       icon = "fa-twitter"
-      link = "#"
+      link = "https://twitter.com/SarahELynch93"
       title = "Twitter"
 
     [[params.footer.social]]
-      icon = "fa-facebook"
-      link = "#"
-      title = "Facebook"
+      icon = "fa-envelope"
+      link = "mailto:sellynch2@gmail.com"
+      title = "Email"
 
     [[params.footer.social]]
       icon = "fa-linkedin"
-      link = "#"
+      link = "https://www.linkedin.com/in/sarah-e-lynch"
       title = "LinkedIn"
 
     [[params.footer.quicklinks]]
