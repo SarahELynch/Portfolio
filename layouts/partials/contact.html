@@ -86,7 +86,7 @@
                   {{ with $contact.error }}
                     {{ . | markdownify }}
                   {{ else }}
-                    Message could not be send. Please contact me at {{ (or $contact.email .Site.Params.email) }} instead.
+                    Message could not be sent. Please contact me at {{ (or $contact.email .Site.Params.email) }} instead.
                   {{ end }}
                 </div><br />
                 {{ with $contact.captcha }}

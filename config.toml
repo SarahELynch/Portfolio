@@ -270,7 +270,7 @@ googleAnalytics = ""
     #error = "Message could not be send. Please contact us at mail@example.com instead."
 
     [params.contact.captcha]
-      # sitekey = ""
+      sitekey = "6Lf3h3IUAAAAAL_Eybrf3m3RA6P9EtLYGY2ZK1qe"
 
     # 'warning' defines error messages for invalid inputs
     [params.contact.form.name]
