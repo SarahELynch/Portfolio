@@ -1,20 +1,20 @@
 modalID: 2
 title: Kindle Community Redesign
-subtitle: A forum-based platform for literary discussion.
+subtitle: A General Assembly project, to design a forum-based platform for literary discussion.
 date: September 2018
 img: Amazon_Kindle_Community.png
 preview: Amazon_Kindle_Community.png
-client: Amazon Kindle
+client: Amazon Kindle (spec)
 clientLink: "#"
 category: Mobile App Redesign
 description: "**TEAM:** 3 UX Designers<br>
 **MY ROLE:** Information Architect and Interaction Designer<br>
 **DURATION OF PROJECT:** 2 weeks<br></br>
 
-MY TASKS ACCOMPLISHED:<br>
-- Recruiting & interviewing Subject Matter Experts<br>
+**MY TASKS ACCOMPLISHED:**<br>
+- Recruiting & interviewing Subject Matter Experts and Representative Users<br>
 - Feature prioritization & User Story formulation<br>
-- Site Map (& ideation to inspire it)<br>
+- Site Mapping (& ideation to inspire it)<br>
 - Mapping User Flows through the App experience<br>
 - Usability Testing (preparation for & leading the interviews)<br>
 - Card Sorting<br>
@@ -23,7 +23,7 @@ MY TASKS ACCOMPLISHED:<br>
 **PROBLEM:** Increase Customer Engagement by redesigning the Community feature of the Amazon Kindle app<br>
 **SOLUTION:** Design a forum-based discussion platform to replace the current Community feature<br></br>
 
-**SKILLS:** Card Sorting, Site (App) Mapping, User Interviews, Usability Testing, Data Synthesis<br></br>
+**SKILLS:** Card Sorting, Site (App) Mapping, User Flow Diagramming, User Interviews, Usability Testing, Data Synthesis<br><br><br>
 
 **DESIGN PROCESS:**<br></br>
 
@@ -36,7 +36,7 @@ By observing the major trends in our User Research data, we were able to craft t
 **Primary Persona:**<br></br>
 ![Primary User Persona - Jeff Bloom](/img/portfolio/Jeff_Bloom_User_Persona.png)<br></br>
 
-**Secondary Persona:**<br/>
+**Secondary Persona:**<br><br>
 ![Secondary User Persona - Jenny Coolidge](/img/portfolio/Jenny_Coolidge_User_Persona.png)<br>
 
 Our team worked together to prioritize features for our redesign in order to ensure we could complete a project by our designated deadline (total project duration: 2 weeks).<br>
@@ -74,11 +74,11 @@ and he can view a great variety of individual discussions through his main feed 
 Jenny's participation preference: **Starting Discussions**<br>
 ![User Flow Diagram with Jenny's Task Flow](/img/portfolio/Jenny's_User_Flow_Diagram.png)<br></br>
 Jenny's needs are met by this organizational schema, as well. She is able to start a discussion by viewing the options included in the right-hand-side User Avatar Icon menu
-and creating a new discussion by providing all the information needed: topic (7), discussion post title (8), and discussion post body (8).<br></br>
+and creating a new discussion by providing all the information needed: topic (7), discussion post title (8), and discussion post body (9).<br></br>
 
 After ideation, research, a few rounds of hand sketching, organizational mapping, and diving into Sketch, we had a prototype in place.<br></br>
 **Prototype: Digital Wireframes**
-![Digital Wireframes](/img/portfolio/Digital_Wireframes.png)<br></br>
+![Digital Wireframes](/img/portfolio/Digital_Wireframes.png)<br>
 
 **Usability Testing**<br></br>
 We conducted Usability Tests with three users to find out where we could improve the usability of our design.<br>
@@ -93,26 +93,14 @@ I showed each participant three cards, with the categories 'Book', 'Author', and
 Two out of the three participants we tested prioritized categories in the order 1 - **'Genre'**, 2 - **'Book'**, then 3 - **'Author'**, while our third participant ordered the categories 1 - 'Genre', 2 - 'Author', 3 - 'Book'.<br>
 I decided to take this information as a suggestion to reorder our categories in the hierarchy: **'Genre', 'Book', 'Author'**.<br></br>
 
-After completing the card sort, I lead each participant through a usability test, during which I asked them to conduct four tasks in the prototype.<br>
-1. Find discussions about the book 'Of Mice and Men'<br>
-  a. Preview the first discussion in the feed.<br>
-  b. View the discussion on the feed.<br>
-  c. Add a comment to the discussion.<br>
-  d. 'Like' the discussion.<br>
-2. Create a new discussion.<br>
-3. View your saved discussions.<br>
-4. Unfollow the book 'Of Mice and Men'.<br></br>
+After completing the card sort, I lead each participant through a usability test, during which I asked them to conduct four tasks in the prototype.<br><br>
+![Usability Testing Tasks](/img/portfolio/Usability_Tasks_Graphic.png)<br>
 
 I worked with our team's lead Researcher to synthesize our data gathered from testing into actionable takeaways.<br>
-The  action items we came up with were:<br>
-1. Clearly label the toggles in the side menu with an indication of the action being done.<br>
-2. All caret icons should change direction to reflect the action to be done next (collapse vs. expand).<br>
-3. Create a way to start a new discussion while on the Main Feed page.<br>
-4. Make the search feature (search bar) accessible from the Main Feed page.<br>
-5. Make the comment section in a discussion post better visually associated with the post's body section.<br>
-6. Change the icon used for the 'save' function to a ribbon, rather than a plus sign.<br></br>
+**The  action items we came up with were:**<br><br>
+![Usability Testing Results](/img/portfolio/Usability_Test_Results_Graphic.png)<br></br>
 
 Our team implemented these takeaways in our prototype and our Visual Designer took our wireframes to a higher level of fidelity.<br>
-Here is a high-fidelty screen to indicate the visual design of our finished product:<br></br>
+Here is a high-fidelty screen to demonstrate the visual design of our finished product:<br></br>
 **High Fidelity Wireframe:**<br>
-**[HIGH FIDELITY WIREFRAMES]**"
+![High Fidelity Wireframe](/img/portfolio/Main_Feed_high_fidelity.png)"
