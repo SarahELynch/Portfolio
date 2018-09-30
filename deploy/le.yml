@@ -1,0 +1,24 @@
+# NOTE - YOU MUST RUN generate_keys.sh FIRST!
+# NOTE - YOU MUST SWITCH OUT acme_dir WHEN YOU'RE READY
+# NOTE - YOU MUST ALREADY HAVE DNS SETUP FOR THE DOMAIN
+# NOTE - also, all the certs have to be the same when you run an upload - this means you can break api.psearch.io if you update psearch.io even without targetting that domain
+---
+- hosts: _sarahlynch
+  vars:
+    acme_dir: "https://acme-v01.api.letsencrypt.org/directory" 
+    #acme_dir: "https://acme-staging.api.letsencrypt.org/directory" 
+    domain: "sarahlynch.net"
+    base_name: "{{ansible_hostname}}.sarahlynch.net" 
+  roles:
+    - {role: install-nginx} 
+    # order is important here 
+    - {role: configtree, CONFIGTREE_PATH: "{{inventory_dir | basename}}/{{ansible_hostname}}/" } 
+    - {role: configtree, CONFIGTREE_PATH: "{{inventory_dir | basename}}/_le/" }
+    - {role: letsencrypt }
+    - {role: configtree, CONFIGTREE_PATH: "{{inventory_dir | basename}}/_le_undo/" }
+  post_tasks:
+    - name: restart nginx
+      systemd:
+        name: nginx
+        state: restarted
+      become: yes

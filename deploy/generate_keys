@@ -1,0 +1,28 @@
+#!/bin/bash
+
+# generates RSA keys and copies them into the proper locations
+
+if [ "$#" -ne 2 ]; then
+  echo "Usage: $0 gretta psearch.io" >&2
+  exit 1
+fi
+
+INV=prod
+KEY_NAME=$1.$2
+KEY_NAME_OTHER=${KEY_NAME}_other
+openssl genrsa -aes256 -out pems/${KEY_NAME}.pem -passout pass:lolsec 2048
+openssl rsa -in pems/${KEY_NAME}.pem -passin pass:lolsec -out ${KEY_NAME}.key
+openssl req -new -key ${KEY_NAME}.key -subj req -new -passin pass:lolsec -out ${KEY_NAME}.csr \
+  -subj "/C=US/ST=Texas/L=Austin/O=${2},/OU=IT/CN=${2}/emailAddress=joehharding@gmail.com"
+
+mkdir -p roles/configtree/files/${INV}/$1/etc/pki/cert/private
+mkdir -p roles/configtree/files/${INV}/$1/etc/pki/cert/csr/
+
+mv ${KEY_NAME}.key roles/configtree/files/${INV}/$1/etc/pki/cert/private/
+mv ${KEY_NAME}.csr roles/configtree/files/${INV}/$1/etc/pki/cert/csr/
+
+#touch roles/configtree/files/${INV}/$1/etc/nginx/ssl/${KEY_NAME}.fullchain.crt
+
+openssl genrsa -aes256 -out pems/${KEY_NAME_OTHER}.pem -passout pass:lolsec 2048
+openssl rsa -in pems/${KEY_NAME_OTHER}.pem -passin pass:lolsec -out ${KEY_NAME_OTHER}.key
+mv ${KEY_NAME_OTHER}.key roles/configtree/files/${INV}/$1/etc/pki/cert/private/
