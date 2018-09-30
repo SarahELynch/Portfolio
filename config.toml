@@ -136,24 +136,28 @@ googleAnalytics = ""
     # All images are stored under 'static/img/about'.
     # Replace them with your own.
     [[params.about.events]]
+      # img = "seed.png"
       img = "1.jpg"
       date = "2016"
       title = "Seed Planted."
       description = "My Introduction to User Experience Design: <br>Human Computer Interaction course, Spring 2016. <br></br> I was lucky enough to enroll in an HCI course during my last semester of college, as a Linguistics major and Computer Science minor. I still vividly remember the exact moment, sitting in HCI lecture about halfway through the semester, that I thought, <br>'This is what I want to do.'"
 
     [[params.about.events]]
+      # img = "sprout.png"
       img = "2.jpg"
       date = "2016 - 2018"
       title = "Sprouting my Passion."
       description = "Application Support Engineer at IBM<br></br>I had the privilege of working on an array of different projects during my time at IBM. During these experiences, I continually encountered mention of UX Design, witnessed its practice, and even got to help in advocating for it and applying it in the work I did. <br>I sprouted curious green UX tendrils (that would one day grow into strong, sturdy roots) at IBM."
 
     [[params.about.events]]
+      # img = "seedling.png"
       img = "3.jpg"
       date = "Summer - Fall 2018"
       title = "Nurturing my Passion."
       description = "Pursuing UX Design: GA's UX Design Immersive<br></br>I decided to rise to the challenge of cultivating my growing passion, and began to till the field of my knowledge and skills. I attended General Assembly's UXDI in Austin, TX, where I gained hands-on experience executing all the steps in the UX Design process, and worked to solve a real world problem for a real client, using UX Design fundamentals."
 
     [[params.about.events]]
+      # img = "bloom.png"
       img = "4.jpg"
       date = "Fall 2018"
       title = "Diligently Cultivated, now Thriving."

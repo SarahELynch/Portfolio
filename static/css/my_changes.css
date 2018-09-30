@@ -588,6 +588,11 @@ section h3.section-subheading {
     margin-bottom: 0;
 }
 
+/* changing size of image in case study based on size of container (modal-body) */
+/* .modal-body img {
+  width: 99%;
+} */
+
 @media(min-width:768px) {
     .timeline:before {
         left: 50%;
