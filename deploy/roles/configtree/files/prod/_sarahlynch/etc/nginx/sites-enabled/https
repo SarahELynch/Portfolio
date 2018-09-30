@@ -1,0 +1,20 @@
+server {
+
+	listen 443 ssl;
+
+	server_name sarahlynch.net;
+
+	ssl_certificate /etc/nginx/ssl/ubuntu-s-1vcpu-1gb-sfo2-01.sarahlynch.net.fullchain.crt;
+	ssl_certificate_key /etc/pki/cert/private/ubuntu-s-1vcpu-1gb-sfo2-01.sarahlynch.net.key;
+
+	ssl_stapling on;
+	ssl_stapling_verify on;
+
+	access_log /var/log/nginx/sub.log combined;
+
+	location / {
+    root /var/www/sarahlynch;
+  }
+
+}
+

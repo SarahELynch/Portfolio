@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "http://sarahlynch.net/"
+baseurl = "https://sarahlynch.net/"
 languageCode = "en-us"
 title = "Sarah Lynch's UX Design Portfolio"
 theme = "hugo-agency-theme"

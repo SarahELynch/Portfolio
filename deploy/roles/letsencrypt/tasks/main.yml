@@ -1,0 +1,59 @@
+---
+- name: restart nginx
+  systemd:
+    name: nginx
+    state: restarted
+    enabled: yes
+  become: yes
+      
+- file:
+    path: '/etc/nginx/ssl'
+    state: directory
+    mode: 0777
+  become: yes
+
+- file:
+    path: "/etc/nginx/ssl/{{base_name}}.crt"
+    state: absent
+  become: yes
+
+- letsencrypt:
+    agreement: 'https://letsencrypt.org/documents/LE-SA-v1.2-November-15-2017.pdf'
+    acme_directory: "{{ acme_dir }}" 
+    account_key: "/etc/pki/cert/private/{{base_name}}_other.key"
+    csr: "/etc/pki/cert/csr/{{base_name}}.csr"
+    dest: "/etc/nginx/ssl/{{base_name}}.crt"
+  register: data
+
+- copy:
+    dest: "/var/www/html/{{ data['challenge_data'][domain]['http-01']['resource'] }}"
+    content: "{{ data['challenge_data'][domain]['http-01']['resource_value'] }}"
+  become: yes 
+  when: data|changed
+
+- letsencrypt:
+    agreement: 'https://letsencrypt.org/documents/LE-SA-v1.2-November-15-2017.pdf'
+    acme_directory: "{{ acme_dir }}" 
+    account_key: "/etc/pki/cert/private/{{base_name}}_other.key"
+    csr: "/etc/pki/cert/csr/{{base_name}}.csr"
+    dest: "/etc/nginx/ssl/{{base_name}}.crt"
+    data: "{{ data }}"
+    remaining_days: 20
+
+- name: download intermediate pem
+  get_url:
+    url: https://letsencrypt.org/certs/lets-encrypt-x3-cross-signed.pem
+    dest: /etc/nginx/ssl/lets-encrypt-x3-cross-signed.pem
+
+- slurp:
+    src: "/etc/nginx/ssl/{{base_name}}.crt"
+  register: part_a
+
+- slurp:
+    src: /etc/nginx/ssl/lets-encrypt-x3-cross-signed.pem
+  register: part_b
+
+- copy:
+    dest: "/etc/nginx/ssl/{{base_name}}.fullchain.crt"
+    content: "{{ part_a['content']|b64decode }}{{ part_b['content']|b64decode }}"
+  become: yes
