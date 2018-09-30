@@ -1,10 +1,106 @@
 modalID: 2
-title: Startup Framework
-subtitle: Lorem ipsum dolor sit amet consectetur.
-date: 2014-07-06
-img: startup-framework.png
-preview: startup-framework-preview.png
-client: Start Bootstrap
+title: Kindle Community Redesign
+subtitle: A General Assembly project, to design a forum-based platform for literary discussion.
+date: September 2018
+img: Amazon_Kindle_Community.png
+preview: Amazon_Kindle_Community.png
+client: Amazon Kindle (spec)
 clientLink: "#"
-category: Website Design
-description: "[Startup Framework](//designmodo.com/startup/?u=787) is a website builder for professionals. Startup Framework contains components and complex blocks (PSD+HTML Bootstrap themes and templates) which can easily be integrated into almost any design. All of these components are made in the same style, and can easily be integrated into projects, allowing you to create hundreds of solutions for your future projects. <br><br>You can preview Startup Framework [here](//designmodo.com/startup/?u=787)."
+category: Mobile App Redesign
+description: "**TEAM:** 3 UX Designers<br>
+**MY ROLE:** Information Architect and Interaction Designer<br>
+**DURATION OF PROJECT:** 2 weeks<br></br>
+
+**MY TASKS ACCOMPLISHED:**<br>
+- Recruiting & interviewing Subject Matter Experts and Representative Users<br>
+- Feature prioritization & User Story formulation<br>
+- Site Mapping (& ideation to inspire it)<br>
+- Mapping User Flows through the App experience<br>
+- Usability Testing (preparation for & leading the interviews)<br>
+- Card Sorting<br>
+- Synthesis of data from Usability Testing<br></br>
+
+**PROBLEM:** Increase Customer Engagement by redesigning the Community feature of the Amazon Kindle app<br>
+**SOLUTION:** Design a forum-based discussion platform to replace the current Community feature<br></br>
+
+**SKILLS:** Card Sorting, Site (App) Mapping, User Flow Diagramming, User Interviews, Usability Testing, Data Synthesis<br><br><br>
+
+**DESIGN PROCESS:**<br></br>
+
+In this project, our group was faced with the challenge of redesigning the Community feature of the Amazon Kindle iOS app.<br>
+We collected survey data and conducted interviews with representative users in order to get a good idea of what users of the Amazon Kindle Community would want in a new Community feature.<br></br>
+
+I assisted in the recruiting of Subject Matter Experts who could speak to their experiences reading and discussing books with other readers, and I helped interview representative users and synthesize data gathered from our user research.<br>
+By observing the major trends in our User Research data, we were able to craft two User Personas: one primary persona, and one secondary persona.<br></br>
+
+**Primary Persona:**<br></br>
+![Primary User Persona - Jeff Bloom](/img/portfolio/Jeff_Bloom_User_Persona.png)<br></br>
+
+**Secondary Persona:**<br><br>
+![Secondary User Persona - Jenny Coolidge](/img/portfolio/Jenny_Coolidge_User_Persona.png)<br>
+
+Our team worked together to prioritize features for our redesign in order to ensure we could complete a project by our designated deadline (total project duration: 2 weeks).<br>
+To do this prioritization, we completed a MoSCoW method chart, and to ensure that the features we prioritized for the project scope were aligned with our users' needs, I wrote a User Story corresponding with each feature.<br><br>
+Here are two examples of **User Stories** we used to align our progress during the project development:<br></br>
+
+![Must-Include Features](/img/portfolio/MoSCoW_Must_features.png)<br></br>
+
+These two User Stories represent features that are tailored to the major goals of our User Personas: 1) having the ability to search for discussions easily, and 2) contribute to already existing discussions, and start a brand new discussion.<br></br>
+
+After our group did a few rounds of ideation and sketching, I was able to create a Site Map, which I iterated on multiple times throughout the project, as our design solidified.<br></br>
+**Site Map**<br></br>
+
+![Site Map](/img/portfolio/Site_map_colors_adjusted.png)<br></br>
+
+As you can see, the organization of our application revolves around two main concepts:<br>
+1) **books, genres, and authors**, or in other words, the topic categories that avid readers would discuss, and<br>
+2) **functionality of a forum-style app**, including how a user would view different types of discussions associated with their activity in the app, and how they would create new discussions.<br></br>
+To ground this organizational schema in our users' needs, we considered our two personas' tendencies for participating in discussions.<br>
+**Jeff**, our primary persona, tends to prefer reading and **observing** discussions started by other users.<br>
+**Jenny**, our secondary persona, is much more likely to **start** a new discussion herself.<br></br>
+
+When constructing this site map, I ensured that our organizational schema accommodated the participatory tendencies of both our User Personas, but to better illustrate how our users would
+interact with our application according to their individual motivations, I also created a User Flow diagram.<br></br>
+
+This User Flow Diagram maps out all the possible task flows in the application, and I constructed some overlays to highlight each Persona's task flow within the User Flow mapping.<br></br>
+
+**Jeff's User Flow**<br>
+Jeff's participation preference: **Discovery & Observation**<br>
+![User Flow Diagram with Jeff's Task Flow](/img/portfolio/Jeff's_User_Flow_diagram.png)<br></br>
+Our organizational schema captures the needs of Jeff by facilitating the discovery and observation of discussions: Jeff can look for discussions to read by using the left-hand-side hamburger menu options to filter his discussions by topic (discovery),<br>
+and he can view a great variety of individual discussions through his main feed (observation).<br></br>
+
+**Jenny's User Flow**<br>
+Jenny's participation preference: **Starting Discussions**<br>
+![User Flow Diagram with Jenny's Task Flow](/img/portfolio/Jenny's_User_Flow_Diagram.png)<br></br>
+Jenny's needs are met by this organizational schema, as well. She is able to start a discussion by viewing the options included in the right-hand-side User Avatar Icon menu
+and creating a new discussion by providing all the information needed: topic (7), discussion post title (8), and discussion post body (9).<br></br>
+
+After ideation, research, a few rounds of hand sketching, organizational mapping, and diving into Sketch, we had a prototype in place.<br></br>
+**Prototype: Digital Wireframes**
+![Digital Wireframes](/img/portfolio/Digital_Wireframes.png)<br>
+
+**Usability Testing**<br></br>
+We conducted Usability Tests with three users to find out where we could improve the usability of our design.<br>
+I lead the preparation for our team's usability tests, and also lead and facilitated the tests.<br></br>
+As the Information Architect, I wanted to get an idea of what kind of topic category users would look in first to find a discussion, so that I could suggest the best hierarchical ordering of categories (Books, Authors, and Genres) in our side menu, to better accommodate the mental models of our users.<br>
+I didn't want our test participants' answers to be influenced by any element of the visual design, so, I conducted a 'hypothetical, reverse' card sort at the beginning of each usability test before even opening the laptop.<br></br>
+
+**Card Sort**<br>
+I showed each participant three cards, with the categories 'Book', 'Author', and 'Genre' written on them, and I asked the participant,<br>
+'If you had these three categories to choose from in order to find a new discussion, what category would you pick first?'<br></br>
+
+Two out of the three participants we tested prioritized categories in the order 1 - **'Genre'**, 2 - **'Book'**, then 3 - **'Author'**, while our third participant ordered the categories 1 - 'Genre', 2 - 'Author', 3 - 'Book'.<br>
+I decided to take this information as a suggestion to reorder our categories in the hierarchy: **'Genre', 'Book', 'Author'**.<br></br>
+
+After completing the card sort, I lead each participant through a usability test, during which I asked them to conduct four tasks in the prototype.<br><br>
+![Usability Testing Tasks](/img/portfolio/Usability_Tasks_Graphic.png)<br>
+
+I worked with our team's lead Researcher to synthesize our data gathered from testing into actionable takeaways.<br>
+**The  action items we came up with were:**<br><br>
+![Usability Testing Results](/img/portfolio/Usability_Test_Results_Graphic.png)<br></br>
+
+Our team implemented these takeaways in our prototype and our Visual Designer took our wireframes to a higher level of fidelity.<br>
+Here is a high-fidelty screen to demonstrate the visual design of our finished product:<br></br>
+**High Fidelity Wireframe:**<br>
+![High Fidelity Wireframe](/img/portfolio/Main_Feed_high_fidelity.png)"

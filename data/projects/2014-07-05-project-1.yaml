@@ -1,10 +1,61 @@
 modalID: 1
-title: Round Icons
-subtitle: Lorem ipsum dolor sit amet consectetur.
+title: Chatbot Design
+subtitle: A 311-operator-style Chatbot, as part of a larger IBM demo application.
 date: 2014-07-05
-img: roundicons.png
-preview: roundicons-preview.png
-client: Start Bootstrap
+img: Chatbot_image.png
+preview: Chatbot_image.png
+client: IBM
 clientLink: "#"
-category: Graphic Design
-description: Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo! <br><br>**Want these icons in this portfolio item sample?** You can download 60 of them for free, courtesy of [RoundIcons.com](//getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc), or you can purchase the 1500 icon set [here](//getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc).
+category: IBM Demo Application
+description:
+  "TEAM: 4 Developers, 1 Designer, 1 Project Manager<br>
+MY ROLE: Chatbot Developer<br>
+DURATION OF PROJECT: 4 months<br><br>
+
+MY TASKS ACCOMPLISHED:<br>
+- Defining user bases & formulating User Personas<br>
+- Storyboarding for a Chatbot-centric version of the application **OPTIONAL**<br>
+- Chatbot Dialog Design Specification<br>
+  - Explicitly defining 'User Success'<br>
+  - crafting a realistic flow: Human operator vs. Chatbot routing system<br>
+  - Align Stakeholder expectations of Chatbot performance<br>
+- Chatbot Dialog User Flow Diagram<br>
+- Content Strategy: Crafting Chatbot Personality & Voice Design<br>
+- Dialog Structure Diagram<br>
+- Information Architecture: Scoping & Organizing the Training Data<br>
+  - Defining Hierarchical level of training data (Intents vs. Entities)<br><br>
+
+
+PROBLEM: Increase Customer Engagement by redesigning the Community feature of the Amazon Kindle app<br>
+SOLUTION: Design a forum-based discussion platform to replace the current Community feature<br><br>
+
+SKILLS: Card Sorting, Site (App) Mapping, User Interviews, Usability Testing, Data Synthesis<br><br>
+
+DESIGN PROCESS:<br><br>
+
+- Defining user bases & formulating User Personas<br>
+** [PRIMARY USER PERSONA] **<br>
+** [SECONDARY USER PERSONA] **<br><br>
+
+- Chatbot Dialog Design Specification<br>
+  - Explicitly defining 'User Success'<br>
+**[SNIPPET OF DESIGN SPEC/TEST CASES]**<br><br>
+
+  - crafting a realistic flow: Human operator vs. Chatbot routing system<br>
+**[HUMAN OPERATOR vs. CHATBOT GRAPHIC]**<br>
+  - Align Stakeholder expectations of Chatbot performance<br><br>
+
+  - Chatbot Dialog User Flow Diagram<br>
+**[DIALOG USER FLOW DIAGRAM]**<br><br>
+
+- Content Strategy: Crafting Chatbot Personality & Voice Design<br>
+**[EXAMPLE CHATBOT RESPONSE]**<br><br>
+
+- Dialog Structure Diagram<br>
+**[SNIPPET OF DIALOG STRUCTURE DIAGRAM]**<br><br>
+- Empathy for Primary User base<br>
+- Humans learn by doing<br><br>
+
+- Information Architecture: Scoping & Organizing the Training Data<br>
+**['INTENT TO REPORT' GRAPHIC]**<br><br>
+  - Defining Hierarchical level of training data (Intents vs. Entities)<br>"
