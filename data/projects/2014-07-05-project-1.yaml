@@ -33,13 +33,17 @@ SKILLS: Card Sorting, Site (App) Mapping, User Interviews, Usability Testing, Da
 
 DESIGN PROCESS:<br><br>
 
-- Defining user bases & formulating User Personas<br>
-** [PRIMARY USER PERSONA] **<br>
-** [SECONDARY USER PERSONA] **<br><br>
+- Defining user bases & formulating User Personas<br><br>
+
+**Primary User Persona: Gwen**<br>
+![Primary User Persona - Gwen](/img/portfolio/Gwen_Persona.png)<br>
+**Secondary User Persona: Robert**<br>
+![Primary User Persona - Robert](/img/portfolio/Robert_Persona.png)<br>
 
 - Chatbot Dialog Design Specification<br>
   - Explicitly defining 'User Success'<br>
-**[SNIPPET OF DESIGN SPEC/TEST CASES]**<br><br>
+**Example Test Case, from Chatbot Design Spec:**<br>
+![Test Case Snippet](/img/portfolio/Test_Case_Snippet.png)<br><br>
 
   - crafting a realistic flow: Human operator vs. Chatbot routing system<br>
 **[HUMAN OPERATOR vs. CHATBOT GRAPHIC]**<br>
