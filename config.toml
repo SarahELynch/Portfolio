@@ -19,7 +19,7 @@ googleAnalytics = ""
   # To provide some metadata for search engines feel free to add a few
   # information about you and your website.
   name = "Sarah Lynch"
-  description = "UX / User Experience Design Portfolio"
+  description = "Sarah Lynch's User Experience Design Portfolio"
   # email = "your@email.com"
 
   # Link custom assets relative to /static
