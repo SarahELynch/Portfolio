@@ -8,11 +8,11 @@ client: IBM
 clientLink: "#"
 category: IBM Demo Application
 description:
-  "TEAM: 4 Developers, 1 Designer, 1 Project Manager<br>
-MY ROLE: Chatbot Developer<br>
-DURATION OF PROJECT: 4 months<br><br>
+  "**TEAM:** 4 Developers, 1 Designer, 1 Project Manager<br>
+**MY ROLE:** Chatbot Developer<br>
+**DURATION OF PROJECT:** 4 months<br><br>
 
-MY TASKS ACCOMPLISHED:<br>
+**MY TASKS ACCOMPLISHED:**<br>
 - Defining user bases & formulating User Personas<br>
 - Storyboarding for a Chatbot-centric version of the application **OPTIONAL**<br>
 - Chatbot Dialog Design Specification<br>
@@ -26,12 +26,12 @@ MY TASKS ACCOMPLISHED:<br>
   - Defining Hierarchical level of training data (Intents vs. Entities)<br><br>
 
 
-PROBLEM: Increase Customer Engagement by redesigning the Community feature of the Amazon Kindle app<br>
-SOLUTION: Design a forum-based discussion platform to replace the current Community feature<br><br>
+**PROBLEM:** <br>
+**SOLUTION:** <br><br>
 
-SKILLS: Card Sorting, Site (App) Mapping, User Interviews, Usability Testing, Data Synthesis<br><br>
+**SKILLS:** <br><br>
 
-DESIGN PROCESS:<br><br>
+**DESIGN PROCESS:**<br><br>
 
 - Defining user bases & formulating User Personas<br><br>
 
@@ -50,13 +50,14 @@ DESIGN PROCESS:<br><br>
   - Align Stakeholder expectations of Chatbot performance<br><br>
 
   - Chatbot Dialog User Flow Diagram<br>
-**[DIALOG USER FLOW DIAGRAM]**<br><br>
+**Dialog User Flow Diagram**<br>
+[DIALOG FLOW USER DIAGRAM]
 
 - Content Strategy: Crafting Chatbot Personality & Voice Design<br>
 **[EXAMPLE CHATBOT RESPONSE]**<br><br>
 
 - Dialog Structure Diagram<br>
-**[SNIPPET OF DIALOG STRUCTURE DIAGRAM]**<br><br>
+![311 Chatbot Dialog Snippet](/img/portfolio/311_Chatbot_Dialog_snippet.png)<br><br>
 - Empathy for Primary User base<br>
 - Humans learn by doing<br><br>
 
