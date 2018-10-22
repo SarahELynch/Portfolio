@@ -17,7 +17,7 @@
               {{ $url := printf "img/portfolio/%s" .img }}
               <ul class="list-inline">
                 <li>{{ with $.Site.Params.portfolio.modal.date }}{{ . }}{{ end }}: {{ .date }}</li>
-                <li>{{ with $.Site.Params.portfolio.modal.client }}{{ . }}{{ end }}: {{ .client }}</li>
+                <li>{{ with $.Site.Params.portfolio.modal.client }}{{ . | markdownify }}{{ end }}: <a href="{{ .clientLink }}" target="_blank">{{ .client }}</a></li>
                 <li>{{ with $.Site.Params.portfolio.modal.category }}{{ . }}{{ end }}: {{ .category  | markdownify }}</li>
               </ul>
               <img class="img-responsive" src="{{ $url | absURL }}" alt="">

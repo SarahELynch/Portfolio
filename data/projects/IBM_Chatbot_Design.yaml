@@ -1,16 +1,16 @@
 modalID: 1
-title: Chatbot Design
-subtitle: A 311-operator-style Chatbot, as part of a larger IBM demo application.
-date: 2014-07-05
+title: IBM Chatbot Design
+subtitle: A 311-operator-style Chatbot, as part of a larger Immersive Application designed to demonstrate the capabilities of IBM Watson Conversation Service (since renamed to "Watson Assistant").
+date: May - November 2017
 img: Chatbot_image_2.png
 preview: Chatbot_image_2.png
 client: IBM
-clientLink: "#"
-category: IBM Demo Application
+clientLink: "https://www.ibm.com/watson/ai-assistant/"
+category: Chatbot Service (WCS) Application
 description:
   "**TEAM:** 4 Developers, 1 Designer, 1 Project Manager<br>
 **MY ROLE:** Chatbot Developer<br>
-**DURATION OF PROJECT:** 4 months<br><br>
+**DURATION OF PROJECT:** 6 months<br><br>
 
 **MY TASKS ACCOMPLISHED:**<br>
 - Defining user bases & formulating User Personas<br>
