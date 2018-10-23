@@ -1,10 +1,93 @@
 modalID: 3
 title: RailYard (Telecom Aggregator)
-subtitle: dasgfdskuygkjh
+subtitle: Web presence redesign project for Austin-based telecom provider aggregator company, RailYard.
 date: September 2018
 img: RY_Icon_transparent_bkgrnd_small.png
 preview: RY_Icon_transparent_bkgrnd.png
 client: RailYard
 clientLink: "https://www.railyard.com/"
 category: Desktop Website & Dashboard Redesign
-description: "**TEAM:** 3 UX Designers<br>"
+description: "**TEAM:** 3 UX Designers<br>
+**MY ROLES:** Information Architect, Interaction Designer, and Project Manager<br>
+**DURATION OF PROJECT:** 3 weeks<br><br>
+
+**MY TASKS ACCOMPLISHED:**<br>
+- Handling all communication between stakeholders and design team<br>
+- Leading team preparation for stakeholder meetings<br>
+- Leading stakeholder meetings<br>
+- Creating team Project Plan and Kanban tracking system (Trello)<br>
+- UX Assessment of current site based on 3 major design heuristics/best practices<br>
+- Card Sorting Exercises<br>
+- Creating Site Maps ('As-Is', and 'To-Be')<br>
+- User Flow Diagramming<br>
+- Wireframing (Individually, and collaboratively)<br>
+- Constructing a Prototype (InVision)<br>
+- Recruiting Users to Interview and Test<br>
+- Conducting User Testing<br>
+<br><br>
+
+**PROBLEM:**<br> The company's Business Goal:   Refactor **homepage** design to better target the Marketing Personas.<br>The UX Design Goal:   Redesign the **dashboard** to better serve the primary User Base (distinct from the Marketing Target Bases).<br><br>
+**SOLUTION:**<br>Balance RailYard's Business Goal with our team's UX Design Goal to come up with a cohesive, successful web presence redesign. <br><br>
+
+**SKILLS DEMONSTRATED:** <br>Interface Feedback Design, User Error Prevention & Handling, Heuristic Assessment, Wireframing, Prototyping<br>Card Sorting, Site Mapping, User Flow Diagramming<br>User Testing Task Strategy Planning, User Interviews, Usability Testing<br>Project Management<br><br><br>
+
+**DESIGN PROCESS:**<br><br>
+
+In this project, my team was directly tasked with redesigning the desktop homepage and dashboard of an Austin-based telecom provider aggregator company named RailYard.<br>We also worked to
+understand their Marketing strategy, and how it pertains to the effectiveness of their Homepage, content, and other aspects of web presence, such as integratable widgets and connectivity scores (more on these later on in this case study).<br><br>
+
+Here's a look at the original state of RailYard's homepage:
+  **[RAILYARD ORIGINAL HOMEPAGE]**<br><br>
+
+The original homepage was quite simple, and lacked a cohesive organization of information and a clear goal of communication. RailYard wanted my team to take the original homepage and redesign the layout, content, visual appearance, etc., to better describe and advertise the business's offerings to potential partners: Internet Service Providers, and Commercial Real Estate Listing Websites.<br><br>
+RailYard's spokespeople relayed to our team that they had done some extensive marketing research, and thus believed that<br> **1) Internet Service Provider Marketing Executives** and<br> **2) Business Representatives for Commercial Real Estate Listing Websites**<br> made up the primary target audience for their homepage. <br>These two user bases make up the main users arriving at RailYard's homepage, and, though they might arrive there using different avenues and were looking for differing information, they were essentially both concerned with seeking a Partnership with RailYard.<br><br>
+
+Based on these curated Marketing Personas described by our stakeholders, my team was able to formulate a User Persona to represent the goals and needs for each of the primary groups of users arriving at the homepage.<br><br>
+
+**[USER PERSONA: INTERNET SERVICE PROVIDER]**<br>
+**[USER PERSONA: CRE LISTING WEBSITE REP]**<br><br>
+
+You might observe in the image of the original RailYard homepage above that the first thing a user sees on the site is a search bar. Entering a business address into this search bar took the user to the RailYard Dashboard, where the user was presented with Internet Service Provider availibility information. <br><br>Though RailYard's stakeholders were primarily concerned with focusing the content of their homepage on the goals of their Marketing Personas, a major UX goal for our redesign of the homepage was to balance this business goal with maintaining a high level of quality user experience for the primary dashboard user base, the Small Business Owner.<br>
+It was still highly likely that a small business owner would arrive at the RailYard homepage as well, and would thus also need a clear way to get the information they needed.<br><br>
+
+Now let's move on to considering the RailYard dashboard, as it appeared at the beginning of our project with the company:
+  **[RALYARD ORIGINAL DASHBOARD]**<br><br>
+
+RailYard indicated that they were aware that their primary user base for their dashboard, which aggregated the available service providers at an address to display to the user in one place, was the small business owner.<br>
+I wanted to validate the needs and goals of this primary user base, so I recruited a small business owner who had recently worked with an Internet Service Provider to set up internet for the business's new office, and set up a phone interview.<br><br>
+
+**Interview with Small Business Owner**<br><br>
+
+I asked this small business owner about his experience finding internet service providers available in the area, and working with the internet service provider to sign a contract and get the internet service set up. <br><br>
+The summary of his experience is as follows:<br>
+- Signed up with Provider that the employees used for residential service - no research.<br>
+- Signed contract for a plan on sale at the time - did not assess business usage needs.<br>
+- Highly suspects current plan is more than the business needs.<br>
+- Threw their own cables - didn’t want to pay extra for it, or wait for the provider to do it.<br>
+- Suspects they don’t get the speed they pay for - dedicated vs. shared, unclear?<br><br>
+
+I also asked this small business owner: <br>**'If you could go back in time and could have had somebody to give you helpful advice during the process ...<br> ... what would you have wanted to know?'**<br><br>
+His answers were:<br>
+- “A way to see available providers all in one place”<br>
+- “Someone to tell me what our business needed for speed and other requirements”<br><br><br>
+
+
+
+
+
+
+
+A major part of the effort in beginning my role in this project was performing an informal heuristic evaluation to asses the major areas of the company's homepage and dashboard that could be improved by implementing standards and best practices along the lines of the heuristics 'Feedback', 'Visibility', and 'Understandability'.<br><br>
+
+The summary of those findings are as follows:
+  **[FEEDBACK ASSESSMENT SUMMARY GRAPHIC]**<br><br>
+
+My team used this assessment to ensure we addressed the major areas requiring UX attention and to kick off our brainstorming around how to approach the redesign.<br><br><br>
+
+
+
+
+
+**--- updated up to here ---**
+
+"
