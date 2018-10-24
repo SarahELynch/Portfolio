@@ -26,68 +26,265 @@ description: "**TEAM:** 3 UX Designers<br>
 - Conducting User Testing<br>
 <br><br>
 
-**PROBLEM:**<br> The company's Business Goal:   Refactor **homepage** design to better target the Marketing Personas.<br>The UX Design Goal:   Redesign the **dashboard** to better serve the primary User Base (distinct from the Marketing Target Bases).<br><br>
+**PROBLEM:**<br> The company's Business Goal:   Refactor **Home Page** design to better target the Marketing Personas.<br>The UX Design Goal:   Redesign the **Dashboard** to better serve the primary User Base (distinct from the Marketing Target Personas).<br><br>
 **SOLUTION:**<br>Balance RailYard's Business Goal with our team's UX Design Goal to come up with a cohesive, successful web presence redesign. <br><br>
 
 **SKILLS DEMONSTRATED:** <br>Interface Feedback Design, User Error Prevention & Handling, Heuristic Assessment, Wireframing, Prototyping<br>Card Sorting, Site Mapping, User Flow Diagramming<br>User Testing Task Strategy Planning, User Interviews, Usability Testing<br>Project Management<br><br><br>
 
 **DESIGN PROCESS:**<br><br>
 
-In this project, my team was directly tasked with redesigning the desktop homepage and dashboard of an Austin-based telecom provider aggregator company named RailYard.<br>We also worked to
-understand their Marketing strategy, and how it pertains to the effectiveness of their Homepage, content, and other aspects of web presence, such as integratable widgets and connectivity scores (more on these later on in this case study).<br><br>
+In this project, my team was directly tasked with redesigning the desktop  Home Page and dashboard of an Austin-based telecom provider aggregator company named RailYard.<br>We also worked to
+understand their Marketing strategy, and how it pertains to the effectiveness of their  Home Page, content, and other aspects of web presence, such as integratable widgets and connectivity scores (more on these later on in this case study).<br><br>
 
-Here's a look at the original state of RailYard's homepage:
-  **[RAILYARD ORIGINAL HOMEPAGE]**<br><br>
+Here's a look at the original state of RailYard's  Home Page:
+  **[RAILYARD ORIGINAL  Home Page]**<br><br>
 
-The original homepage was quite simple, and lacked a cohesive organization of information and a clear goal of communication. RailYard wanted my team to take the original homepage and redesign the layout, content, visual appearance, etc., to better describe and advertise the business's offerings to potential partners: Internet Service Providers, and Commercial Real Estate Listing Websites.<br><br>
-RailYard's spokespeople relayed to our team that they had done some extensive marketing research, and thus believed that<br> **1) Internet Service Provider Marketing Executives** and<br> **2) Business Representatives for Commercial Real Estate Listing Websites**<br> made up the primary target audience for their homepage. <br>These two user bases make up the main users arriving at RailYard's homepage, and, though they might arrive there using different avenues and were looking for differing information, they were essentially both concerned with seeking a Partnership with RailYard.<br><br>
+The original  Home Page was quite simple, and lacked a cohesive organization of information and a clear communication goal. RailYard wanted my team to take the original  Home Page and redesign the layout, content, visual appearance, etc., to better describe and advertise the business's offerings to potential partners. <br>These partners were made up of two user bases that RailYard had identified, through extensive marketing research, as the main user bases arriving at their  Home Page, and thus, the target audience of the  Home Page content and design.<br><br>
+These two Marketing Targets were:<br> **1) Internet Service Provider Marketing Executives** and<br> **2) Business Representatives for Commercial Real Estate Listing Websites**<br><br>RailYard explained to us through a deep dive into their Marketing Strategy that, though these two user bases might be arriving at the Home Page via different avenues and would be looking for differing information, they were essentially both concerned with seeking a **Partnership with RailYard**.<br><br>
 
-Based on these curated Marketing Personas described by our stakeholders, my team was able to formulate a User Persona to represent the goals and needs for each of the primary groups of users arriving at the homepage.<br><br>
+Based on these curated Marketing Personas described by our stakeholders, my team was able to formulate a User Persona to represent the goals and needs for each of the primary groups of users arriving at the  Home Page.<br><br>
 
 **[USER PERSONA: INTERNET SERVICE PROVIDER]**<br>
 **[USER PERSONA: CRE LISTING WEBSITE REP]**<br><br>
 
-You might observe in the image of the original RailYard homepage above that the first thing a user sees on the site is a search bar. Entering a business address into this search bar took the user to the RailYard Dashboard, where the user was presented with Internet Service Provider availibility information. <br><br>Though RailYard's stakeholders were primarily concerned with focusing the content of their homepage on the goals of their Marketing Personas, a major UX goal for our redesign of the homepage was to balance this business goal with maintaining a high level of quality user experience for the primary dashboard user base, the Small Business Owner.<br>
-It was still highly likely that a small business owner would arrive at the RailYard homepage as well, and would thus also need a clear way to get the information they needed.<br><br>
+Though RailYard's stakeholders were primarily concerned with focusing the content of their  Home Page on the goals of their Marketing Personas, a major UX goal for our redesign of the  Home Page was to balance this business goal with maintaining a high level of quality user experience for the primary dashboard user base, the Small Business Owner.<br><br>
+It was highly likely that a small business owner could arrive at the RailYard  Home Page as well, and would thus also need a clear way to get the information they needed:<br> In other words, they needed a way to get to the **RailYard Dashboard** in order to find service provider information.<br><br>
 
-Now let's move on to considering the RailYard dashboard, as it appeared at the beginning of our project with the company:
+Now let's move on to considering the original RailYard dashboard, as it appeared at the beginning of our project with the company:
   **[RALYARD ORIGINAL DASHBOARD]**<br><br>
 
-RailYard indicated that they were aware that their primary user base for their dashboard, which aggregated the available service providers at an address to display to the user in one place, was the small business owner.<br>
-I wanted to validate the needs and goals of this primary user base, so I recruited a small business owner who had recently worked with an Internet Service Provider to set up internet for the business's new office, and set up a phone interview.<br><br>
+RailYard indicated that they were aware that their primary user base for their dashboard was the Small Business Owner, as the dashboard was the primary way for a user to find information on service provider availability at their business address.<br><br>
+I wanted to validate the needs and goals of this primary user base, so I recruited a small business owner who had recently worked with an Internet Service Provider to set up internet for their business's new office, and set up a phone interview.<br><br>
 
 **Interview with Small Business Owner**<br><br>
 
-I asked this small business owner about his experience finding internet service providers available in the area, and working with the internet service provider to sign a contract and get the internet service set up. <br><br>
+I asked this small business owner about his experience finding internet service providers available in the area, and working with the provider to sign a contract and get the internet service set up. <br><br>
 The summary of his experience is as follows:<br>
 - Signed up with Provider that the employees used for residential service - no research.<br>
 - Signed contract for a plan on sale at the time - did not assess business usage needs.<br>
-- Highly suspects current plan is more than the business needs.<br>
+- Highly suspects current plan is for more speed than the business actually needs.<br>
 - Threw their own cables - didn’t want to pay extra for it, or wait for the provider to do it.<br>
 - Suspects they don’t get the speed they pay for - dedicated vs. shared, unclear?<br><br>
 
 I also asked this small business owner: <br>**'If you could go back in time and could have had somebody to give you helpful advice during the process ...<br> ... what would you have wanted to know?'**<br><br>
 His answers were:<br>
 - “A way to see available providers all in one place”<br>
-- “Someone to tell me what our business needed for speed and other requirements”<br><br><br>
+- “Someone to tell me what our business needed for speed and other requirements”<br><br>
 
+My team used this interview to construct a User Persona representing the Small Business Owner:<br>
+**[SMALL BUSINESS OWNER USER PERSONA]**<br><br>
 
+We endeavored to keep this persona 'front and center' in our minds throughout this redesign project.<br> This persona represented the main user base who would be using the most interactive elements of this redesign, so a lot of my work focused on the user experience of this User Persona.<br><br><br>
 
+**FEEDBACK, VISIBILITY, and UNDERSTANDABILITY: An Assessment**<br><br>
 
+A major part of the effort in beginning my role in this project was performing an informal heuristic evaluation to asses the major areas of the company's  Home Page and dashboard that could be improved by implementing standards and best practices along the lines of the heuristics 'Feedback', 'Visibility', and 'Understandability'.<br><br>
 
+A large focus of the evaluation that touched on both the  Home Page and dashboard was the level of feedback and understandability surrounding the search bar, the list of suggested addresses that appears as the user types, and whether the address selected matches the address displayed on the dashbaord.<br><br>
+**[SCREENSHOT OF  Home Page SHOWING SEARCH BAR]**<br><br>
+The user receives a list of suggested addresses as they are typing.<br><br>
+**[SCREENSHOT OF  HOME PAGE SHOWING SEARCH BAR WITH SUGGESTED ADDRESSES]**<br><br>
+The user selects one of the suggested addresses, hits 'go', and is taken to the dashboard...<br><br>
 
-
-A major part of the effort in beginning my role in this project was performing an informal heuristic evaluation to asses the major areas of the company's homepage and dashboard that could be improved by implementing standards and best practices along the lines of the heuristics 'Feedback', 'Visibility', and 'Understandability'.<br><br>
+where the address displayed does not exactly match the address the user just selected from the suggested list.<br><br>
+**[SCREENSHOT OF ORIGINAL DASHBOARD]**<br><br>
 
 The summary of those findings are as follows:
   **[FEEDBACK ASSESSMENT SUMMARY GRAPHIC]**<br><br>
 
-My team used this assessment to ensure we addressed the major areas requiring UX attention and to kick off our brainstorming around how to approach the redesign.<br><br><br>
+My team used this assessment to ensure we addressed the major areas requiring UX attention and to kick off our brainstorming around how to approach the redesign.<br><br><br><br>
+
+**INFORMATION ARCHITECTURE**<br><br>
+
+Our stakeholders had already begun brainstorming and composing new content to propose for the new  Home Page. There was a lot of information that they handed over to us, so I lead my team in sifting through the information and isolating what sections of content we should include, and which could be deprioritized. In prioritizing information, we put ourselves in our users' shoes and made sure we empathized with our Personas' needs.<br><br>
+Our biggest challenge with prioritizing information for the Home Page was to include enough content so that each type of user could get the information they needed, but not include so much as to overwhelm users.<br><br>
+
+**Home Page Site Map**<br><br>
+Here is the **Home Page Site Map** to depict the content and organization we arrived at:<br>
+**[ Home Page SITE MAP]**<br><br>
+
+You can see that we decided to keep the search bar (the way to get from the Home Page to the Dashboard) as a highly prioritized piece of information on the Home Page. This choice was motivated by our UX Goal of maintaining a quality user experience for the Small Business Owner.<br><br>
+
+An interesting development during this project, from an Information Architecture standpiont, was the evolution of the two sections you see in the site map titled **'Targeted Offerings'** and **'User Benefits'**.<br> We had originally proposed these sections as described with the phrases, 'How it Works' and 'What You Get', and we called these sections by those colloquial names.<br> As the project developed and we corresponded with our stakeholders, the content included in these sections morphed conceptually into what was better described as the phrases you see in the Site Map.<br> This transformation happened rather organically, as we received copy from our stakeholders and iterated on the design.<br><br> The transformation of the nature of these sections of information required me, as the IA on our team, to ensure that the content included in them always served a clear purpose and targeted our User Personas' needs and goals.<br><br>
+
+**Dashboard Site Map**<br><br>
+
+In regard to creating a site map for the Dashboard, we were able to make use of the types of information included in RailYard's original dashboard, leaving us room to think about how to ensure that the user had just one clear avenue to accomplish each task. <br><br>Including too many avenues to accomplish similar tasks was a major observation of my 'Understandability' assessment of the original RailYard dashboard.<br><br>
+You can see how we've provided the user with only one clear path for each type of task in our **Dashboard Site Map**, below:<br><br>
+
+**[DASHBOARD SITE MAP]**<br><br><br>
+
+**WIREFRAMES**<br><br>
+After our preliminary meetings with our RailYard stakeholders, crafting User Personas, and tackling some information architecture work, we were ready to start ideating.<br><br> We did a couple design studio exercises as a team to come up with the basic idea and layout of the site and dashboard.<br><br>
+Then, my teammates lead the effort on mocking up some first-iteration wireframes for the Home Page and Dashboard.<br><br> Once they had some preliminary wireframes in place, I assisted with making additions to the wireframes needed to make a prototype feel realistic, which not-so-coincidentally were also the types of micro-interactions and transitions needed to carefully examine and design the experience of each User Persona's flow through the interaces.<br><br>
+Some of my added micro-interactions/transitions, and some copy edits, included:<br>
+- Home Page: Adding transition screens to simulate address auto-complete suggestion<br>
+- Dashboard: Ensuring that the address displayed matched the address selected in auto-complete suggestion list on Home Page<br>
+- Dashboard: Adding a hover state description to the icons depicting types of services offered by a provider<br>
+- Dashboard: Adding a prompt at the top of the 'Get in Touch' modal<br>
+- Dashboard: Altering 'Schedule a Call' to 'Schedule a Chat' in 'Get in Touch' modal, based on Stakeholder feedback in prior meetings<br>
+- Dashboard: Added screens to depict a 'Get a Quote' user flow, from the 'Get in Touch' modal<br>
+- Home Page & Dashboard: alignment adjustments, font size corrections<br><br>
+
+**[wireframe prototype?]**<br><br><br>
 
 
+**USER FLOW DIAGRAMMING**<br><br>
+
+While my teammates were mocking up some preliminary wireframes, I worked on crafting a sequence of user flow diagrams to depict each Persona's path to arrive at the Home Page/Dashboard, and what actions they would take once they were there.<br><br>
+I created five User Flow diagrams, in total. <br><rb>Here's a look at the **User Flows for Cassandra**, our Small Business Owner Persona:<br><br>
+
+**[CASSANDRA'S USER FLOW DIAGRAMS]**<br><br><br>
 
 
+**USER TESTING PLAN STRATEGY**<br><br>
 
-**--- updated up to here ---**
+I used these User Flow diagrams to devise a User Testing Plan for my team. To do this, I isolated points along each User Flow that depicted a testable action, and created second versions of the User Flow diagrams to bring emphasis to these actionable points.<br><br>
+
+**[USER FLOW DIAGRAM WITH TESTING TASKS]**<br><br>
+
+This process was done to ensure that we were testing the right functionality and motivations to represent what our User Personas would actually want to do in the interfaces. <br>We took this testing plan and strategy, and moved on to testing our prototype with users.<br><br><br>
+
+**CARD SORT**<br><br>
+
+During each user test, I conducted a Card Sort exercise with each participant. The goal of this Card Sort was to investigate users' instincts surrounding the labels for two of the filters featured on the top of our dashboard design which collected information from the user about their business' internet requirements.<br><br>
+The way I conducted this Card Sort was to present the participant with a list of items that belonged to a category, and ask them what they thought the name of the category should be.<br><br>
+
+The first category of items could be described as 'what your employees do on the internet', and the second category as 'why you are looking for internet provider information'.<br><br>
+
+**[CARD SORT GRAPHIC - NO LABEL]**<br><br>
+
+I asked this question twice, once for each of the two different categories I wanted to investigate.<br><br>
+
+**[CARD SORT GRAPHIC - WITH LABELS]**<br><br>
+
+The summary of the participants' feedback on the names of these categories were: 'Primary Usage' for the first category, and a tie for 'Reason for Shopping' and 'Primary Need' for the second category.<br>
+After discussing with our stakeholders, we felt that 'Reason for Shopping' matched the tone the company wished to portray to their users.
+
+<br><br><br>
+
+**USER TESTING FINDINGS**<br><br>
+
+In addition to conducting card sort exercises, we tested the functionality of our prototype during our user tests.<br> The summary of our findings from observing users during testing, and listening to their feedback during and after testing, is as follows:<br><br>
+
+- Users had trouble finding contact information for help<br>
+- Users did not know what upload or download speed meant<br>
+- 'Go' button on Dashboard should be deactivated when user has succesfully searched an address<br>
+- 'Go' button on Dashboard should be reactivated in search bar when user clicks in the input field<br>
+- Continue to provider website: Should take user to provider page displaying list of products matching what was referenced by number on the dashboard provider tile<br>
+- Thought the side bar was hard to see ('way too small')<br>
+- When the user returns to the dashboard tab from a provider site, scroll position should be maintained<br>
+- Icon depicting 'IT Services' on Dashboard provider tile should be a different icon<br>
+- 'IT Services' not a clear name - confusion around what that meant ('Help desk', troubleshooting help, hardware help, etc.)<br>
+- Unclear how 'Reason for Shopping' filter would alter the data displayed on dashboard<br>
+<br><br>
+
+**ITERATION ON DESIGN**<br><br>
+
+We took the above user testing findings and made changes to our design of the Dashboard.<br><br>
+
+**[ITERATION ON DESIGN GRAPHIC V1]**   **[ITERATION ON DESIGN SIDEBAR]**<br>
+**[ITERATION ON DESIGN GRAPHIC V2]**<br><br>
+
+**1.** Moved guide from the side, to the top<br>
+**2.** Changed the I.T. Service icon and the name to “Network Services”<br>
+**3.** Created a Mbps-per-user chart<br>
+**4.** Added Icons and changed the section title from 'Technology Type' to 'Internet Provider Type'<br>
+**5.** Added an explanation of Upload vs. Download speed<br>
+**6.** Added an explanation of Dedicated vs. Shared<br>
+**7.** Moved the helpful tips to the “Know Before You Go” modal<br>
+**8.** Replaced the filters on the Dashboard with summary of services available at that address; filters moved to 'Know Before You Go' modal<br><br>
+
+**[ITERATION ON DESIGN KBYG]**<br><br>
+
+**1.** Moved the helpful tips from the sidebar, to the “Know Before You Go” modal<br>
+**2.** Move filters from the dashboard, to the Know Before You Go modal<br>
+**3.** Updated filter labels to reflect feedback from card sort exercises and client feedback<br><br>
+
+We made the decision to move the filters with dropdown menus used to collect internet requirements from the user off of the top of the dashboard for a few different reasons:<br><br> We got feedback from multiple users during testing that they didn't think selecting a 'Reason for Shopping' would change the information displayed in the dashboard.<br> After conferring with our stakeholders, we learned that the reason these pieces of information were collected on the original dashboard was because they either 1) affected the providers available to the user, or 2) the information was valuable to pass along to the internet service providers (especially in the case of the user's 'Reason for Shopping').<br><br>
+
+However, our stakeholder revealed to us that there wasn't yet a robust functionality behind the adaptation of the provider listing based on selections made to the parameters included in the filters...<br> Meaning, RailYard wasn't quite yet equipped technically to accommodate refreshing the provider data dispalyed in the dashboard based on the users' requirements selections.<br><br>
+
+Because users had indicated some skepticism regarding the lack of data adaptation upon requirements filter selection, we decided not to recommend to RailYard to keep the filters on the dashboard itself.<br><br> Instead, our finalized design we gave to RailYard included these 'filters' (Quotation marks used here because these dropdowns were no longer filters; they were really now used as a **form**.) in a transitionary screen, colloquially referred ot as the 'Know Before You Go' modal, that users saw after they had clicked 'Shop' on the dashboard provider tile, before they were redirected to that provider's site.<br><br>
+This way, the information would still be collected, but users would not be confused by malfunctioning filters on the dashboard itself.<br>
+Addtionally, RailYard would be free to implement these selections as filters on the dashboard in the future, after functionality had been solidified by their development team.<br>
+
+
+<br><br><br>
+
+**HIGH-FIDELITY MOCKUPS**<br><br>
+
+Our team's visual designer did an amazing job taking our wireframes to a very high level of fidelity.<br>
+Here is our finalized design.<br>
+**high-fidelity prototype?**<br><br><br>
+
+**USER TESTING ON WIDGET**<br><br>
+
+I did some additional user testing on a separate aspect of RailYard's web presence. As per their Marketing Strategy, one of their major business goals was to seek partnerships with Commercial Real Estate Listing Websites, which were aggregator websites that displayed listings for available office spaces.<br><br>
+
+**[USER PERSONA PHOTO - STEVE]**<br><br>
+
+If you'll think back to our User Persona for the CRE Listing Website Business Representative, **Steve**, you'll remember that that he was very concerned with finding new sources of relevant information to include in his company's real estate listing to engage users.<br><br>
+RailYard's major offerings for these CRE Listing Websites included giving them the ability to integrate a RailYard **widget** on an office space listing, which would display concise internet service provider information for that office's address.<br><br>
+The hope was that, if a business owner was browsing a CRE Listing website looking for available office spaces, they would see this widget displaying internet provider data, and would click a link to travel to RailYard's dashboard to view additional internet service provider data for that address.<br><br>
+
+**[USER FLOW SNIPPET]**<br><br>
+
+Because this widget was such a key element in driving traffic to RailYard's dashboard, and because it was thus a key element in the user experience of Business Owners like our Persona, Cassandra, in arriving at RailYard's Dashboard, I wanted to investigate the user experience surrounding the widget's Call To Action.<br><br>
+
+In order to do this, I wanted to investigate users' instincts surrounding the Call-To-Action on the widget. I showed users the following widget mock-up and asked them to imagine they had encountered it while browsing an office space listing on a CRE Listing Website.<br><br>
+
+**[WIDGET MOCKUP WITHOUT PROMPTS]**<br><br>
+
+I asked users to explain to me what they expected the button seen on the widget to do, and what they expected the button's label to say.<br><br>
+
+**[WIDGET MOCKUP WITH PROMPTS]**<br><br>
+
+In general, users' expectations of what would happen when they cliked the button were pretty representative of what actually does happen, currently:<br> Users are taken to the RailYard dashboard to view internet service provider information for the address of the office they had been viewing on the CRE Listing site.<br><br>
+
+Users expected the label on the button to say:<br>
+  **1. 'See more providers on RailYard'**<br>
+  or<br>
+  **2. 'See more prices on RailYard'**<br><br>
+
+I reported a summary of these findings to our stakeholders in hopes that they could be better informed on how to improve the user experience of business owners traveling to their dashboard from a CRE Listing site.<br><br><br>
+
+**NEXT STEPS**<br><br>
+
+We only had 3 weeks to complete this web presence redesign project, so we did our best to get to an MVP in that time. Of course, a design project rarely ever feels completely finished, so I'll present what we would do next, if we had been able to begin a second iteration.<br><br>
+
+**Home Page Copy Validation**<br><br>
+
+The first major component of a second iteration on this project would include a series of user tests to validate the copy we were given by our stakeholder to include in the Home Page.<br> During the first iteration of this project, we were able to explore and test the user experience of users arriving at and interacting with the Home Page and Dashboard, but we would have needed more time to gain access to user bases more representative of RailYard's Marketing Personas.<br><br>
+
+**[USER PERSONA PHOTO STEVE]**<br><br>
+**[USER PERSONA PHOTO JACK]**<br><br>
+
+To truly know if the copy included in the Home Page describes and advertises RailYard's offerings in a way that targets the needs of Steve and Jack, our Marketing Personas, we would need to find Internet Service Provider Marketing Personnel and CRE Listing Website Business Representatives.<br><br>
+Only these people could give us true, accurate insight into whether the content itself was effective and helped them to accomplish their goals.<br><br>
+
+After isolating a group of representative users, we would ask each participant the following questions while they were actively looking at the Home Page, and would ask them to talk out loud about what they saw, read, and how they felt about the Home Page.<br><br>
+
+**Copy Validation Interview Questions:**<br>
+**1.** Visit RailYard.com’s HomePage<br>
+**2.** Scroll through the homepage. What do you think this company does?<br>
+**3.** Where would you find more information on how RailYard’s offerings can benefit your business?<br>
+**4.** Does the information in the “CRE/Provider” section encourage you to consider partnering with RailYard?<br>
+**5.** Where would you expect to find contact information for RailYard?<br>
+**6.** How would you get in touch with RailYard?<br>
+**7.** Do you believe that partnering with RailYard would benefit you?<br>
+**8.** Is there any information you’d like to see here, that isn’t here already?<br><br>
+
+We would then take users' feedback during these interviews to iterate upon the copy and content included in the Home Page.<br><br><br>
+
+**A/B Testing of Filters/Requirements Form Placement**<br><br>
+
+The other major component of a second iteration on this project would be a series of A/B tests to investigate the effectiveness of the placement of filters on the top of the Dashboard vs. included in the 'Know Before You Go' modal.<br><br>
+
+**[A/B TESTING GRAPHIC]**<br><br>
+
+We would measure the number of conversions of users traveling to provider sites with each option for placement of the filters, and report back to our stakeholders which placement option proved most effective.<br><br><br><br><br>
+
+Thank you for reading. If you have any questions, feel free to reach out. You can find my contact information by closing this project and scrolling down to the 'Contact' section on the home page of my portfolio.<br><br>
 
 "
