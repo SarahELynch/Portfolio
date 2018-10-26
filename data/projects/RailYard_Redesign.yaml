@@ -79,7 +79,7 @@ His answers were:<br>
 - “A way to see available providers all in one place”<br>
 - “Someone to tell me what our business needed for speed and other requirements”<br><br>
 
-My team used this interview to construct a User Persona representing the Small Business Owner:<br>
+My team used this interview to construct a User Persona representing the **Small Business Owner**:<br><br>
 ![Small Business Owner User Persona](/img/portfolio/RailYard/Cassandra_User_Persona.png)<br><br>
 
 We endeavored to keep this persona 'front and center' in our minds throughout this redesign project.<br> This persona represented the main user base who would be using the most interactive elements of this redesign, so a lot of my work focused on the user experience of this User Persona.<br><br><br><br>
@@ -154,8 +154,8 @@ Our stakeholders had already begun brainstorming and composing new content to pr
 Our biggest challenge with prioritizing information for the Home Page was to include enough content so that each type of user could get the information they needed, but not include so much as to overwhelm users.<br><br>
 
 **Home Page Site Map**<br><br>
-Here is the **Home Page Site Map** to depict the content and organization we arrived at:<br>
-**[ Home Page SITE MAP]**<br><br>
+Here is the **Home Page Site Map** to depict the content and organization we arrived at:<br><br>
+![Redesigned RailYard Home Page Site Map](/img/portfolio/RailYard/HomePage_Site_Map.png)<br><br>
 
 You can see that we decided to keep the search bar (the way to get from the Home Page to the Dashboard) as a highly prioritized piece of information on the Home Page. This choice was motivated by our UX Goal of maintaining a quality user experience for the Small Business Owner.<br><br>
 
@@ -171,7 +171,8 @@ In regard to creating a site map for the Dashboard, we were able to make use of 
 Including too many disaprate avenues to accomplish similar tasks was a major area where the original Dashboard needed improvement, as noted in my 'Understandability' assessment.<br><br>
 You can see how we've provided the user with only one clear path for each type of task in our **Dashboard Site Map**, below:<br><br>
 
-**[DASHBOARD SITE MAP]**<br><br><br><br>
+![Redesigned RailYard Dashboard Site Map](/img/portfolio/RailYard/Dashboard_Site_Map.png)<br><br>
+<br><br>
 
 
 
@@ -202,12 +203,15 @@ _**!?!?!?! [Highlight address auto-completion & flow to the dashboard here] ?!?!
 ####  **USER FLOW DIAGRAMMING**<br><br>
 
 While my teammates were mocking up some preliminary wireframes, I worked on crafting a sequence of user flow diagrams to depict each Persona's path to arrive at the Home Page/Dashboard, and what actions they would take once they were there.<br><br>
-I created five User Flow diagrams, in total. <br><br>
+I created four User Flow diagrams, in total. <br><br>
 Here's a look at the **User Flows for Cassandra**, our Small Business Owner Persona.<br><br>
 
 **User Flow Diagrams:**<br><br>
 
-**[CASSANDRA'S USER FLOW DIAGRAMS]**<br><br><br><br>
+![Diagram depicting Cassandra's User Flow](/img/portfolio/RailYard/User_Flow_BO_recolored.png)<br><br>
+![Diagram depicting Cassandra's User Flow for Getting In Touch](/img/portfolio/RailYard/User_Flow_BO_get_in_touch_recolored.png)
+
+<br><br><br><br>
 
 
 
@@ -216,9 +220,15 @@ Here's a look at the **User Flows for Cassandra**, our Small Business Owner Pers
 I used the above User Flow diagrams to devise a User Testing Plan for my team.<br>
 To do this, I isolated points along each User Flow that depicted a testable action, and created second versions of the User Flow diagrams to bring emphasis to these actionable points.<br><br>
 
-**[USER FLOW DIAGRAM WITH TESTING TASKS]**<br><br>
+![Diagram depicting Cassandra's User Flow with isolated Testing Tasks](/img/portfolio/RailYard/User_Flow_BO_with_tasks.png)<br><br>
 
-This process was done to ensure that we were testing the right functionality and motivations to represent what our User Personas would actually want to do in the interfaces. <br>
+![Diagram depicting Cassandra's User Flow for Getting In Touch with isolated Touch Testing Tasks](/img/portfolio/RailYard/User_Flow_BO_Get_In_Touch_with_tasks.png)<br><br>
+
+![Diagram depicting Provider's User Flow with isolated Testing Tasks](/img/portfolio/RailYard/User_Flow_Provider_recolored_with_tasks.png)<br><br>
+
+![Diagram depicting CRE Listing's User Flow with isolated Testing Tasks](/img/portfolio/RailYard/User_Flow_CRE_recolored_with_tasks.png)<br><br>
+
+This diagramming process was done to ensure that we were testing the right functionality and motivations to represent what our User Personas would actually want to do in the interfaces. <br>
 We took this testing plan and strategy, and moved on to testing our prototype with users.<br><br><br><br>
 
 
@@ -228,13 +238,13 @@ We took this testing plan and strategy, and moved on to testing our prototype wi
 During each user test, I conducted a Card Sort exercise with each participant. The goal of this Card Sort was to investigate users' instincts surrounding the labels for two of the filters featured on the top of our dashboard design which collected information from the user about their business' internet requirements.<br><br>
 The way I conducted this Card Sort was to present the participant with a list of items that belonged to a category, and ask them what they thought the name of the category should be.<br><br>
 
-The first category of items could be described as 'what your employees do on the internet', and the second category as 'why you are looking for internet provider information'.<br><br>
+![Card Sort graphic, no labels](/img/portfolio/RailYard/Card_Sort_Graphic_No_Labels.png)<br><br>
 
-**[CARD SORT GRAPHIC - NO LABEL]**<br><br>
+The first category of items could be described as 'what your employees do on the internet', and the second category as 'why you are looking for internet provider information'.<br><br>
 
 I asked this question twice, once for each of the two different categories I wanted to investigate.<br><br>
 
-**[CARD SORT GRAPHIC - WITH LABELS]**<br><br>
+![Card Sort graphic, with labels](/img/portfolio/RailYard/Card_Sort_Graphic.png)<br><br>
 
 The summary of the participants' feedback on the names of these categories were: 'Primary Usage' for the first category, and a tie for 'Reason for Shopping' and 'Primary Need' for the second category.<br>
 After discussing with our stakeholders, we felt that 'Reason for Shopping' matched the tone the company wished to portray to their users.
@@ -324,17 +334,18 @@ If you'll think back to our User Persona for the CRE Listing Website Business Re
 RailYard's major offerings for these CRE Listing Websites included giving them the ability to integrate a RailYard **widget** on an office space listing, which would display concise internet service provider information for that office's address.<br><br>
 The hope was that, if a business owner was browsing a CRE Listing website looking for available office spaces, they would see this widget displaying internet provider data, and would click a link to travel to RailYard's dashboard to view additional internet service provider data for that address.<br><br>
 
-**[USER FLOW SNIPPET]**<br><br>
+![User Flow Snippet for Widget Testing](/img/portfolio/RailYard/User_Flow_Snippet_for_widget_testing.png)<br><br>
+
 
 Because this widget was such a key element in driving traffic to RailYard's dashboard, and because it was thus a key element in the user experience of Business Owners, like our Persona, Cassandra, in arriving at RailYard's Dashboard, I wanted to investigate the user experience surrounding the widget's Call To Action.<br><br>
 
 In order to do this, I wanted to investigate users' instincts surrounding the Call-To-Action on the widget. I showed users the following widget mock-up and asked them to imagine they had encountered it while browsing an office space listing on a CRE Listing Website.<br><br>
 
-**[WIDGET MOCKUP WITHOUT PROMPTS]**<br><br>
+![Widget Mockup](/img/portfolio/RailYard/Widget_Mockup.png)<br><br>
 
 I asked users to tell me what they expected to happen if they clicked on the widget's button, and, consequently, what they expected the button's label to say.<br><br>
 
-**[WIDGET MOCKUP WITH PROMPTS]**<br><br>
+![Widget Mockup with Testing Prompts](/img/portfolio/RailYard/Widget_Mockup_with_testing_prompts.png)<br><br>
 
 In general, users' expectations of what would happen when they cliked the button were pretty representative of what actually does happen, currently:<br>
 Users are taken to the RailYard dashboard to view internet service provider information for the address of the office they had been viewing on the CRE Listing site.<br><br>
