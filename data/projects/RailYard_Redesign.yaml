@@ -193,6 +193,7 @@ Some of my added micro-interactions/transitions, and some copy edits, included:<
 - Home Page & Dashboard: alignment adjustments, font size corrections<br><br>
 
 **[wireframe prototype?]**<br><br>
+[![Wireframe Prototype](/img/portfolio/RailYard/HomePage_WF_1.0.png)](https://invis.io/6DOKEVRW3SG)
 
 _**!?!?!?! [Highlight address auto-completion & flow to the dashboard here] ?!?!?!**_
 
@@ -278,8 +279,11 @@ The summary of our findings from observing users during testing, and listening t
 
 We took the above user testing findings and made changes to our design of the Dashboard.<br><br>
 
-**[ITERATION ON DESIGN GRAPHIC V1]**      **[ITERATION ON DESIGN SIDEBAR]**<br>
-**[ITERATION ON DESIGN GRAPHIC V2]**<br><br>
+**Dashboard, Version 1:**<br><br>
+
+![Graphic depicting changes to Dashboard Version 1](/img/portfolio/RailYard/iteration_on_design_dashboard_v1.png)<br><br>
+
+Changes between Version 1 and 2:<br><br>
 
 **1.** Moved guide from the side, to the top<br>
 **2.** Changed the I.T. Service icon and the name to “Network Services”<br>
@@ -290,7 +294,15 @@ We took the above user testing findings and made changes to our design of the Da
 **7.** Moved the helpful tips to the “Know Before You Go” modal<br>
 **8.** Replaced the filters on the Dashboard with summary of services available at that address; filters moved to 'Know Before You Go' modal<br><br>
 
-**[ITERATION ON DESIGN KBYG]**<br><br>
+**Dashboard, Version 2:**<br><br>
+
+![Graphic depicting changes to Dashboard Version 2](/img/portfolio/RailYard/iteration_on_design_dashboard_v2.png)<br><br>
+
+**'Know Before You Go' Modal, Version 2:**<br><br>
+
+![Graphic depicting changes to Know Before You Go modal](/img/portfolio/RailYard/iteration_on_design_kbyg.png)<br><br>
+
+Changes between Version 1 and 2:<br><br>
 
 **1.** Moved the helpful tips from the sidebar, to the “Know Before You Go” modal<br>
 **2.** Move filters from the dashboard, to the Know Before You Go modal<br>
@@ -328,18 +340,18 @@ Here is our finalized design.<br>
 
 I did some additional user testing on a separate aspect of RailYard's web presence. As per their Marketing Strategy, one of their major business goals was to seek partnerships with Commercial Real Estate Listing Websites, which are aggregator websites that display listings for available office spaces.<br><br>
 
-**[USER PERSONA PHOTO - STEVE]**<br><br>
+![Steve Persona Photo](/img/portfolio/RailYard/Steve_Icon_w_background.png)<br>
 
 If you'll think back to our User Persona for the CRE Listing Website Business Representative, **Steve**, you'll remember that that he was very concerned with finding new sources of relevant information to include in his company's real estate listing to engage users.<br><br>
 RailYard's major offerings for these CRE Listing Websites included giving them the ability to integrate a RailYard **widget** on an office space listing, which would display concise internet service provider information for that office's address.<br><br>
 The hope was that, if a business owner was browsing a CRE Listing website looking for available office spaces, they would see this widget displaying internet provider data, and would click a link to travel to RailYard's dashboard to view additional internet service provider data for that address.<br><br>
 
-![User Flow Snippet for Widget Testing](/img/portfolio/RailYard/User_Flow_Snippet_for_widget_testing.png)<br><br>
+![User Flow Snippet for Widget Testing](/img/portfolio/RailYard/User_Flow_Snippet_for_widget_testing.png)<br>
 
 
 Because this widget was such a key element in driving traffic to RailYard's dashboard, and because it was thus a key element in the user experience of Business Owners, like our Persona, Cassandra, in arriving at RailYard's Dashboard, I wanted to investigate the user experience surrounding the widget's Call To Action.<br><br>
 
-In order to do this, I wanted to investigate users' instincts surrounding the Call-To-Action on the widget. I showed users the following widget mock-up and asked them to imagine they had encountered it while browsing an office space listing on a CRE Listing Website.<br><br>
+In order to do this, I wanted to investigate users' instincts surrounding the Call-To-Action featured as the label on the widget's button that would teak users to the RailYard dashboard. I showed users the following widget mock-up and asked them to imagine they had encountered it while browsing an office space listing on a CRE Listing Website.<br><br>
 
 ![Widget Mockup](/img/portfolio/RailYard/Widget_Mockup.png)<br><br>
 
@@ -368,8 +380,7 @@ We only had 3 weeks to complete this web presence redesign project, so we did ou
 
 The first major component of a second iteration on this project would include a series of user tests to validate the copy we were given by our stakeholder to include in the Home Page.<br> During the first iteration of this project, we were able to explore and test the user experience of users arriving at and interacting with the Home Page and Dashboard, but we would have needed more time to gain access to user bases more representative of RailYard's Marketing Personas.<br><br>
 
-**[USER PERSONA PHOTO STEVE]**<br><br>
-**[USER PERSONA PHOTO JACK]**<br><br>
+![Steve Persona Photo](/img/portfolio/RailYard/Steve_Icon_w_background.png) ![Jack Persona Photo](/img/portfolio/RailYard/Jack_Icon_w_background.png)<br><br>
 
 To truly know if the copy included in the Home Page describes and advertises RailYard's offerings in a way that targets the needs of Steve and Jack, our Marketing Personas, we would need to find Internet Service Provider Marketing Personnel and CRE Listing Website Business Representatives.<br><br>
 Only these people could give us true, accurate insight into whether the content itself was effective and helped them to accomplish their goals.<br><br>
@@ -392,7 +403,7 @@ We would then take users' feedback during these interviews to iterate upon the c
 
 The other major component of a second iteration on this project would be a series of A/B tests to investigate the effectiveness of the placement of filters on the top of the Dashboard vs. included in the 'Know Before You Go' modal.<br><br>
 
-**[A/B TESTING GRAPHIC]**<br><br>
+![AB Testing Graphic](/img/portfolio/RailYard/AB_Testing_graphic.png)<br><br>
 
 We would measure the number of conversions of users traveling to provider sites with each option for placement of the filters, and report back to our stakeholders which placement option proved most effective.<br><br><br><br><br>
 
