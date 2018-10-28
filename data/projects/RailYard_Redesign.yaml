@@ -140,11 +140,7 @@ The user would receive no feedback about what was wrong with the entered address
 The user could be lead down a misleading path by pursuing a suggestion for a non-functioning address, just to run into a wall, unable to move forward, with no explanation of what happened and why.<br>
  Needless to say, this Home-Page-to-Dashboard User Flow was certainly an area we could help RailYard improve their users' experience, and was thus included in my preliminary assessment findings.<br><br>
 
-The complete summary of those findings are as follows:
-
-  **[FEEDBACK ASSESSMENT SUMMARY GRAPHIC]**<br><br>
-
-My team used this assessment to ensure we addressed the major areas requiring UX attention and to kick off our brainstorming around how to approach the redesign.<br><br><br><br>
+My team used this usability assessment to ensure we addressed the major areas requiring UX attention and to kick off our brainstorming around how to approach the redesign.<br><br><br><br>
 
 
 
@@ -192,10 +188,23 @@ Some of my added micro-interactions/transitions, and some copy edits, included:<
 - Dashboard: Added screens to depict a 'Get a Quote' user flow, from the 'Get in Touch' modal<br>
 - Home Page & Dashboard: alignment adjustments, font size corrections<br><br>
 
-**[wireframe prototype?]**<br><br>
-[![Wireframe Prototype](/img/portfolio/RailYard/HomePage_WF_1.0.png)](https://invis.io/6DOKEVRW3SG)
+**Click the following wireframe snippets to view our wireframe prototype:**<br>
+(HINT: You might want to right-click and 'Open in New Tab')<br><br>
+[![Image Link to Wireframe Prototype](/img/portfolio/RailYard/Wireframes_link_to_prototype.png)](https://invis.io/6DOKEVRW3SG)<br><br>
 
-_**!?!?!?! [Highlight address auto-completion & flow to the dashboard here] ?!?!?!**_
+**Address Auto-Completion/Suggestion and Traveling to the Dashboard**<br><br>
+![Graphic depicting address suggestion and selection user flow](/img/portfolio/RailYard/Address_Suggestion_Graphic.png)<br><br>
+
+A large focus of mine regarding the work on the wireframes for this project was on improving the user experience surrounding typing an address, receiving address suggestions, and selecting and submitting an address in order to travel to the RailYard Dashboard.<br>
+The above graphic depicts what that flow looks like in the prototype.<br><br>
+
+One more area of note surrounding the search bar prototype work is regarding the 'Go' button in the search bar on the dashboard.<br>
+Originally in our prototype, we included a 'Go' button in the search bar on the dashboard that looked very similar to the button on Home Page's search bar.<br>
+We received some feedback during user testing that the 'Go' button would potentially be misleading for a user upon first arriving on the Dashboard after submitting an address on the Home Page, because it would cause the user to think they needed to click 'Go' again.<br>
+We played around with the idea of making the 'Go' button appear disabled when an address had been submitted successfully, and appearing re-enabled when the user clicked the search bar input field to change the address.<br>
+We also considered removing the 'Go' button until the user clicked the search bar input field to change the address.<br><br>
+
+I'll cover more on user testing and subsequent user feedback on the prototype later on in this case study.
 
 <br><br><br><br>
 
@@ -331,7 +340,7 @@ Addtionally, RailYard would be free to implement these selections as filters on 
 
 Our team's visual designer did an amazing job taking our wireframes to a very high level of fidelity.<br>
 Here is our finalized design.<br>
-**high-fidelity prototype?**<br><br><br><br>
+** !! [HIGH-FIDELITY PROTOTYPE] !!**<br><br><br><br>
 
 
 
