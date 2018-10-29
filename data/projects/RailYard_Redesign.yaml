@@ -31,9 +31,9 @@ description: "**TEAM:** 3 UX Designers<br>
 
 **SKILLS DEMONSTRATED:** <br>Interface Feedback Design, User Error Prevention & Handling, Heuristic Assessment, Wireframing, Prototyping<br>Card Sorting, Site Mapping, User Flow Diagramming<br>User Testing Task Strategy Planning, User Interviews, Usability Testing<br>Project Management<br><br><br>
 
-### **RailYard: A Case Study**<br><br><br>
+## **RailYard: A Case Study**<br><br>
 
-####  **INTRODUCTION TO THE PROJECT:**<br><br>
+###  **INTRODUCTION TO THE PROJECT:**<br><br>
 
 In this project, my team was directly tasked with redesigning the desktop  Home Page and dashboard of an Austin-based telecom provider aggregator company named RailYard.<br>We also worked to
 understand their Marketing strategy, and how it pertains to the effectiveness of their  Home Page, content, and other aspects of web presence, such as integratable widgets and connectivity scores (more on these later on in this case study).<br><br>
@@ -82,11 +82,11 @@ His answers were:<br>
 My team used this interview to construct a User Persona representing the **Small Business Owner**:<br><br>
 ![Small Business Owner User Persona](/img/portfolio/RailYard/Cassandra_User_Persona.png)<br><br>
 
-We endeavored to keep this persona 'front and center' in our minds throughout this redesign project.<br> This persona represented the main user base who would be using the most interactive elements of this redesign, so a lot of my work focused on the user experience of this User Persona.<br><br><br><br>
+We endeavored to keep this persona 'front and center' in our minds throughout this redesign project.<br> This persona represented the main user base who would be using the most interactive elements of this redesign, so a lot of my work focused on the user experience of this User Persona.<br><br><br><br><br>
 
 
 
-####  **FEEDBACK, VISIBILITY, and UNDERSTANDABILITY: An Assessment**<br><br>
+###  **FEEDBACK, VISIBILITY, and UNDERSTANDABILITY: An Assessment**<br><br>
 
 A major part of the effort in beginning my role in this project was performing an informal heuristic evaluation to assess the major areas of the company's  Home Page and dashboard that could be improved by implementing standards and best practices along the lines of the heuristics 'Feedback', 'Visibility', and 'Understandability'.<br><br>
 
@@ -140,11 +140,11 @@ The user would receive no feedback about what was wrong with the entered address
 The user could be lead down a misleading path by pursuing a suggestion for a non-functioning address, just to run into a wall, unable to move forward, with no explanation of what happened and why.<br>
  Needless to say, this Home-Page-to-Dashboard User Flow was certainly an area we could help RailYard improve their users' experience, and was thus included in my preliminary assessment findings.<br><br>
 
-My team used this usability assessment to ensure we addressed the major areas requiring UX attention and to kick off our brainstorming around how to approach the redesign.<br><br><br><br>
+My team used this usability assessment to ensure we addressed the major areas requiring UX attention and to kick off our brainstorming around how to approach the redesign.<br><br><br><br><br>
 
 
 
-####  **INFORMATION ARCHITECTURE**<br><br>
+###  **INFORMATION ARCHITECTURE**<br><br>
 
 Our stakeholders had already begun brainstorming and composing new content to propose for the new  Home Page. There was a lot of information that they handed over to us, so I lead my team in sifting through the information and isolating what sections of content we should include, and which could be deprioritized. In prioritizing information, we put ourselves in our users' shoes and made sure we empathized with our Personas' needs.<br><br>
 Our biggest challenge with prioritizing information for the Home Page was to include enough content so that each type of user could get the information they needed, but not include so much as to overwhelm users.<br><br>
@@ -168,11 +168,11 @@ Including too many disaprate avenues to accomplish similar tasks was a major are
 You can see how we've provided the user with only one clear path for each type of task in our **Dashboard Site Map**, below:<br><br>
 
 ![Redesigned RailYard Dashboard Site Map](/img/portfolio/RailYard/Dashboard_Site_Map.png)<br><br>
-<br><br>
+<br><br><br>
 
 
 
-####  **WIREFRAMES**<br><br>
+###  **WIREFRAMES**<br><br>
 
 After our preliminary meetings with our RailYard stakeholders, crafting User Personas, and tackling some information architecture work, we were ready to start ideating.<br><br>
 We did a couple design studio exercises as a team to come up with the basic idea and layout of the site and dashboard.<br><br>
@@ -181,8 +181,10 @@ Once they had some preliminary wireframes in place, I assisted with making addit
 
 Some of my added micro-interactions/transitions, and some copy edits, included:<br>
 - Home Page: Adding transition screens to simulate address auto-complete suggestion<br>
-- Dashboard: Ensuring that the address displayed matched the address selected in auto-complete suggestion list on Home Page<br>
+- Dashboard: Ensuring that the address displayed matches the address selected in auto-complete suggestion list on Home Page<br>
 - Dashboard: Adding a hover state description to the icons depicting types of services offered by a provider<br>
+- Dashboard: Adding dropdowns for filters with appropriate checkboxes/single select patterns<br>
+- Dashboard: Mark to indicate provider(s) viewed so far when returning to dashboard from provider site<br>
 - Dashboard: Adding a prompt at the top of the 'Get in Touch' modal<br>
 - Dashboard: Altering 'Schedule a Call' to 'Schedule a Chat' in 'Get in Touch' modal, based on Stakeholder feedback in prior meetings<br>
 - Dashboard: Added screens to depict a 'Get a Quote' user flow, from the 'Get in Touch' modal<br>
@@ -193,24 +195,25 @@ Some of my added micro-interactions/transitions, and some copy edits, included:<
 [![Image Link to Wireframe Prototype](/img/portfolio/RailYard/Wireframes_link_to_prototype.png)](https://invis.io/6DOKEVRW3SG)<br><br>
 
 **Address Auto-Completion/Suggestion and Traveling to the Dashboard**<br><br>
-![Graphic depicting address suggestion and selection user flow](/img/portfolio/RailYard/Address_Suggestion_Graphic.png)<br><br>
 
 A large focus of mine regarding the work on the wireframes for this project was on improving the user experience surrounding typing an address, receiving address suggestions, and selecting and submitting an address in order to travel to the RailYard Dashboard.<br>
-The above graphic depicts what that flow looks like in the prototype.<br><br>
+The below graphic depicts what that flow looks like in the prototype.<br><br>
+
+![Graphic depicting address suggestion and selection user flow](/img/portfolio/RailYard/Address_Suggestion_Graphic.png)<br><br>
 
 One more area of note surrounding the search bar prototype work is regarding the 'Go' button in the search bar on the dashboard.<br>
-Originally in our prototype, we included a 'Go' button in the search bar on the dashboard that looked very similar to the button on Home Page's search bar.<br>
+Originally in our prototype, we included a 'Go' button in the search bar on the dashboard that looked very similar to the button on Home Page's search bar.<br><br>
 We received some feedback during user testing that the 'Go' button would potentially be misleading for a user upon first arriving on the Dashboard after submitting an address on the Home Page, because it would cause the user to think they needed to click 'Go' again.<br>
 We played around with the idea of making the 'Go' button appear disabled when an address had been submitted successfully, and appearing re-enabled when the user clicked the search bar input field to change the address.<br>
 We also considered removing the 'Go' button until the user clicked the search bar input field to change the address.<br><br>
 
 I'll cover more on user testing and subsequent user feedback on the prototype later on in this case study.
 
-<br><br><br><br>
+<br><br><br><br><br>
 
 
 
-####  **USER FLOW DIAGRAMMING**<br><br>
+###  **USER FLOW DIAGRAMMING**<br><br>
 
 While my teammates were mocking up some preliminary wireframes, I worked on crafting a sequence of user flow diagrams to depict each Persona's path to arrive at the Home Page/Dashboard, and what actions they would take once they were there.<br><br>
 I created four User Flow diagrams, in total. <br><br>
@@ -221,11 +224,11 @@ Here's a look at the **User Flows for Cassandra**, our Small Business Owner Pers
 ![Diagram depicting Cassandra's User Flow](/img/portfolio/RailYard/User_Flow_BO_recolored.png)<br><br>
 ![Diagram depicting Cassandra's User Flow for Getting In Touch](/img/portfolio/RailYard/User_Flow_BO_get_in_touch_recolored.png)
 
-<br><br><br><br>
+<br><br><br><br><br>
 
 
 
-####  **USER TESTING PLAN STRATEGY**<br><br>
+###  **USER TESTING PLAN STRATEGY**<br><br>
 
 I used the above User Flow diagrams to devise a User Testing Plan for my team.<br>
 To do this, I isolated points along each User Flow that depicted a testable action, and created second versions of the User Flow diagrams to bring emphasis to these actionable points.<br><br>
@@ -239,11 +242,11 @@ To do this, I isolated points along each User Flow that depicted a testable acti
 ![Diagram depicting CRE Listing's User Flow with isolated Testing Tasks](/img/portfolio/RailYard/User_Flow_CRE_recolored_with_tasks.png)<br><br>
 
 This diagramming process was done to ensure that we were testing the right functionality and motivations to represent what our User Personas would actually want to do in the interfaces. <br>
-We took this testing plan and strategy, and moved on to testing our prototype with users.<br><br><br><br>
+We took this testing plan and strategy, and moved on to testing our prototype with users.<br><br><br><br><br>
 
 
 
-####  **CARD SORT**<br><br>
+###  **CARD SORT**<br><br>
 
 During each user test, I conducted a Card Sort exercise with each participant. The goal of this Card Sort was to investigate users' instincts surrounding the labels for two of the filters featured on the top of our dashboard design which collected information from the user about their business' internet requirements.<br><br>
 The way I conducted this Card Sort was to present the participant with a list of items that belonged to a category, and ask them what they thought the name of the category should be.<br><br>
@@ -259,12 +262,12 @@ I asked this question twice, once for each of the two different categories I wan
 The summary of the participants' feedback on the names of these categories were: 'Primary Usage' for the first category, and a tie for 'Reason for Shopping' and 'Primary Need' for the second category.<br>
 After discussing with our stakeholders, we felt that 'Reason for Shopping' matched the tone the company wished to portray to their users.
 
-<br><br><br><br>
+<br><br><br><br><br>
 
 
 
 
-####  **USER TESTING FINDINGS**<br><br>
+###  **USER TESTING FINDINGS**<br><br>
 
 In addition to conducting card sort exercises, we tested the functionality of our prototype during our user tests.<br>
 The summary of our findings from observing users during testing, and listening to their feedback during and after testing, is as follows:<br><br>
@@ -279,12 +282,12 @@ The summary of our findings from observing users during testing, and listening t
 - Icon depicting 'IT Services' on Dashboard provider tile should be a different icon<br>
 - 'IT Services' not a clear name - confusion around what that meant ('Help desk', troubleshooting help, hardware help, etc.)<br>
 - Unclear how 'Reason for Shopping' filter would alter the data displayed on dashboard<br>
-<br><br><br>
+<br><br><br><br>
 
 
 
 
-####  **ITERATION ON DESIGN**<br><br>
+###  **ITERATION ON DESIGN**<br><br>
 
 We took the above user testing findings and made changes to our design of the Dashboard.<br><br>
 
@@ -331,21 +334,10 @@ Instead, our finalized design we gave to RailYard included these 'filters' (Quot
 
 This way, the information would still be collected, but users would not be confused by malfunctioning filters on the dashboard itself.<br>
 Addtionally, RailYard would be free to implement these selections as filters on the dashboard in the future, after functionality had been solidified by their development team.<br>
-<br><br><br><br>
+<br><br><br><br><br>
 
 
-
-
-####  **HIGH-FIDELITY MOCKUPS**<br><br>
-
-Our team's visual designer did an amazing job taking our wireframes to a very high level of fidelity.<br>
-Here is our finalized design.<br>
-** !! [HIGH-FIDELITY PROTOTYPE] !!**<br><br><br><br>
-
-
-
-
-####  **USER TESTING ON WIDGET**<br><br>
+###  **USER TESTING ON WIDGET**<br><br>
 
 I did some additional user testing on a separate aspect of RailYard's web presence. As per their Marketing Strategy, one of their major business goals was to seek partnerships with Commercial Real Estate Listing Websites, which are aggregator websites that display listings for available office spaces.<br><br>
 
@@ -376,12 +368,12 @@ Users expected the label on the button to say:<br>
   or<br>
   **2. 'See more prices on RailYard'**<br><br>
 
-I reported a summary of these findings to our stakeholders in hopes that they could be better informed on how to improve the user experience of business owners traveling to their dashboard from a CRE Listing site.<br><br><br><br>
+I reported a summary of these findings to our stakeholders in hopes that they could be better informed on how to improve the user experience of business owners traveling to their dashboard from a CRE Listing site.<br><br><br><br><br>
 
 
 
 
-####  **NEXT STEPS**<br><br>
+###  **NEXT STEPS**<br><br>
 
 We only had 3 weeks to complete this web presence redesign project, so we did our best to get to an MVP in that time. Of course, a design project rarely ever feels completely finished, so I'll present what we would do next, if we had been able to begin a second iteration.<br><br><br>
 
@@ -414,8 +406,9 @@ The other major component of a second iteration on this project would be a serie
 
 ![AB Testing Graphic](/img/portfolio/RailYard/AB_Testing_graphic.png)<br><br>
 
-We would measure the number of conversions of users traveling to provider sites with each option for placement of the filters, and report back to our stakeholders which placement option proved most effective.<br><br><br><br><br>
+We would measure the number of conversions of users traveling to provider sites with each option for placement of the filters, and report back to our stakeholders which placement option proved most effective.<br><br><br><br><br><br>
 
-Thank you for reading. If you have any questions, feel free to reach out. You can find my contact information by closing this project and scrolling down to the 'Contact' section on the home page of my portfolio.<br><br>
+**Thank you for reading!** <br>
+If you have any questions, feel free to reach out. You can find my contact information by closing this project and scrolling down to the 'Contact' section on the home page of my portfolio.<br><br>
 
 "
