@@ -8,40 +8,79 @@ client: IBM
 clientLink: "https://www.ibm.com/watson/ai-assistant/"
 category: Chatbot Service (WCS) Application
 description:
-  "**TEAM:** 4 Developers, 1 Designer, 1 Project Manager<br>
+ "**TEAM:** 4 Developers, 1 Designer, 1 Project Manager<br>
 **MY ROLE:** Chatbot Developer<br>
 **DURATION OF PROJECT:** 6 months<br><br>
 
 **MY TASKS ACCOMPLISHED:**<br>
 - Defining user bases & formulating User Personas<br>
-- Storyboarding for a Chatbot-centric version of the application **OPTIONAL**<br>
-- Chatbot Dialog Design Specification<br>
-  - Explicitly defining 'User Success'<br>
-  - crafting a realistic flow: Human operator vs. Chatbot routing system<br>
-  - Align Stakeholder expectations of Chatbot performance<br>
-- Chatbot Dialog User Flow Diagram<br>
-- Content Strategy: Crafting Chatbot Personality & Voice Design<br>
-- Dialog Structure Diagram<br>
+- Explicitly defining 'User Success'<br>
+- Crafting a realistic conversational flow: Human operator vs. Chatbot routing system<br>
+- Align Stakeholder expectations of Chatbot performance<br>
+- Creating a Chatbot Dialog Design Specification<br>
+- Chatbot Dialog User Flow Diagramming<br>
+- Content Strategy: Crafting Chatbot Personality & Voice<br>
+- Dialog Structure Diagramming<br>
+- Information Architecture: Defining Hierarchical organization of data (Intents vs. Entities)<br>
 - Information Architecture: Scoping & Organizing the Training Data<br>
-  - Defining Hierarchical level of training data (Intents vs. Entities)<br><br>
+- Implementing Chatbot back-end<br>
+- Assessing UX quality of Chat Interaction<br><br>
 
 
-**PROBLEM:** <br>
-**SOLUTION:** <br><br>
+**PROBLEM**: Design & Implement an application to educate stakeholders on Watson Conversation Service <br>
+**SOLUTION**: Create an application simulating a 311 Issue Reporting System, using a 311 Operator Chatbot <br><br>
 
-**SKILLS:** <br><br>
+**SKILLS DEMONSTRATED:**<br> Interaction Design, Content Strategy, Crafting Chatbot Design Spec, User Flow Diagramming, User Error Prevention & Handling<br> Data gathering, Iterative ML Training<br> Implementing WCS Chatbot programmatically (Node.js) <br><br>
 
 ## 311 CHATBOT DESIGN PROCESS:<br><br>
 
-- Defining user bases & formulating User Personas<br><br>
+In this project, I served on a team of roughly 6 IBMers who worked to create an application to educate an audience about the capabilities and benefits, and a bit about the innerworkings, of the **IBM Watson Conversation Service**.<br><br> Though it has since been renamed to the IBM Watson Assistant, the Watson Conversation Service (or 'WCS', as you might encounter me calling it at some point during this case study) is still _the_ Watson Service for creating Conversational Agents...<br> or, as they're more commonly called, **Chatbots**.<br><br>
+
+### Defining our User Base(s)<br><br>
+
+One of the challenges presented to my team during this project was the fact that our user base was split into two groups.<br>
+The team I worked on during this project was primarily focused on creating applications to be presented to potential clients interested in learning more about IBM Watson's services and offerings.<br><br>
+These applications were thus targeted to an audience of CEO's, and other executives and representatives, of large companies interested in partnering with IBM to deepen and grow their own company's technological capabilites.<br><br>
+
+So, it logically follows that a user base for this project would be representative of exactly this type of user: CEO of large company seeking to learn about IBM Watson.<br>
+This was our **User Base #1**.<br><br>
+
+However, this wasn't the only group of users our application development needed to target.<br>These applications were meant to be presented to these potential clients by an IBM employee called an **Engagement Leader**, who was in charge of walking the client through the application.<br><br> In other words, this Engagement Leader was responsible for presenting the information in the application, walking through the app's storyline, clarifying any of the more technical aspects of the technology being presented, and answering _any_ client questions, as best as they could.<br>
+Engagement Leaders were **User Base #2** for my team's WCS demo project.<br><br>
+
+My team realized that it was not only our job to create a great application, but also to keep in mind the needs and goals of both our target user bases.<br>
+If we empowered the Engagement Leader to be able to give the best presentation possible, they could then empower their audience (the client) to grasp the potentially complex topic of Watson Conversation Service.<br><br>
+
+If we provided the best possible user experience for User Base #2, the Engagement Leader, we could improve the experience of User Base #1, the Client.<br><br>
+
+Armed with the knowledge of the interrelatedness of our user bases' needs and goals, I crafted the following User Personas for my team:<br><br>
 
 **Primary User Persona: Gwen**<br>
-![Primary User Persona - Gwen](/img/portfolio/Gwen_Persona.png)<br>
-**Secondary User Persona: Robert**<br>
-![Primary User Persona - Robert](/img/portfolio/Robert_Persona.png)<br>
+![Primary User Persona - Gwen](/img/portfolio/Gwen_Persona.png)<br><br>
 
-- Chatbot Dialog Design Specification<br>
-  - Explicitly defining 'User Success'<br>
+Because improving the experience of the Engagement Leader directly improved the experience of the Client, we decided to consider the Engagement Leader our **Primary User Persona**.<br><br>
+
+**Secondary User Persona: Robert**<br>
+![Secondary User Persona - Robert](/img/portfolio/Robert_Persona.png)<br><br>
+
+While the Client might be our Secondary User Persona, it didn't mean that the needs and goals of this persona were any less important.<br><br>
+
+Balancing the needs of each Persona was a major focus of crafting the UX of this immersive demo application.<br><br>
+
+
+### Chatbot Dialog Design Specification<br><br>
+
+**Explicitly Defining User Success**<br><br>
+
+Because conversation rules must be well-defined in order for a Chatbot to accomplish its goals, this requires a methodical approach to designing all the possible flows and paths for conversation.<br><br>
+As part of this methodical conversation design process, it is very important to have a solid definition of what 'User Success' means in the framework of the conversation rules defining a Chatbot's possible interactions.<br><br>
+
+For this project, User Success for our Chatbot was defined as:<br>
+**1.** entering an **issue report** that the Chatbot could successfully **classify** into a category,<br>
+**_AND_**<br>
+**2.** entering an **address** that the Chatbot could **validate**.<br>
+
+
 **Example Test Case, from Chatbot Design Spec:**<br>
 ![Test Case Snippet](/img/portfolio/Test_Case_Snippet.png)<br><br>
 
