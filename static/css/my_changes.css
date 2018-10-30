@@ -534,12 +534,14 @@ section h3.section-subheading {
     border-radius: 100%;
     text-align: center;
     color: #fff;
-    background-color: #294132;
+    /* background-color: #294132; */
+    background-color: #f1f1f1;
     background-image: none;
 }
 
 .timeline>li.timeline-inverted>.timeline-image {
     background-color: #C9A029;
+    /* background-color: #f1f1f1; */
 }
 
 .timeline>li .timeline-image h4 {
