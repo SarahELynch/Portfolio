@@ -2,8 +2,8 @@ modalID: 1
 title: IBM Chatbot Design
 subtitle: A 311-operator-style Chatbot, as part of a larger Immersive Application designed to demonstrate the capabilities of IBM Watson Conversation Service (since renamed to "Watson Assistant").
 date: May - November 2017
-img: Chatbot_image_2.png
-preview: Chatbot_image_2.png
+img: Chatbot_image_IBM_2x.png
+preview: Chatbot_image_Under_Construction.png
 client: IBM
 clientLink: "https://www.ibm.com/watson/ai-assistant/"
 category: Chatbot Service (WCS) Application
@@ -30,11 +30,13 @@ description:
 **PROBLEM**: Design & Implement an application to educate stakeholders on Watson Conversation Service <br>
 **SOLUTION**: Create an application simulating a 311 Issue Reporting System, using a 311 Operator Chatbot <br><br>
 
-**SKILLS DEMONSTRATED:**<br> Interaction Design, Content Strategy, Crafting Chatbot Design Spec, User Flow Diagramming, User Error Prevention & Handling<br> Data gathering, Iterative ML Training<br> Implementing WCS Chatbot programmatically (Node.js) <br><br>
+**SKILLS DEMONSTRATED:**<br> Interaction Design, Content Strategy, Crafting Chatbot Design Spec, User Flow Diagramming, User Error Prevention & Handling<br> Data gathering, Iterative ML Training<br> Implementing WCS Chatbot programmatically (Node.js) <br><br><br>
 
-## 311 CHATBOT DESIGN PROCESS:<br><br>
+## 311 CHATBOT DESIGN PROCESS:<br>
 
 In this project, I served on a team of roughly 6 IBMers who worked to create an application to educate an audience about the capabilities and benefits, and a bit about the innerworkings, of the **IBM Watson Conversation Service**.<br><br> Though it has since been renamed to the IBM Watson Assistant, the Watson Conversation Service (or 'WCS', as you might encounter me calling it at some point during this case study) is still _the_ Watson Service for creating Conversational Agents...<br> or, as they're more commonly called, **Chatbots**.<br><br>
+
+We decided that designing an application project simulating a 311 Issue-Report Routing scenario would enable us to create a 311 Operator Chatbot, which would allow us to show the capabilities of Watson Conversation Service in regard to both classification accuracy and consistency and dialog flexibility.<br><br>
 
 ### Defining our User Base(s)<br><br>
 
@@ -63,14 +65,30 @@ Because improving the experience of the Engagement Leader directly improved the 
 **Secondary User Persona: Robert**<br>
 ![Secondary User Persona - Robert](/img/portfolio/Robert_Persona.png)<br><br>
 
-While the Client might be our Secondary User Persona, it didn't mean that the needs and goals of this persona were any less important.<br><br>
+While the Client might be our **Secondary User Persona**, it didn't mean that the needs and goals of this persona were any less important.<br><br>
 
-Balancing the needs of each Persona was a major focus of crafting the UX of this immersive demo application.<br><br>
+Balancing the needs of each Persona was a major focus of crafting the UX of this immersive demo application.<br><br><br><br><br>
 
 
-### Chatbot Dialog Design Specification<br><br>
+### Designing the Dialog<br><br>
 
-**Explicitly Defining User Success**<br><br>
+#### Crafting a Realistic Conversation Flow<br><br>
+
+The first step in designing the dialog for this 311 Operator Chatbot was to think about how a Human Operator would handle a 311 report.<br><br>
+
+I decided that a Human 311 Operator would get a few pieces of information from the caller:<br>
+**1.** What is the issue the caller is trying to report?<br>
+**2.** Where is the issue happening? (Address)<br><br>
+
+The Human Operator would use these two pieces of information to accomplish two goals:<br>
+  **Issue Report**: Used to Route the caller's report to the correct Agency (Police Department, Department of Parks & Recreation, etc.)<br>
+  **Address**: Used to pass on to Agency so issue can be addressed<br><br>
+
+A goal for this Chatbot was to design a conversation flow that replicated as much as possible the natural progression of information collection that would occur during a conversation with a Human 311 Operator.<br><br>
+
+**[HUMAN OPERATOR vs. CHATBOT GRAPHIC]**<br><br>
+
+#### Explicitly Defining User Success<br><br>
 
 Because conversation rules must be well-defined in order for a Chatbot to accomplish its goals, this requires a methodical approach to designing all the possible flows and paths for conversation.<br><br>
 As part of this methodical conversation design process, it is very important to have a solid definition of what 'User Success' means in the framework of the conversation rules defining a Chatbot's possible interactions.<br><br>
@@ -78,19 +96,50 @@ As part of this methodical conversation design process, it is very important to 
 For this project, User Success for our Chatbot was defined as:<br>
 **1.** entering an **issue report** that the Chatbot could successfully **classify** into a category,<br>
 **_AND_**<br>
-**2.** entering an **address** that the Chatbot could **validate**.<br>
+**2.** entering an **address** that the Chatbot could **validate**.<br><br>
 
+I worked hard in the early part of the design process for this Chatbot to determine how the dialog could be segmented into stages, which was appropriate for determining the stages that must be passed successfully, one at a time, in order for a Conversation to be considered successful, as a whole.<br><br>
+
+Explicitly defining 'User Success', both for a conversation as a whole, and also for every segment of the conversation along the way, is essential for ensuring the success of a Chatbot.<br><br>
+Defining the explicit goal (and, subsequently, what falling short of that goal looks like) for each segment of a conversation forces the designer to implement a framework of organization over the exchange of information between a user and the bot at each stage of a conversation.<br><br>
+Clear organization of information allows for a very clear communication of intent at each point in the interaction, and communicating intent clearly is one of the keys to achieving meaningful communication.<br><br>
+
+
+#### Chatbot Dialog User Flow Diagram<br><br>
+
+After deciding on the points of conversation that would replicate a realistic flow as compared to an interaction with a Human operator, and defining user success in each segment of a conversation, I was able to craft a dialog framework for the Chatbot that accomplished User Experience goals, and that would be easily scalable as we added intents and data.<br><br>
+
+The **User Flow Diagram** below depicts the framework I came to:<br><br>
+
+![Dialog User Flow Diagram](/img/portfolio/Chatbot_user_flow_diagram.png)<br><br><br>
+![Dialog User Flow Location Extraction Diagram](/img/portfolio/Chatbot_user_flow_location_extraction_diagram.png)<br><br>
+
+
+You can see the logical flow of information exchange in this user flow diagram:<br>
+**1.** Collecting the issue report,<br>
+**2.** then the address, <br>
+**3.** then routing the report appropriately.<br><br>
+
+You can also see the explicit definition of sucess vs. failure in each segment of the conversation.<br>
+Relatedly, you can see that a large effort in defining success was in defining the number of failures allowed at each segment before prompting the user to start over and try again.<br><br>
+
+A big part of matining quality user experience when crafting Chatbot dialog is to ensure that a user can never get 'stuck' at any point in a conversation.<br><br>
+This can be accomplished in a few different ways, but I decided to limit the number of times a user could be allowed to enter unclassifiable input before the conversation was reset.<br><br>
+This way, a user could naturally get a sense of the pattern of the conversation, and easily start a fresh conversation with new input their wording or intended issue report could not be successfully interpreted by the bot.<br><br>
+
+<br><br><br><br><br>
+
+
+
+
+### Chatbot Dialog Design Specification<br><br>
 
 **Example Test Case, from Chatbot Design Spec:**<br>
 ![Test Case Snippet](/img/portfolio/Test_Case_Snippet.png)<br><br>
 
-  - crafting a realistic flow: Human operator vs. Chatbot routing system<br>
-**[HUMAN OPERATOR vs. CHATBOT GRAPHIC]**<br>
+
   - Align Stakeholder expectations of Chatbot performance<br><br>
 
-  - Chatbot Dialog User Flow Diagram<br>
-**Dialog User Flow Diagram**<br>
-[DIALOG FLOW USER DIAGRAM]
 
 - Content Strategy: Crafting Chatbot Personality & Voice Design<br>
 **[EXAMPLE CHATBOT RESPONSE]**<br><br>
