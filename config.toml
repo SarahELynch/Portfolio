@@ -246,7 +246,7 @@ googleAnalytics = ""
   [params.contact]
     enable = true
     title = "Contact Me"
-    subtitle  = "Hey there! <br><br>Feel free to reach out via email or social media.<br> You can also send me a message using the form below!"
+    subtitle  = "Hey there! <br><br>Feel free to reach out via email or social media.<br>"
     buttonText = "Send message"
     # netlify = true
 
@@ -274,25 +274,25 @@ googleAnalytics = ""
     #thanks = "Thank you for awesomely contacting us."
     #error = "Message could not be send. Please contact us at mail@example.com instead."
 
-    [params.contact.captcha]
-      sitekey = "6Lf3h3IUAAAAAL_Eybrf3m3RA6P9EtLYGY2ZK1qe"
-
-    # 'warning' defines error messages for invalid inputs
-    [params.contact.form.name]
-      text = "What's your NAME?"
-      warning = "Please enter your name."
-
-    [params.contact.form.email]
-      text = "Let me know your EMAIL ADDRESS."
-      warning = "Please enter your email address."
-
-    [params.contact.form.phone]
-      text = "Tell me your Phone Number, if you want. (optional)"
-      warning = ""
-
-    [params.contact.form.message]
-      text = "What should we chat about?"
-      warning = "Please enter a message."
+    # [params.contact.captcha]
+    #   sitekey = "6Lf3h3IUAAAAAL_Eybrf3m3RA6P9EtLYGY2ZK1qe"
+    #
+    # # 'warning' defines error messages for invalid inputs
+    # [params.contact.form.name]
+    #   text = "What's your NAME?"
+    #   warning = "Please enter your name."
+    #
+    # [params.contact.form.email]
+    #   text = "Let me know your EMAIL ADDRESS."
+    #   warning = "Please enter your email address."
+    #
+    # [params.contact.form.phone]
+    #   text = "Tell me your Phone Number, if you want. (optional)"
+    #   warning = ""
+    #
+    # [params.contact.form.message]
+    #   text = "What should we chat about?"
+    #   warning = "Please enter a message."
 
       # Add optional form fields to identify contact forms
       #[[params.contact.form.hidden]]

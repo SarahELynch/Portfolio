@@ -141,7 +141,8 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-    border-color: #C9A029;
+    /* border-color: #C9A029; */
+    border-color: #E2E1CE;
     color: #E2E1CE;
     background-color: #C9A029;
 }
@@ -296,7 +297,7 @@ header {
     text-align: center;
     color: #E2E1CE;
     background-attachment: scroll;
-    background-image: url(../img/test_header_pic.png);
+    background-image: url(../img/sunflower_green_hue.png);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -782,7 +783,7 @@ aside .heading {
 
 section#contact {
     background-color: #294132;
-    background-image: none;
+    background-image: url(../img/Contact_me_section.png);
     background-position: center;
     background-repeat: no-repeat;
 }

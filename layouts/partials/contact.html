@@ -38,7 +38,7 @@
           <fieldset>
             <div class="row">
               <div class="col-md-6">
-
+<!--
                 {{ with $contact.form.name }}
                 <div class="form-group">
                   <input class="form-control" id="name" required="required" type="text" name="name" placeholder="{{ with .text }}{{ .  | markdownify }}{{ end }}" data-validation-error-msg="{{ with .warning }}{{ . | markdownify }}{{ end }}">
@@ -119,7 +119,7 @@
               {{ else }}
                 <input type="hidden" name="{{ .name }}" value="{{ .value }}"/>
               {{ end }}
-            {{ end }}
+            {{ end }} -->
           </fieldset>
         </form>
       </div>
