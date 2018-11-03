@@ -115,7 +115,6 @@ googleAnalytics = ""
     # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
-    # !! images for the timeline circles have to be in static/img/about
     title = "Portfolio"
     subtitle = "Uncovering user motivations is key to crafting interactive experiences that make sense.</br>"
 
@@ -146,7 +145,7 @@ googleAnalytics = ""
     [[params.about.events]]
       # img = "sprout.png"
       img = "Sprout_Timeline_Image.png"
-      date = "2016 - 2018"
+      date = "Summer 2016 - Summer 2018"
       title = "Sprouting my Passion."
       description = "Application Support Engineer at **IBM**<br></br>I had the privilege of working on an array of different projects during my time at IBM. During these experiences, I continually encountered the practice and process of UX Design, and gained experience advocating for it and applying it in my own work. <br>I sprouted curious green UX tendrils (that would one day grow into strong, sturdy roots) at IBM."
 
