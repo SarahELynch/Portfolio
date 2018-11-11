@@ -58,12 +58,12 @@ If we provided the best possible user experience for User Base #2, the Engagemen
 Armed with the knowledge of the interrelatedness of our user bases' needs and goals, I crafted the following User Personas for my team:<br><br>
 
 **Primary User Persona: Gwen**<br>
-![Primary User Persona - Gwen](/img/portfolio/Gwen_Persona.png)<br><br>
+![Primary User Persona - Gwen](/img/portfolio/311_Chatbot/Gwen_Persona.png)<br><br>
 
 Because improving the experience of the Engagement Leader directly improved the experience of the Client, we decided to consider the Engagement Leader our **Primary User Persona**.<br><br>
 
 **Secondary User Persona: Robert**<br>
-![Secondary User Persona - Robert](/img/portfolio/Robert_Persona.png)<br><br>
+![Secondary User Persona - Robert](/img/portfolio/311_Chatbot/Robert_Persona.png)<br><br>
 
 While the Client might be our **Secondary User Persona**, it didn't mean that the needs and goals of this persona were any less important.<br><br>
 
@@ -111,8 +111,8 @@ After deciding on the points of conversation that would replicate a realistic fl
 
 The **User Flow Diagram** below depicts the framework I came to:<br><br>
 
-![Dialog User Flow Diagram](/img/portfolio/Chatbot_user_flow_diagram.png)<br><br><br>
-![Dialog User Flow Location Extraction Diagram](/img/portfolio/Chatbot_user_flow_location_extraction_diagram.png)<br><br>
+![Dialog User Flow Diagram](/img/portfolio/311_Chatbot/Chatbot_user_flow_diagram.png)<br><br><br>
+![Dialog User Flow Location Extraction Diagram](/img/portfolio/311_Chatbot/Chatbot_user_flow_location_extraction_diagram.png)<br><br>
 
 
 You can see the logical flow of information exchange in this user flow diagram:<br>
@@ -144,7 +144,7 @@ Below is an example of one of these test cases. The conversation case depicted i
 
 **Example Test Case, from Chatbot Design Spec:**<br><br>
 
-![Test Case Snippet](/img/portfolio/Test_Case_Snippet.png)<br><br>
+![Test Case Snippet](/img/portfolio/311_Chatbot/Test_Case_Snippet.png)<br><br>
 
 If the user had indicated to the chatbot that it had **not classified** the report type correctly (meaning, the user had _not_ intended on reporting graffiti, and the bot had misclassified the report as being about 'Graffiti'), that would be included in the dialog spec as a separate test case, entitled 'Misclassified Report Flow'.<br><br>
 Changes to the dialog flow proliferated through the dialog spec just like that - each new change to the user input, at any stage along the dialog flow, meant creating a new test case.<br><br>
@@ -152,7 +152,7 @@ This was how I created a robust dialog, capable of flexibility and accuracy, whi
 
 This Dialog Design Spec, containing the full set of test cases, was also used to communicate bot functionality to our primary User Persona, Gwen...<br><br>
 
-![Gwen User Persona graphic](/img/portfolio/Gwen_Persona.png)<br><br>
+![Gwen User Persona graphic](/img/portfolio/311_Chatbot/Gwen_Persona.png)<br><br>
 
 ...and also to **align stakeholder expectations** of the bot's performance.<br><br>
 
@@ -187,7 +187,7 @@ This diagram very closely represents the technical structure of dialog implement
 
 You could consider this diagram as displaying what the chatbot dialog looks like 'zoomed in' in granularity of detail.<br><br>
 
-![311 Chatbot Dialog Snippet](/img/portfolio/311_Chatbot_Dialog_snippet.png)<br><br>
+![311 Chatbot Dialog Snippet](/img/portfolio/311_Chatbot/311_Chatbot_Dialog_snippet.png)<br><br>
 
 The above graphic is only a small snippet of the entire dialog structure diagram that I created for this project.<br>
 This was quite a large visual asset, but it had a very specific purpose. I created this diagram to be shipped with the project, to our primary user base, the Engagement Leaders.<br><br>
