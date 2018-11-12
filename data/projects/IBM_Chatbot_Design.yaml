@@ -2,8 +2,8 @@ modalID: 1
 title: IBM Chatbot Design
 subtitle: A 311-operator-style Chatbot, as part of a larger Immersive Application designed to demonstrate the capabilities of IBM Watson Conversation Service (since renamed to "Watson Assistant").
 date: May - November 2017
-img: Chatbot_image.png
-preview: Chatbot_image_Under_Construction.png
+img: 311_Chatbot/Chatbot_image.png
+preview: 311_Chatbot/Chatbot_image_Under_Construction.png
 client: IBM
 clientLink: "https://www.ibm.com/watson/ai-assistant/"
 category: Chatbot Service (WCS) Application
