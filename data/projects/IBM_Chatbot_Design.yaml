@@ -3,7 +3,7 @@ title: IBM Chatbot Design
 subtitle: A 311-operator-style Chatbot, as part of a larger Immersive Application designed to demonstrate the capabilities of IBM Watson Conversation Service (since renamed to "Watson Assistant").
 date: May - November 2017
 img: 311_Chatbot/Chatbot_image.png
-preview: 311_Chatbot/Chatbot_image_Under_Construction.png
+preview: 311_Chatbot/Chatbot_image.png
 client: IBM
 clientLink: "https://www.ibm.com/watson/ai-assistant/"
 category: Chatbot Service (WCS) Application
@@ -175,7 +175,8 @@ This Dialog Design Spec also served to help demonstrate to my team's lead design
 This iterative process is how we established a helpful, mostly neutral, yet friendly, tone of voice and personality for the chatbot.<br><br>
 
 You can observe that personality in the following sample responses from our 311 Bot:<br><br>
-**[SAMPLE CHATBOT RESPONSES]**<br><br><br><br><br>
+![Graphic depicting Sample Chatbot Responses](/img/portfolio/311_Chatbot/Sample_Chatbot_Responses.png)<br><br>
+<br><br><br><br><br>
 
 
 
