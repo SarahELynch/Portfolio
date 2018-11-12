@@ -592,9 +592,10 @@ section h3.section-subheading {
 }
 
 /* changing size of image in case study based on size of container (modal-body) */
-/* .modal-body img {
-  width: 99%;
-} */
+.modal-content img {
+    max-width: 100%;
+    height: auto;
+}
 
 @media(min-width:768px) {
     .timeline:before {
@@ -631,6 +632,10 @@ section h3.section-subheading {
         padding: 0 30px 20px 20px;
         text-align: left;
     }
+
+    /* .modal-body img {
+      width: 100%;
+    } */
 }
 
 @media(min-width:992px) {
@@ -657,6 +662,10 @@ section h3.section-subheading {
     .timeline>li.timeline-inverted>.timeline-panel {
         padding: 0 20px 20px;
     }
+/*
+    .modal-body img {
+      width: 100%;
+    } */
 }
 
 @media(min-width:1200px) {
@@ -680,6 +689,11 @@ section h3.section-subheading {
 
     .timeline>li.timeline-inverted>.timeline-panel {
         padding: 0 100px 20px 20px;
+    }
+
+    .modal-content img {
+        max-width: 140%;
+        height: auto;
     }
 }
 
