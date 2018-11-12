@@ -22,7 +22,7 @@ then make your changes, if you don't see the server output detect your change, t
 
 # deploy changes to live site
 
-cd to root of the project (so for Joe this is /home/jharding/sarahsite) and run:
+cd to root of the project and run:
 
 ```
 hugo
@@ -38,3 +38,9 @@ ansible-playbook -i prod sarahlynch.net
 
 This will copy all your files to the server and restart the webserver program, nginx.
 
+
+```
+ansible-playbook -i prod le.yml
+```
+
+Run this every few months to regenerate ssl certificates, if you start getting 'site not secure' message. (Right?) If it still seems broken, run the above ansible playbook command with sarahlynch.net again.
