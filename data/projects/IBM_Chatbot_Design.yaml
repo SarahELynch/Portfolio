@@ -76,17 +76,18 @@ Balancing the needs of each Persona was a major focus of crafting the UX of this
 
 The first step in designing the dialog for this 311 Operator Chatbot was to think about how a Human Operator would handle a 311 report.<br><br>
 
+![Human Operator Dialog Flow Graphic](/img/portfolio/311_Chatbot/Human_Bot_Flow.png)<br><br>
+
 I decided that a Human 311 Operator would get a few pieces of information from the caller:<br>
 **1.** What is the issue the caller is trying to report?<br>
 **2.** Where is the issue happening? (Address)<br><br>
 
 The Human Operator would use these two pieces of information to accomplish two goals:<br>
   **Issue Report**: Used to Route the caller's report to the correct Agency (Police Department, Department of Parks & Recreation, etc.)<br>
-  **Address**: Used to pass on to Agency so issue can be addressed<br><br>
+  **Address**: Used to pass on to the Agency, so that the issue can be addressed<br><br>
 
 A goal for this Chatbot was to design a conversation flow that replicated as much as possible the natural progression of information collection that would occur during a conversation with a Human 311 Operator.<br><br>
 
-**[HUMAN OPERATOR vs. CHATBOT GRAPHIC]**<br><br>
 
 #### Explicitly Defining User Success<br><br>
 
@@ -225,7 +226,7 @@ At first, it was suggested that we should start with an Intent titled 'Report an
 However, it could already be assumed that, if a user was interacting with our bot, their intention was to report a 311 issue.<br><br>
 The information the chatbot needed to extract from the user input was what **type** of issue they were reporting.<br><br>
 
-**['INTENT TO REPORT' GRAPHIC]**<br><br>
+![Graphic depicting Scope of User Intent](/img/portfolio/311_Chatbot/Intent_to_Report_graphic.png)<br><br>
 
 This is where I started when I began constructing an Intent framework to organize the information we would use to 'train' our chatbot, so that it could learn how to respond to each type of issue report appropriately.
 <br><br><br>
@@ -246,6 +247,18 @@ These keywords would be used to classify the user input even further, so that th
 
 That organization, and the corresponding Agency routing architecture, looked like this:<br><br>
 
-**['INTENT & ENTITIES -> AGENCY' ORGANIZATION GRAPHIC]**<br>
+![Intent, Entity, and Agency Mapping graphic](/img/portfolio/311_Chatbot/Intent_Entity_Agency_Mapping.png)<br><br>
 
+I used actual NYC 311 routing rules to base my Entity I.A. off of, so the organization you see above reflects the way real human NYC 311 operators route issue reports.<br><br>
+
+In addition to organizing the Intent-to-Entity hierarchy, I had to come up with a robust list of synonyms and word phrases for each entity that you see above, so that the Chatbot could identify variations upon the categories identified in this hierachy.<br><br>
+
+From here, combined with the planning of the overarching dialog structure, it was fairly straightforward to organize the dialog rules by condition, to construct a full-fledged 311 Chatbot.<br><br>
+
+
+<br><br><br><br>
+
+
+**Thank you for reading!** <br>
+If you have any questions, feel free to reach out. You can find my contact information by closing this project and scrolling down to the 'Contact' section on the home page of my portfolio.<br><br>
 "
