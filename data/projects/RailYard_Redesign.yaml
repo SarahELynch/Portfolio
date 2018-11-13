@@ -90,7 +90,7 @@ We endeavored to keep this persona 'front and center' in our minds throughout th
 
 A major part of the effort in beginning my role in this project was performing an informal heuristic evaluation to assess the major areas of the company's  Home Page and dashboard that could be improved by implementing standards and best practices along the lines of the heuristics 'Feedback', 'Visibility', and 'Understandability'.<br><br>
 
-**Inconsistent Addresses from Home Page to Dashboard**<br><br>
+#### Inconsistent Addresses from Home Page to Dashboard<br><br>
 
 A large focus of the evaluation that touched on both the  Home Page and dashboard was the level of feedback and understandability surrounding the search bar, the list of suggested addresses that appears as the user types, and whether the address selected matches the address displayed on the dashboard.<br><br>
 
@@ -116,7 +116,7 @@ and is taken to the dashboard...<br><br>
 
 ![Image Comparing Address entered in search bar to Address displayed on Dashboard](/img/portfolio/RailYard/Screenshots_comparing_addresses.png)<br><br>
 
-**Misleading Suggestions**<br><br>
+#### Misleading Suggestions<br><br>
 
 In addition to the inconsistencies in suggested and displayed addresses, there was room for improvement in the user experience surrounding the **suggested list** of addresses itself.<br>
 The list of addresses that was generated to populate the list in the suggeted auto-complete dropdown was **not identical** to the list of addresses for which RailYard actually has internet service provider data.<br><br>
@@ -149,7 +149,8 @@ My team used this usability assessment to ensure we addressed the major areas re
 Our stakeholders had already begun brainstorming and composing new content to propose for the new  Home Page. There was a lot of information that they handed over to us, so I lead my team in sifting through the information and isolating what sections of content we should include, and which could be deprioritized. In prioritizing information, we put ourselves in our users' shoes and made sure we empathized with our Personas' needs.<br><br>
 Our biggest challenge with prioritizing information for the Home Page was to include enough content so that each type of user could get the information they needed, but not include so much as to overwhelm users.<br><br>
 
-**Home Page Site Map**<br><br>
+#### Home Page Site Map<br><br>
+
 Here is the **Home Page Site Map** to depict the content and organization we arrived at:<br><br>
 ![Redesigned RailYard Home Page Site Map](/img/portfolio/RailYard/HomePage_Site_Map.png)<br><br>
 
@@ -161,7 +162,7 @@ As the project developed and we corresponded with our stakeholders, the content 
 This transformation happened rather organically, as we received copy from our stakeholders and iterated on the design.<br><br>
 The change in nature of these two sections of information required me, as the IA on our team, to ensure that the content included in them still served a clear purpose and targeted our User Personas' needs and goals.<br><br>
 
-**Dashboard Site Map**<br><br>
+#### Dashboard Site Map<br><br>
 
 In regard to creating a site map for the Dashboard, we were able to make use of the types of information included in RailYard's original dashboard, leaving us room to think about how to ensure that the user had just one clear avenue to accomplish each task. <br><br>
 Including too many disaprate avenues to accomplish similar tasks was a major area where the original Dashboard needed improvement, as noted in my 'Understandability' assessment.<br><br>
@@ -194,9 +195,9 @@ Some of my added micro-interactions/transitions, and some copy edits, included:<
 (HINT: You might want to right-click and 'Open in New Tab')<br><br>
 [![Image Link to Wireframe Prototype](/img/portfolio/RailYard/Wireframes_link_to_prototype.png)](https://invis.io/6DOKEVRW3SG)<br><br>
 
-**Address Auto-Completion/Suggestion and Traveling to the Dashboard**<br><br>
+#### Address Auto-Completion/Suggestion and Traveling to the Dashboard<br><br>
 
-A large focus of mine regarding the work on the wireframes for this project was on improving the user experience surrounding typing an address, receiving address suggestions, and selecting and submitting an address in order to travel to the RailYard Dashboard.<br>
+A large focus oaf mine regarding the work on the wireframes for this project was on improving the user experience surrounding typing an address, receiving address suggestions, and selecting and submitting an address in order to travel to the RailYard Dashboard.<br>
 The below graphic depicts what that flow looks like in the prototype.<br><br>
 
 ![Graphic depicting address suggestion and selection user flow](/img/portfolio/RailYard/Address_Suggestion_Graphic.png)<br><br>
@@ -375,9 +376,9 @@ I reported a summary of these findings to our stakeholders in hopes that they co
 
 ###  **NEXT STEPS**<br><br>
 
-We only had 3 weeks to complete this web presence redesign project, so we did our best to get to an MVP in that time. Of course, a design project rarely ever feels completely finished, so I'll present what we would do next, if we had been able to begin a second iteration.<br><br><br>
+We only had 3 weeks to complete this web presence redesign project, so we did our best to get to an MVP in that time. Of course, a design project rarely ever feels completely finished, so I'll present what we would do next, if we had been able to begin a second iteration.<br><br>
 
-**Home Page Copy Validation**<br><br>
+#### Home Page Copy Validation<br><br>
 
 The first major component of a second iteration on this project would include a series of user tests to validate the copy we were given by our stakeholder to include in the Home Page.<br> During the first iteration of this project, we were able to explore and test the user experience of users arriving at and interacting with the Home Page and Dashboard, but we would have needed more time to gain access to user bases more representative of RailYard's Marketing Personas.<br><br>
 
@@ -400,7 +401,7 @@ After isolating a group of representative users, we would ask each participant t
 
 We would then take users' feedback during these interviews to iterate upon the copy and content included in the Home Page.<br><br><br>
 
-**A/B Testing of Filters/Requirements Form Placement**<br><br>
+#### A/B Testing of \"Filter\" Placement<br><br>
 
 The other major component of a second iteration on this project would be a series of A/B tests to investigate the effectiveness of the placement of filters on the top of the Dashboard vs. included in the 'Know Before You Go' modal.<br><br>
 
