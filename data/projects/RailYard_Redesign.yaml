@@ -29,11 +29,38 @@ description: "**TEAM:** 3 UX Designers<br>
 **PROBLEM:**<br> The company's Business Goal:   Refactor **Home Page** design to better target the Marketing Personas.<br>The UX Design Goal:   Redesign the **Dashboard** to better serve the primary User Base (distinct from the Marketing Target Personas).<br><br>
 **SOLUTION:**<br>Balance RailYard's Business Goal with our team's UX Design Goal to come up with a cohesive, successful web presence redesign. <br><br>
 
-**SKILLS DEMONSTRATED:** <br>Interface Feedback Design, User Error Prevention & Handling, Heuristic Assessment, Wireframing, Prototyping<br>Card Sorting, Site Mapping, User Flow Diagramming<br>User Testing Task Strategy Planning, User Interviews, Usability Testing<br>Project Management<br><br><br>
+**SKILLS DEMONSTRATED:** <br>Interface Feedback Design, User Error Prevention & Handling, Heuristic Assessment, Wireframing, Prototyping<br>Card Sorting, Site Mapping, User Flow Diagramming<br>User Testing Task Strategy Planning, User Interviews, Usability Testing<br>Project Management
 
-## **RailYard: A Case Study**<br><br>
 
-###  **INTRODUCTION TO THE PROJECT:**<br><br>
+<h3 id=\"railyard_sections\" > Sections:</h3><br>
+<div class=\"summary_and_jumps\">
+  <div id=\"case_study_btn_grp\" class=\"flex-container\">
+    <a href=\"#as_is_assessment\" class=\"case_study_button\"><button> As-Is Heuristic Assessment </button></a> <br>
+    <a href=\"#info_arch\" class=\"case_study_button\"><button> Information Architecture </button></a> <br>
+    <a href=\"#wireframes\" class=\"case_study_button\"><button> Wireframes </button></a> <br>
+    <a href=\"#user_flow_diagrams\" class=\"case_study_button\"><button> User Flow Diagrams </button></a> <br>
+    <a href=\"#user_testing_diagrams\" class=\"case_study_button\"><button> User Testing Plan Strategy </button></a> <br>
+    <a href=\"#card_sort\" class=\"case_study_button\"><button> Card Sort </button></a> <br>
+    <a href=\"#iteration_on_design\" class=\"case_study_button\"><button> Iteration on Design </button></a> <br>
+    <a href=\"#user_testing_widget\" class=\"case_study_button\"><button> User Testing of Widget </button></a> <br>
+    <a href=\"#next_steps\" class=\"case_study_button\"><button> Next Steps </button></a>
+  </div>
+<div id=\"summary_section\" class=\"flex-container\">
+
+    </div>
+</div>
+<a href=\"#railyard_sections\" class=\"sections_jump\"><button>Go to Sections</button></a><br>
+<br><br><br>
+
+
+
+<h2 id=\"ry_project_header\" > RailYard: A Case Study</h2>
+
+
+
+<h3 id=\"project_intro\" > INTRODUCTION TO THE PROJECT:</h3>
+
+
 
 In this project, my team was directly tasked with redesigning the desktop  Home Page and dashboard of an Austin-based telecom provider aggregator company named RailYard.<br>We also worked to
 understand their Marketing strategy, and how it pertains to the effectiveness of their  Home Page, content, and other aspects of web presence, such as integratable widgets and connectivity scores (more on these later on in this case study).<br><br>
@@ -86,11 +113,14 @@ We endeavored to keep this persona 'front and center' in our minds throughout th
 
 
 
-###  **FEEDBACK, VISIBILITY, and UNDERSTANDABILITY: An Assessment**<br><br>
+<h3 id=\"as_is_assessment\" > FEEDBACK, VISIBILITY, and UNDERSTANDABILITY: An Assessment</h3>
+
 
 A major part of the effort in beginning my role in this project was performing an informal heuristic evaluation to assess the major areas of the company's  Home Page and dashboard that could be improved by implementing standards and best practices along the lines of the heuristics 'Feedback', 'Visibility', and 'Understandability'.<br><br>
 
-#### Inconsistent Addresses from Home Page to Dashboard<br><br>
+
+<h4 id=\"inconsistent_addresses\" > Inconsistent Addresses from Home Page to Dashboard</h4>
+
 
 A large focus of the evaluation that touched on both the  Home Page and dashboard was the level of feedback and understandability surrounding the search bar, the list of suggested addresses that appears as the user types, and whether the address selected matches the address displayed on the dashboard.<br><br>
 
@@ -101,9 +131,11 @@ A large focus of the evaluation that touched on both the  Home Page and dashboar
 **3.** and then hits 'go',<br>
 **4.** and is taken to the dashboard, where the address displayed does not exactly match the address the user just selected from the suggested list.<br><br>
 
-![Image Comparing Address entered in search bar to Address displayed on Dashboard](/img/portfolio/RailYard/Screenshots_comparing_addresses.png)<br><br>
+![Image Comparing Address entered in search bar to Address displayed on Dashboard](/img/portfolio/RailYard/Screenshots_comparing_addresses.png)<br><br><br>
 
-#### Misleading Suggestions<br><br>
+
+<h4 id=\"misleading_suggestions\" > Misleading Suggestions</h4>
+
 
 In addition to the inconsistencies in suggested and displayed addresses, there was room for improvement in the user experience surrounding the **suggested list** of addresses itself.<br>
 The list of addresses that was generated to populate the list in the suggeted auto-complete dropdown was **not identical** to the list of addresses for which RailYard actually has internet service provider data.<br><br>
@@ -125,12 +157,13 @@ My team used this usability assessment to ensure we addressed the major areas re
 
 
 
-###  **INFORMATION ARCHITECTURE**<br><br>
+<h3 id=\"info_arch\" > INFORMATION ARCHITECTURE</h3>
+
 
 Our stakeholders had already begun brainstorming and composing new content to propose for the new  Home Page. There was a lot of information that they handed over to us, so I lead my team in sifting through the information and isolating what sections of content we should include, and which could be deprioritized. In prioritizing information, we put ourselves in our users' shoes and made sure we empathized with our Personas' needs.<br><br>
 Our biggest challenge with prioritizing information for the Home Page was to include enough content so that each type of user could get the information they needed, but not include so much as to overwhelm users.<br><br>
 
-#### Home Page Site Map<br><br>
+<h4 id=\"home_page_site_map\" > Home Page Site Map</h4>
 
 Here is the **Home Page Site Map** to depict the content and organization we arrived at:<br><br>
 ![Redesigned RailYard Home Page Site Map](/img/portfolio/RailYard/HomePage_Site_Map.png)<br><br>
@@ -141,9 +174,9 @@ An interesting development during this project, from an Information Architecture
 We had originally proposed these sections as described with the phrases, 'How it Works' and 'What You Get', and we called these sections by those colloquial names.<br><br>
 As the project developed and we corresponded with our stakeholders, the content included in these sections morphed conceptually into what was better described as the phrases you see in the Site Map.<br>
 This transformation happened rather organically, as we received copy from our stakeholders and iterated on the design.<br><br>
-The change in nature of these two sections of information required me, as the IA on our team, to ensure that the content included in them still served a clear purpose and targeted our User Personas' needs and goals.<br><br>
+The change in nature of these two sections of information required me, as the IA on our team, to ensure that the content included in them still served a clear purpose and targeted our User Personas' needs and goals.<br><br><br>
 
-#### Dashboard Site Map<br><br>
+<h4 id=\"dashboard_site_map\" > Dashboard Site Map</h4>
 
 In regard to creating a site map for the Dashboard, we were able to make use of the types of information included in RailYard's original dashboard, leaving us room to think about how to ensure that the user had just one clear avenue to accomplish each task. <br><br>
 Including too many disaprate avenues to accomplish similar tasks was a major area where the original Dashboard needed improvement, as noted in my 'Understandability' assessment.<br><br>
@@ -154,7 +187,8 @@ You can see how we've provided the user with only one clear path for each type o
 
 
 
-###  **WIREFRAMES**<br><br>
+<h3 id=\"wireframes\" > WIREFRAMES</h3>
+
 
 After our preliminary meetings with our RailYard stakeholders, crafting User Personas, and tackling some information architecture work, we were ready to start ideating.<br><br>
 We did a couple design studio exercises as a team to come up with the basic idea and layout of the site and dashboard.<br><br>
@@ -176,7 +210,7 @@ Some of my added micro-interactions/transitions, and some copy edits, included:<
 (HINT: You might want to right-click and 'Open in New Tab')<br><br>
 [![Image Link to Wireframe Prototype](/img/portfolio/RailYard/Wireframes_link_to_prototype.png)](https://invis.io/6DOKEVRW3SG)<br><br>
 
-#### Address Auto-Completion/Suggestion and Traveling to the Dashboard<br><br>
+<h4 id=\"address_auto_completion\" > Address Auto-Completion and Traveling to the Dashboard</h4>
 
 A large focus oaf mine regarding the work on the wireframes for this project was on improving the user experience surrounding typing an address, receiving address suggestions, and selecting and submitting an address in order to travel to the RailYard Dashboard.<br>
 The below graphic depicts what that flow looks like in the prototype.<br><br>
@@ -195,7 +229,8 @@ I'll cover more on user testing and subsequent user feedback on the prototype la
 
 
 
-###  **USER FLOW DIAGRAMMING**<br><br>
+<h3 id=\"user_flow_diagrams\" > USER FLOW DIAGRAMMING</h3>
+
 
 While my teammates were mocking up some preliminary wireframes, I worked on crafting a sequence of user flow diagrams to depict each Persona's path to arrive at the Home Page/Dashboard, and what actions they would take once they were there.<br><br>
 I created four User Flow diagrams, in total. <br><br>
@@ -210,7 +245,9 @@ Here's a look at the **User Flows for Cassandra**, our Small Business Owner Pers
 
 
 
-###  **USER TESTING PLAN STRATEGY**<br><br>
+
+<h3 id=\"user_testing_diagrams\" > USER TESTING PLAN STRATEGY</h3>
+
 
 I used the above User Flow diagrams to devise a User Testing Plan for my team.<br>
 To do this, I isolated points along each User Flow that depicted a testable action, and created second versions of the User Flow diagrams to bring emphasis to these actionable points.<br><br>
@@ -228,7 +265,8 @@ We took this testing plan and strategy, and moved on to testing our prototype wi
 
 
 
-###  **CARD SORT**<br><br>
+<h3 id=\"card_sort\" > CARD SORT</h3>
+
 
 During each user test, I conducted a Card Sort exercise with each participant. The goal of this Card Sort was to investigate users' instincts surrounding the labels for two of the filters featured on the top of our dashboard design which collected information from the user about their business' internet requirements.<br><br>
 The way I conducted this Card Sort was to present the participant with a list of items that belonged to a category, and ask them what they thought the name of the category should be.<br><br>
@@ -249,7 +287,7 @@ After discussing with our stakeholders, we felt that 'Reason for Shopping' match
 
 
 
-###  **USER TESTING FINDINGS**<br><br>
+<h3 id=\"user_testing_findings\" > User Testing Findings</h3>
 
 In addition to conducting card sort exercises, we tested the functionality of our prototype during our user tests.<br>
 The summary of our findings from observing users during testing, and listening to their feedback during and after testing, is as follows:<br><br>
@@ -269,7 +307,8 @@ The summary of our findings from observing users during testing, and listening t
 
 
 
-###  **ITERATION ON DESIGN**<br><br>
+<h3 id=\"iteration_on_design\" > Iteration on Design</h3>
+
 
 We took the above user testing findings and made changes to our design of the Dashboard.<br><br>
 
@@ -319,7 +358,8 @@ Addtionally, RailYard would be free to implement these selections as filters on 
 <br><br><br><br><br>
 
 
-###  **USER TESTING ON WIDGET**<br><br>
+<h3 id=\"user_testing_widget\" > User Testing of Widget</h3>
+
 
 I did some additional user testing on a separate aspect of RailYard's web presence. As per their Marketing Strategy, one of their major business goals was to seek partnerships with Commercial Real Estate Listing Websites, which are aggregator websites that display listings for available office spaces.<br><br>
 
@@ -335,6 +375,8 @@ The hope was that, if a business owner was browsing a CRE Listing website lookin
 Because this widget was such a key element in driving traffic to RailYard's dashboard, and because it was thus a key element in the user experience of Business Owners, like our Persona, Cassandra, in arriving at RailYard's Dashboard, I wanted to investigate the user experience surrounding the widget's Call To Action.<br><br>
 
 In order to do this, I wanted to investigate users' instincts surrounding the Call-To-Action featured as the label on the widget's button that would teak users to the RailYard dashboard. I showed users the following widget mock-up and asked them to imagine they had encountered it while browsing an office space listing on a CRE Listing Website.<br><br>
+
+**Widget Mock-up:**<br><br>
 
 ![Widget Mockup](/img/portfolio/RailYard/Widget_Mockup.png)<br><br>
 
@@ -355,20 +397,27 @@ I reported a summary of these findings to our stakeholders in hopes that they co
 
 
 
-###  **NEXT STEPS**<br><br>
+
+<h3 id=\"next_steps\"> Next Steps</h3>
+
 
 We only had 3 weeks to complete this web presence redesign project, so we did our best to get to an MVP in that time. Of course, a design project rarely ever feels completely finished, so I'll present what we would do next, if we had been able to begin a second iteration.<br><br>
 
-#### Home Page Copy Validation<br><br>
 
-The first major component of a second iteration on this project would include a series of user tests to validate the copy we were given by our stakeholder to include in the Home Page.<br> During the first iteration of this project, we were able to explore and test the user experience of users arriving at and interacting with the Home Page and Dashboard, but we would have needed more time to gain access to user bases more representative of RailYard's Marketing Personas.<br><br>
+<h4 id=\"copy_validation\"> Home Page Copy Validation</h4>
 
-![Steve Persona Photo](/img/portfolio/RailYard/Steve_Icon_w_background.png) ![Jack Persona Photo](/img/portfolio/RailYard/Jack_Icon_w_background.png)<br><br>
+
+The first major component of a second iteration on this project would include a series of user tests to validate the copy we were given by our stakeholder to include in the Home Page.<br>
+During the first iteration of this project, we were able to explore and test the user experience of users arriving at and interacting with the Home Page and Dashboard, but we would have needed more time to gain access to user bases more representative of RailYard's Marketing Personas.<br><br>
+
+![Steve Persona Photo](/img/portfolio/RailYard/Steve_Icon_w_background.png)
+![Jack Persona Photo](/img/portfolio/RailYard/Jack_Icon_w_background.png)<br><br>
 
 To truly know if the copy included in the Home Page describes and advertises RailYard's offerings in a way that targets the needs of Steve and Jack, our Marketing Personas, we would need to find Internet Service Provider Marketing Personnel and CRE Listing Website Business Representatives.<br><br>
 Only these people could give us true, accurate insight into whether the content itself was effective and helped them to accomplish their goals.<br><br>
 
 After isolating a group of representative users, we would ask each participant the following questions while they were actively looking at the Home Page, and would ask them to talk out loud about what they saw, read, and how they felt about the Home Page.<br><br>
+
 
 **Copy Validation Interview Questions:**<br>
 **1.** Visit RailYard.com’s HomePage<br>
@@ -380,9 +429,10 @@ After isolating a group of representative users, we would ask each participant t
 **7.** Do you believe that partnering with RailYard would benefit you?<br>
 **8.** Is there any information you’d like to see here, that isn’t here already?<br><br>
 
-We would then take users' feedback during these interviews to iterate upon the copy and content included in the Home Page.<br><br><br>
+We would then take users' feedback during these interviews to iterate upon the copy and content included in the Home Page.<br><br>
 
-#### A/B Testing of \"Filter\" Placement<br><br>
+<h4 id=\"a/b_testing_filters\" > A/B Testing of \"Filter\" Placement</h4>
+
 
 The other major component of a second iteration on this project would be a series of A/B tests to investigate the effectiveness of the placement of filters on the top of the Dashboard vs. included in the 'Know Before You Go' modal.<br><br>
 

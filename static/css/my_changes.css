@@ -644,6 +644,10 @@ section h3.section-subheading {
   flex-direction: column;
 }
 
+.modal-content .summary_and_jumps h1 {
+
+}
+
 
 @media(min-width:768px) {
     .timeline:before {
@@ -994,9 +998,9 @@ ul.social-buttons li a:active {
     box-shadow: none;
 }
 
-.portfolio-modal .modal-content h2 {
-    margin-bottom: 15px;
-    font-size: 3em;
+.portfolio-modal .modal-content h1 {
+    margin-bottom: 10px;
+    font-size: 4em;
 }
 
 .portfolio-modal .modal-content p {

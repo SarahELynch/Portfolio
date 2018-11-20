@@ -32,7 +32,7 @@ description:
 
 **SKILLS DEMONSTRATED:**<br> Interaction Design, Content Strategy, Crafting Chatbot Design Spec, User Flow Diagramming, User Error Prevention & Handling<br> Data gathering, Iterative ML Training<br> Implementing WCS Chatbot programmatically (Node.js) <br>
 
-<h3 id=\"sections\" > Sections:</h3><br>
+<h3 id=\"chatbot_sections\" > Sections:</h3><br>
 <div class=\"summary_and_jumps\">
   <div id=\"case_study_btn_grp\" class=\"flex-container\">
     <a href=\"#designing_the_dialog\" class=\"case_study_button\"><button>Designing The Dialog</button></a><br>
@@ -48,10 +48,11 @@ description:
 
     </div>
 </div>
+<a href=\"#chatbot_sections\" class=\"sections_jump\"><button>Go to Sections</button></a><br>
 <br><br><br>
 
 
-<h2 id=\"project_intro\" > 311 CHATBOT DESIGN PROCESS:</h2><br>
+<h1 id=\"project_intro\" > 311 CHATBOT DESIGN PROCESS:</h1><br>
 
 
 In this project, I served on a team of roughly 6 IBMers who worked to create an application to educate an audience about the capabilities and benefits, and a bit about the innerworkings, of the **IBM Watson Conversation Service**.<br><br> Though it has since been renamed to the IBM Watson Assistant, the Watson Conversation Service (or 'WCS', as you might encounter me calling it at some point during this case study) is still _the_ Watson Service for creating Conversational Agents...<br> or, as they're more commonly called, **Chatbots**.<br><br>
