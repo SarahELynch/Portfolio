@@ -618,7 +618,7 @@ section h3.section-subheading {
   /* font-weight: bold; */
   font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 16px;
-  padding-left: 20px;
+  padding-left: 12px;
 }
 
 @media(min-width:768px) {

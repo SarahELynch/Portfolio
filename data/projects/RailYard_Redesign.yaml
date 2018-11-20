@@ -94,25 +94,12 @@ A major part of the effort in beginning my role in this project was performing a
 
 A large focus of the evaluation that touched on both the  Home Page and dashboard was the level of feedback and understandability surrounding the search bar, the list of suggested addresses that appears as the user types, and whether the address selected matches the address displayed on the dashboard.<br><br>
 
-![Screenshot of Home Page showing search bar](/img/portfolio/RailYard/Home_Page_Screenshot.png)<br><br>
+![Gif Depicting Address Suggestion/Selection & Flow to the Dashboard](/img/portfolio/RailYard/600_congress.gif)<br>
 
-The user receives a list of suggested addresses as they are typing.<br><br>
-
-![Screenshot of Home Page with suggested address dropdown open](/img/portfolio/RailYard/Home_Page_Screenshot_600_congress_suggested_dropdown.png)<br><br>
-
-The user selects one of the suggested addresses... <br><br>
-
-![Screenshot of Home Page with 600 Congress Ave selected](/img/portfolio/RailYard/Home_Page_Screenshot_600_congress_selected.png)<br><br>
-
-and then hits 'go'...<br><br>
-
-![Screenshot of Home Page with Go Button on search bar darkend from clicking](/img/portfolio/RailYard/Home_Page_Screenshot_600_congress_GO_clicked.png)<br><br>
-
-and is taken to the dashboard...<br><br>
-
-![Screenshot of Dashboard displaying ISP availability for a displayed address](/img/portfolio/RailYard/Dashboard_Screenshot_600_congress.png)<br><br>
-
-...where the address displayed does not exactly match the address the user just selected from the suggested list.<br><br>
+**1.** The user receives a list of suggested addresses as they are typing.<br>
+**2.** The user selects one of the suggested addresses,<br>
+**3.** and then hits 'go',<br>
+**4.** and is taken to the dashboard, where the address displayed does not exactly match the address the user just selected from the suggested list.<br><br>
 
 ![Image Comparing Address entered in search bar to Address displayed on Dashboard](/img/portfolio/RailYard/Screenshots_comparing_addresses.png)<br><br>
 
@@ -122,18 +109,12 @@ In addition to the inconsistencies in suggested and displayed addresses, there w
 The list of addresses that was generated to populate the list in the suggeted auto-complete dropdown was **not identical** to the list of addresses for which RailYard actually has internet service provider data.<br><br>
 
 
-In other words, it was possible for a user to start typing an address, select an auto-completed address suggested to them in the dropdown list...<br><br>
+In other words, it was possible for a user to start typing an address, select an auto-completed address suggested to them in the dropdown list, and then attempt to hit 'Go'...<br><br>
 
-![Screenshot of Home Page with suggested addresses for 100 Metric](/img/portfolio/RailYard/Home_Page_Screenshot_100_metric_suggested_dropdown.png)<br><br>
-![Screenshot of Home Page with 100 Metric Blvd selected](/img/portfolio/RailYard/Home_Page_Screenshot_100_metric_selected.png)<br><br>
-
-
-and then attempt to hit 'Go' . . . <br><br>
-
-![Screenshot of Home Page with no feedback about invalid address](/img/portfolio/RailYard/Home_Page_Screenshot_100_metric_GO_clicked.png)<br><br>
-![Screenshot of Home Page with 100 Metric Blvd selected](/img/portfolio/RailYard/Home_Page_Screenshot_100_metric_selected.png)<br><br>
+![Gif Depicting Address Completion for 100 Metric and Selection](/img/portfolio/RailYard/100_metric.gif)<br><br>
 
 . . . and end up very confused because nothing would happen.<br><br>
+
 100 Metric Boulevard might be a legitimate address in Austin, TX, but RailYard does not have any data on internet service provider plans available to businesses for this address.<br>
 The user would receive no feedback about what was wrong with the entered address, whether the 'Go' button was enabled or disabled, or what the site was doing, if anything, with the entered address.<br><br>
 
