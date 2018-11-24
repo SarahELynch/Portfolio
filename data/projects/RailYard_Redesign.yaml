@@ -36,7 +36,7 @@ description: "**TEAM:** 3 UX Designers<br>
 <div class=\"summary_and_jumps\">
   <div id=\"case_study_btn_grp\" class=\"flex-container\">
     <a href=\"#as_is_assessment\" class=\"case_study_button\"><button> As-Is Heuristic Assessment </button></a> <br>
-    <a href=\"#info_arch\" class=\"case_study_button\"><button> Information Architecture </button></a> <br>
+    <a href=\"#ry_info_arch\" class=\"case_study_button\"><button> Information Architecture </button></a> <br>
     <a href=\"#wireframes\" class=\"case_study_button\"><button> Wireframes </button></a> <br>
     <a href=\"#user_flow_diagrams\" class=\"case_study_button\"><button> User Flow Diagrams </button></a> <br>
     <a href=\"#user_testing_diagrams\" class=\"case_study_button\"><button> User Testing Plan Strategy </button></a> <br>
@@ -157,7 +157,7 @@ My team used this usability assessment to ensure we addressed the major areas re
 
 
 
-<h3 id=\"info_arch\" > INFORMATION ARCHITECTURE</h3>
+<h3 id=\"ry_info_arch\" > INFORMATION ARCHITECTURE</h3>
 
 
 Our stakeholders had already begun brainstorming and composing new content to propose for the new  Home Page. There was a lot of information that they handed over to us, so I lead my team in sifting through the information and isolating what sections of content we should include, and which could be deprioritized. In prioritizing information, we put ourselves in our users' shoes and made sure we empathized with our Personas' needs.<br><br>
