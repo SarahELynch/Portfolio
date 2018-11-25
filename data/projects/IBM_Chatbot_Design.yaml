@@ -35,7 +35,7 @@ description:
 <h3 id=\"chatbot_sections\" > Sections:</h3><br>
 <div class=\"summary_and_jumps\">
   <div id=\"case_study_btn_grp\" class=\"flex-container\">
-    <a href=\"#designing_the_dialog\" class=\"case_study_button\"><button>Designing The Dialog</button></a><br>
+    <a class=\"page-scroll\" href=\"#designing_the_dialog\" ><button>Designing The Dialog</button></a><br>
     <a href=\"#def_user_success\" class=\"case_study_button\"><button>Defining User Success</button></a><br>
     <a href=\"#flow_diagram\" class=\"case_study_button\"><button>User Flow Diagram</button></a><br>
     <a href=\"#dialog_design_spec\" class=\"case_study_button\"><button>Chatbot Dialog Design Specification</button></a><br>
@@ -265,7 +265,7 @@ This is where I started when I began constructing an Intent framework to organiz
 <br><br><br>
 
 
-<h3 id=\"def_data_hierarchy\" > Defining a Hierarchicy of Training Data (Intents vs. Entities)</h3><br>
+<h3 id=\"def_data_hierarchy\" > Defining a Hierarchicy of Training Data (Intents vs. Entities)</h3>
 
 There were two levels of hierarchy to the organization of training data used to train our 311 Bot.<br>
 The first level consisted of the list of 'Intents' that our bot could use to classify issue reports.<br><br>
