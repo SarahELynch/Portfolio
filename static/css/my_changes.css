@@ -657,6 +657,10 @@ section h3.section-subheading {
   font-size: 16px;
 }
 
+.modal-body hr {
+  border-width: 2px;
+}
+
 @media(min-width:768px) {
     .timeline:before {
         left: 50%;

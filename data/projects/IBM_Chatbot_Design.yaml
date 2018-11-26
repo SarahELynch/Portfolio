@@ -26,13 +26,25 @@ description:
 - Implementing Chatbot back-end<br>
 - Assessing UX quality of Chat Interaction<br><br>
 
+**SKILLS DEMONSTRATED:**<br> Interaction Design, Content Strategy, Crafting Chatbot Design Spec, User Flow Diagramming, User Error Prevention & Handling<br> Data gathering, Iterative ML Training<br> Implementing WCS Chatbot programmatically (Node.js) <br><br>
 
-**PROBLEM**: Design & Implement an application to educate stakeholders on Watson Conversation Service <br>
-**SOLUTION**: Create an application simulating a 311 Issue Reporting System, using a 311 Operator Chatbot <br><br>
+<hr><br>
 
-**SKILLS DEMONSTRATED:**<br> Interaction Design, Content Strategy, Crafting Chatbot Design Spec, User Flow Diagramming, User Error Prevention & Handling<br> Data gathering, Iterative ML Training<br> Implementing WCS Chatbot programmatically (Node.js) <br>
+<h2 id=\"311_chatbot_summary\" > 311 Chatbot Project Summary</h2><br><br>
+![Design Problem Graphic](/img/portfolio/311_Chatbot/Problem.png)<br>
+<p>Design & Implement an application to educate clients on Watson Conversation Service.</p> <br><br>
 
-<h3 id=\"chatbot_sections\" > Sections:</h3><br>
+![Design Hypothesis Graphic](/img/portfolio/311_Chatbot/Hypothesis.png)<br>
+<p>Clients will learn more easily if they can interact with an example WCS Chatbot.</p><br><br>
+
+![Design Solution Graphic](/img/portfolio/311_Chatbot/Solution.png)<br>
+<p>Create an application simulating a 311 Issue Reporting System, using a 311 Operator Chatbot.</p><br>
+
+<hr>
+<br>
+
+<h3 id=\"chatbot_sections\" > Case Study Sections</h3>
+<h4 id=\"jump_links_title\" > Jump Links:</h4><br>
 <div class=\"summary_and_jumps\">
   <div id=\"case_study_btn_grp\" class=\"flex-container\">
     <a class=\"page-scroll\" href=\"#designing_the_dialog\" ><button>Designing The Dialog</button></a><br>
@@ -49,10 +61,13 @@ description:
     </div>
 </div>
 <a href=\"#chatbot_sections\" class=\"sections_jump\"><button>Go to Sections</button></a><br>
-<br><br><br>
+
+<hr>
+
+<br><br>
 
 
-<h1 id=\"project_intro\" > 311 CHATBOT DESIGN PROCESS:</h1><br>
+<h1 id=\"project_intro\" > 311 BOT DESIGN PROCESS:</h1><br>
 
 
 In this project, I served on a team of roughly 6 IBMers who worked to create an application to educate an audience about the capabilities and benefits, and a bit about the innerworkings, of the **IBM Watson Conversation Service**.<br><br> Though it has since been renamed to the IBM Watson Assistant, the Watson Conversation Service (or 'WCS', as you might encounter me calling it at some point during this case study) is still _the_ Watson Service for creating Conversational Agents...<br> or, as they're more commonly called, **Chatbots**.<br><br>
