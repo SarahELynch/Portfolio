@@ -165,22 +165,22 @@ Our biggest challenge with prioritizing information for the Home Page was to inc
 
 <h4 id=\"home_page_site_map\" > Home Page Site Map</h4>
 
-Here is the **Home Page Site Map** to depict the content and organization we arrived at:<br><br>
+<p>Here is the **Home Page Site Map** to depict the content and organization we arrived at:</p><br>
 ![Redesigned RailYard Home Page Site Map](/img/portfolio/RailYard/HomePage_Site_Map.png)<br><br>
 
-You can see that we decided to keep the search bar (the way to get from the Home Page to the Dashboard) as a highly prioritized piece of information on the Home Page. This choice was motivated by our UX Goal of maintaining a quality user experience for the Small Business Owner.<br><br>
+<p>You can see that we decided to keep the search bar (the way to get from the Home Page to the Dashboard) as a highly prioritized piece of information on the Home Page. This choice was motivated by our UX Goal of maintaining a quality user experience for the Small Business Owner.<br><br>
 
 An interesting development during this project, from an Information Architecture standpiont, was the evolution of the two sections you see in the site map titled **'Targeted Offerings'** and **'User Benefits'**.<br>
 We had originally proposed these sections as described with the phrases, 'How it Works' and 'What You Get', and we called these sections by those colloquial names.<br><br>
 As the project developed and we corresponded with our stakeholders, the content included in these sections morphed conceptually into what was better described as the phrases you see in the Site Map.<br>
 This transformation happened rather organically, as we received copy from our stakeholders and iterated on the design.<br><br>
-The change in nature of these two sections of information required me, as the IA on our team, to ensure that the content included in them still served a clear purpose and targeted our User Personas' needs and goals.<br><br><br>
+The change in nature of these two sections of information required me, as the IA on our team, to ensure that the content included in them still served a clear purpose and targeted our User Personas' needs and goals.</p><br><br>
 
 <h4 id=\"dashboard_site_map\" > Dashboard Site Map</h4>
 
-In regard to creating a site map for the Dashboard, we were able to make use of the types of information included in RailYard's original dashboard, leaving us room to think about how to ensure that the user had just one clear avenue to accomplish each task. <br><br>
+<p>In regard to creating a site map for the Dashboard, we were able to make use of the types of information included in RailYard's original dashboard, leaving us room to think about how to ensure that the user had just one clear avenue to accomplish each task. <br><br>
 Including too many disaprate avenues to accomplish similar tasks was a major area where the original Dashboard needed improvement, as noted in my 'Understandability' assessment.<br><br>
-You can see how we've provided the user with only one clear path for each type of task in our **Dashboard Site Map**, below:<br><br>
+You can see how we've provided the user with only one clear path for each type of task in our **Dashboard Site Map**, below:</p><br>
 
 ![Redesigned RailYard Dashboard Site Map](/img/portfolio/RailYard/Dashboard_Site_Map.png)<br><br>
 <br><br><br>
@@ -212,18 +212,18 @@ Some of my added micro-interactions/transitions, and some copy edits, included:<
 
 <h4 id=\"address_auto_completion\" > Address Auto-Completion and Traveling to the Dashboard</h4>
 
-A large focus oaf mine regarding the work on the wireframes for this project was on improving the user experience surrounding typing an address, receiving address suggestions, and selecting and submitting an address in order to travel to the RailYard Dashboard.<br>
-The below graphic depicts what that flow looks like in the prototype.<br><br>
+<p>A large focus oaf mine regarding the work on the wireframes for this project was on improving the user experience surrounding typing an address, receiving address suggestions, and selecting and submitting an address in order to travel to the RailYard Dashboard.<br>
+The below graphic depicts what that flow looks like in the prototype.</p><br>
 
 ![Graphic depicting address suggestion and selection user flow](/img/portfolio/RailYard/Address_Suggestion_Graphic.png)<br><br>
 
-One more area of note surrounding the search bar prototype work is regarding the 'Go' button in the search bar on the dashboard.<br>
+<p>One more area of note surrounding the search bar prototype work is regarding the 'Go' button in the search bar on the dashboard.<br>
 Originally in our prototype, we included a 'Go' button in the search bar on the dashboard that looked very similar to the button on Home Page's search bar.<br><br>
 We received some feedback during user testing that the 'Go' button would potentially be misleading for a user upon first arriving on the Dashboard after submitting an address on the Home Page, because it would cause the user to think they needed to click 'Go' again.<br>
 We played around with the idea of making the 'Go' button appear disabled when an address had been submitted successfully, and appearing re-enabled when the user clicked the search bar input field to change the address.<br>
 We also considered removing the 'Go' button until the user clicked the search bar input field to change the address.<br><br>
 
-I'll cover more on user testing and subsequent user feedback on the prototype later on in this case study.
+I'll cover more on user testing and subsequent user feedback on the prototype later on in this case study.</p>
 
 <br><br><br><br><br>
 
@@ -289,7 +289,7 @@ After discussing with our stakeholders, we felt that 'Reason for Shopping' match
 
 <h3 id=\"user_testing_findings\" > User Testing Findings</h3>
 
-In addition to conducting card sort exercises, we tested the functionality of our prototype during our user tests.<br>
+<p>In addition to conducting card sort exercises, we tested the functionality of our prototype during our user tests.<br>
 The summary of our findings from observing users during testing, and listening to their feedback during and after testing, is as follows:<br><br>
 
 - Users had trouble finding contact information for help<br>
@@ -300,8 +300,8 @@ The summary of our findings from observing users during testing, and listening t
 - Thought the side bar was hard to see ('way too small')<br>
 - When the user returns to the dashboard tab from a provider site, scroll position should be maintained<br>
 - Icon depicting 'IT Services' on Dashboard provider tile should be a different icon<br>
-- 'IT Services' not a clear name - confusion around what that meant ('Help desk', troubleshooting help, hardware help, etc.)<br>
-- Unclear how 'Reason for Shopping' filter would alter the data displayed on dashboard<br>
+- 'IT Services' not a clear name - confusion around what that meant ('Help desk', troubleshooting, hardware help, etc.)<br>
+- Unclear how 'Reason for Shopping' filter would alter the data displayed on dashboard</p>
 <br><br><br><br>
 
 
