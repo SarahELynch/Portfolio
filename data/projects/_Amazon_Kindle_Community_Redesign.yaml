@@ -20,12 +20,28 @@ description: "**TEAM:** 3 UX Designers<br>
 - Card Sorting<br>
 - Synthesis of data from Usability Testing<br><br>
 
-**PROBLEM:** Increase Customer Engagement by redesigning the Community feature of the Amazon Kindle app<br>
-**SOLUTION:** Design a forum-based discussion platform to replace the current Community feature<br><br>
+**SKILLS DEMONSTRATED:**<br> Card Sorting, Site (App) Mapping, User Flow Diagramming, User Interviews, Usability Testing, Data Synthesis
 
-**SKILLS DEMONSTRATED:** Card Sorting, Site (App) Mapping, User Flow Diagramming, User Interviews, Usability Testing, Data Synthesis
+<hr><br><br>
 
-<h3 id=\"kindle_comm_sections\" > Sections:</h3><br>
+<h1 id=\"Kindle_Community_summary\" > Kindle Community Project Summary</h1><br><br><br>
+![Design Problem Graphic](/img/portfolio/Kindle_Community/Design_Problem.png)<br>
+<p>Kindle iOS App users are **dissatisfied** with the current \"Community\" feature.<br><br>
+The Community feature is a wrapper for a pared-down version of **Goodreads**, a company bought by Amazon in 2013.<br><br>
+It enables users to view and comment on **book reviews**.**</p> <br><br>
+
+![Design Hypothesis Graphic](/img/portfolio/Kindle_Community/Design_Hypothesis.png)<br>
+<p>**OUR HYPOTHESIS:** Kindle App users would rather have the ability to read & participate in **discussions** on books with other readers.</p><br><br>
+
+![Design Solution Graphic](/img/portfolio/Kindle_Community/Design_Solution.png)<br>
+<p>Design a **forum-based discussion platform** to replace the current Community feature.<br><br>
+Enable users to find, read, and participate in discussion about books.</p><br>
+
+<br><hr><br>
+
+
+<h3 id=\"kindle_comm_sections\" > Case Study Sections</h3>
+<h4> Jump Links:</h4><br>
 <div class=\"summary_and_jumps\">
   <div id=\"case_study_btn_grp\" class=\"flex-container\">
     <a href=\"#user_personas\" class=\"case_study_button\"><button> User Personas </button></a> <br>
