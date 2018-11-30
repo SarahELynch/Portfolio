@@ -50,6 +50,7 @@ Improve **look & feel** and **content** to target Marketing Personas, while also
 <h4> Jump Links:</h4><br>
 <div class=\"summary_and_jumps\">
   <div id=\"case_study_btn_grp\" class=\"flex-container\">
+    <a href=\"#sbo_interview\" class=\"case_study_button\"><button> Interview with Small Business Owner </button></a> <br>
     <a href=\"#as_is_assessment\" class=\"case_study_button\"><button> As-Is Heuristic Assessment </button></a> <br>
     <a href=\"#ry_info_arch\" class=\"case_study_button\"><button> Information Architecture </button></a> <br>
     <a href=\"#wireframes\" class=\"case_study_button\"><button> Wireframes </button></a> <br>
@@ -104,12 +105,14 @@ Now let's move on to considering the original RailYard dashboard, as it appeared
 ![Screenshot of RailYard Dashboard](/img/portfolio/RailYard/Dashboard_Screenshot_600_congress.png)<br><br>
 
 RailYard indicated that they were aware that their primary user base for their dashboard was the Small Business Owner, as the dashboard was the primary way for a user to find information on service provider availability at their business address.<br><br>
-I wanted to validate the needs and goals of this primary user base, so I recruited a small business owner who had recently worked with an Internet Service Provider to set up internet for their business's new office, and set up a phone interview.<br><br>
+I wanted to validate the needs and goals of this primary user base, so I recruited a small business owner who had recently worked with an Internet Service Provider to set up internet for their business's new office, and set up a phone interview.<br><br><br>
 
-**Interview with Small Business Owner**<br><br>
+<h3 id=\"sbo_interview\" > Interview with Small Business Owner</h3><br>
 
-I asked this small business owner about his experience finding internet service providers available in the area, and working with the provider to sign a contract and get the internet service set up. <br><br>
-The summary of his experience is as follows:<br>
+<p>I asked this small business owner about his experience finding internet service providers available in the area, and working with the provider to sign a contract and get the internet service set up.</p><br>
+![Quotes from Small Business Owner Interview](/img/portfolio/RailYard/SBO_interview_graphic.png)<br><br>
+
+<p>The summary of his experience is as follows:<br>
 - Signed up with Provider that the employees used for residential service - no research.<br>
 - Signed contract for a plan on sale at the time - did not assess business usage needs.<br>
 - Highly suspects current plan is for more speed than the business actually needs.<br>
@@ -117,14 +120,14 @@ The summary of his experience is as follows:<br>
 - Suspects they don’t get the speed they pay for - dedicated vs. shared, unclear?<br><br>
 
 I also asked this small business owner: <br>**'If you could go back in time and could have had somebody to give you helpful advice during the process ...<br> ... what would you have wanted to know?'**<br><br>
-His answers were:<br>
-- “A way to see available providers all in one place”<br>
-- “Someone to tell me what our business needed for speed and other requirements”<br><br>
+Here was what he said:</p>
+![Small Business Owner Interview Conclusions](/img/portfolio/RailYard/SBO_conclusion.png)<br><br>
 
-My team used this interview to construct a User Persona representing the **Small Business Owner**:<br><br>
+
+<p>My team used this interview to construct a User Persona representing the **Small Business Owner**:</p><br>
 ![Small Business Owner User Persona](/img/portfolio/RailYard/Cassandra_User_Persona.png)<br><br>
 
-We endeavored to keep this persona 'front and center' in our minds throughout this redesign project.<br> This persona represented the main user base who would be using the most interactive elements of this redesign, so a lot of my work focused on the user experience of this User Persona.<br><br><br><br><br>
+<p>We endeavored to keep this persona 'front and center' in our minds throughout this redesign project.<br> This persona represented the main user base who would be using the most interactive elements of this redesign, so a lot of my work focused on the user experience of this User Persona.</p><br><br><br><br>
 
 
 
@@ -210,16 +213,19 @@ We did a couple design studio exercises as a team to come up with the basic idea
 Then, my teammates lead the effort on mocking up some first-iteration wireframes for the Home Page and Dashboard.<br><br>
 Once they had some preliminary wireframes in place, I assisted with making additions to the wireframes needed to make a prototype feel realistic, which not-so-coincidentally were also the types of micro-interactions and transitions needed to carefully examine and design the experience of each User Persona's flow through the interaces.<br><br>
 
-Some of my added micro-interactions/transitions, and some copy edits, included:<br>
-- Home Page: Adding transition screens to simulate address auto-complete suggestion<br>
-- Dashboard: Ensuring that the address displayed matches the address selected in auto-complete suggestion list on Home Page<br>
-- Dashboard: Adding a hover state description to the icons depicting types of services offered by a provider<br>
-- Dashboard: Adding dropdowns for filters with appropriate checkboxes/single select patterns<br>
-- Dashboard: Mark to indicate provider(s) viewed so far when returning to dashboard from provider site<br>
-- Dashboard: Adding a prompt at the top of the 'Get in Touch' modal<br>
-- Dashboard: Altering 'Schedule a Call' to 'Schedule a Chat' in 'Get in Touch' modal, based on Stakeholder feedback in prior meetings<br>
-- Dashboard: Added screens to depict a 'Get a Quote' user flow, from the 'Get in Touch' modal<br>
-- Home Page & Dashboard: alignment adjustments, font size corrections<br><br>
+**Summary of my additions to the Wireframes:**<br><br>
+**Home Page:**<br>
+- Adding transition screens to simulate address auto-complete suggestion<br><br>
+**Dashboard:**<br>
+- Ensuring that the address displayed matches the address selected in auto-complete suggestion list on Home Page<br>
+- Adding a hover state description to the icons depicting types of services offered by a provider<br>
+- Adding dropdowns for filters with appropriate checkboxes/single select patterns<br>
+- Mark to indicate provider(s) viewed so far when returning to dashboard from provider site<br>
+- Adding a prompt at the top of the 'Get in Touch' modal<br>
+- Altering 'Schedule a Call' to 'Schedule a Chat' in 'Get in Touch' modal, based on Stakeholder feedback in prior meetings<br>
+- Added screens to depict a 'Get a Quote' user flow, from the 'Get in Touch' modal<br><br>
+**Home Page & Dashboard:**<br>
+- Alignment adjustments, font size corrections<br><br>
 
 **Click the following wireframe snippets to view our wireframe prototype:**<br>
 (HINT: You might want to right-click and 'Open in New Tab')<br><br>
@@ -267,13 +273,16 @@ Here's a look at the **User Flows for Cassandra**, our Small Business Owner Pers
 I used the above User Flow diagrams to devise a User Testing Plan for my team.<br>
 To do this, I isolated points along each User Flow that depicted a testable action, and created second versions of the User Flow diagrams to bring emphasis to these actionable points.<br><br>
 
+![Diagram depicting Cassandra's User Flow with isolated Testing Tasks](/img/portfolio/RailYard/BO_user_flow.gif)<br><br>
+
+I did this process for each User Persona: **Cassandra, Jack, and Steve**.<br>
+For the sake of conciseness, here's a good look at just Cassandra's User Flow diagrams with Testing Tasks isolated:<br><br>
+
 ![Diagram depicting Cassandra's User Flow with isolated Testing Tasks](/img/portfolio/RailYard/User_Flow_BO_with_tasks.png)<br><br>
 
+And Cassandra's User Flow for 'Getting in Touch' on the Dashboard:<br><br>
+
 ![Diagram depicting Cassandra's User Flow for Getting In Touch with isolated Touch Testing Tasks](/img/portfolio/RailYard/User_Flow_BO_Get_In_Touch_with_tasks.png)<br><br>
-
-![Diagram depicting Provider's User Flow with isolated Testing Tasks](/img/portfolio/RailYard/User_Flow_Provider_recolored_with_tasks.png)<br><br>
-
-![Diagram depicting CRE Listing's User Flow with isolated Testing Tasks](/img/portfolio/RailYard/User_Flow_CRE_recolored_with_tasks.png)<br><br>
 
 This diagramming process was done to ensure that we were testing the right functionality and motivations to represent what our User Personas would actually want to do in the interfaces. <br>
 We took this testing plan and strategy, and moved on to testing our prototype with users.<br><br><br><br><br>
@@ -327,9 +336,9 @@ The summary of our findings from observing users during testing, and listening t
 
 We took the above user testing findings and made changes to our design of the Dashboard.<br><br>
 
-**Dashboard, Version 1:**<br><br>
+**Dashboard, Version 1 & 2:**<br><br>
 
-![Graphic depicting changes to Dashboard Version 1](/img/portfolio/RailYard/iteration_on_design_dashboard_v1.png)<br><br>
+![Gif depicting changes to Dashboard Version 1 to Version 2](/img/portfolio/RailYard/iteration_dashboard.gif)<br><br>
 
 Changes between Version 1 and 2:<br><br>
 
@@ -341,10 +350,6 @@ Changes between Version 1 and 2:<br><br>
 **6.** Added an explanation of Dedicated vs. Shared<br>
 **7.** Moved the helpful tips to the “Know Before You Go” modal<br>
 **8.** Replaced the filters on the Dashboard with summary of services available at that address; filters moved to 'Know Before You Go' modal<br><br>
-
-**Dashboard, Version 2:**<br><br>
-
-![Graphic depicting changes to Dashboard Version 2](/img/portfolio/RailYard/iteration_on_design_dashboard_v2.png)<br><br>
 
 **'Know Before You Go' Modal, Version 2:**<br><br>
 
@@ -403,9 +408,9 @@ In general, users' expectations of what would happen when they cliked the button
 Users are taken to the RailYard dashboard to view internet service provider information for the address of the office they had been viewing on the CRE Listing site.<br><br>
 
 Users expected the label on the button to say:<br>
-  **1. 'See more providers on RailYard'**<br>
-  or<br>
-  **2. 'See more prices on RailYard'**<br><br>
+  **1. 'See more providers on RailYard'** or **2. 'See more prices on RailYard'**<br><br>
+
+![Widget Button Feedback Graphic](/img/portfolio/RailYard/Widget_button_feedback.png)<br><br>
 
 I reported a summary of these findings to our stakeholders in hopes that they could be better informed on how to improve the user experience of business owners traveling to their dashboard from a CRE Listing site.<br><br><br><br><br>
 
