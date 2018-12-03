@@ -1,5 +1,5 @@
 modalID: 3
-title: RailYard (Telecom Aggregator)
+title: RailYard
 subtitle: Web presence redesign project for Austin-based telecom provider aggregator company, RailYard.
 date: September 2018
 img: RailYard/RY_Icon_transparent_bkgrnd_small.png
@@ -202,7 +202,7 @@ Our biggest challenge in doing this was to ensure that each of our User Personas
 Here is the **Home Page Site Map** to depict the content and organization we arrived at:</p><br>
 ![Redesigned RailYard Home Page Site Map](/img/portfolio/RailYard/HomePage_Site_Map.png)<br><br>
 
-<p>We decided to highly prioritize the search bar o the Home Page.<br>
+<p>We decided to highly prioritize the search bar on the Home Page.<br>
 All three of our User Personas could benefit from the ability to quickly access the RailYard Dashboard from the Home Page.<br><br>
 
 **\"Target Offerings\" and \"User Benefits\"**<br><br>
@@ -334,7 +334,7 @@ To conduct these Card Sorts, I presented each participant of our user tests with
 <p>The summary of the participants' feedback on the names of these categories were:<br>
 **'Primary Usage'** for the first category,<br>
 and a tie between **'Reason for Shopping'** and **'Primary Need'** for the second category.<br><br>
-After discussing with our stakeholders, we felt that, for this second category, **'Reason for Shopping'** matched the tone the company wished to portray to their users.
+After discussing with our stakeholders, we settled on **'Reason for Shopping'** for this second category.
 
 </p><br><br><br><br>
 
@@ -455,7 +455,7 @@ I made the following mock-up of the RailYard widget to present to participants o
 
 <p>I asked users to tell me what they expected to happen if they clicked on the widget's button, and, consequently, what they expected the button's label to say.<br><br>
 
-In general, users' expectations of what would happen when they clicked the button were pretty representative of what actually does happen, currently:<br>
+We were reassured to learn that users' expectation of what would happen when they clicked the button matched what actually _does_ happen:<br>
 Users are taken to the RailYard dashboard to view internet service provider information for the address of the office they had been viewing on the CRE Listing site.<br><br>
 
 Users expected the label on the button to say:<br>
@@ -474,7 +474,7 @@ Users expected the label on the button to say:<br>
 <h3 id=\"next_steps\"> Next Steps</h3>
 
 
-We only had 3 weeks to complete this web presence redesign project, so we did our best to get to an MVP in that time. Here is what we would have done next, if we had had time to begin a second iteration.<br><br>
+We only had 3 weeks to complete this web presence redesign project, so we did our best to get to an MVP ('Minimal Viable Product') in that time. Here is what we would have done next, if we had had time to begin a second iteration.<br><br>
 
 
 <h4 id=\"copy_validation\"> Home Page Copy Validation</h4>
