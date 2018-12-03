@@ -613,7 +613,7 @@ section h3.section-subheading {
 } */
 
 .modal-content .summary_and_jumps #case_study_btn_grp button {
-  background-color: none;
+  background-color: white;
   color: #333;
   border: none;
   margin: 2px;
@@ -625,10 +625,28 @@ section h3.section-subheading {
   padding-left: 12px;
 }
 
+
 @media(min-width:768px) {
   .modal-content .summary_and_jumps #case_study_btn_grp button {
-    transition: padding .3s;
+    /* transition: padding .3s; */
+    background-color: white;
+    color: #333;
+    border: none;
+    margin: 2px;
+    /* border-radius: 4px; */
+    /* text-decoration: underline; */
+    /* font-weight: bold; */
+    font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    padding-left: 12px;
   }
+
+  .modal-content .summary_and_jumps #case_study_btn_grp button:hover {
+    /* text-decoration: underline; */
+    font-weight: bold;
+    border-left: 1px solid #333;
+  }
+
 }
 
 .modal-content .summary_and_jumps #case_study_btn_grp button:hover {
