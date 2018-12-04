@@ -66,45 +66,68 @@ description:
 
 <br><br>
 
-
+<p>
 <h1 id=\"project_intro\" > 311 BOT DESIGN PROCESS:</h1><br>
+</p>
+
+<p>
+In this project, I served on a team of roughly 6 IBMers who worked to create an application meant to educate potential clients on the technology underlying the **IBM Watson Conversation Service**.
+
+![WCS Logo](/img/portfolio/311_Chatbot/wcs_logo_small.png)</p>
+
+<p>Though it has since been renamed to the IBM Watson Assistant, the Watson Conversation Service (or 'WCS', as i'll refer to it in this case study) is still _the_ Watson Service for creating Conversational Agents...<br> or, as they're more commonly called, **Chatbots**.<br><br>
+
+We decided to design an application simulating a 311 Issue-Report Routing System.<br><br>
+
+The interactive element of the application would be a 311 Operator Chatbot.<br><br>
+
+We knew that humans learn best by doing things themselves, practicing, using trial-and-error, etc.<br>
+**So, it made sense to create a real chatbot that users could interact with.**<br><br>
+
+We thought an **Operator Chatbot** would be a familiar, relatable type of chat experience, leaving clients' cognitive energy available for learning about **classification**, **training**, and **dialog design**.</p><br>
 
 
-In this project, I served on a team of roughly 6 IBMers who worked to create an application to educate an audience about the capabilities and benefits, and a bit about the innerworkings, of the **IBM Watson Conversation Service**.<br><br> Though it has since been renamed to the IBM Watson Assistant, the Watson Conversation Service (or 'WCS', as you might encounter me calling it at some point during this case study) is still _the_ Watson Service for creating Conversational Agents...<br> or, as they're more commonly called, **Chatbots**.<br><br>
 
-We decided that designing an application project simulating a 311 Issue-Report Routing scenario would enable us to create a 311 Operator Chatbot, which would allow us to show the capabilities of Watson Conversation Service in regard to both classification accuracy and consistency and dialog flexibility.<br><br><br>
-
+<p>
 <h3 id=\"def_user_bases\" > Defining our User Base(s)</h3><br>
+</p>
+
+<p>
+One of the keys to our 311 Reporting Application's success was to ensure we had the correct user base in mind.<br><br>
+
+IBM's goal in presenting these applications wsas to encourage the adoption of IBM's services and technologies.<br><br>
+
+Our application's intended audience was:<br>
+**Executive Representatives of large Companies.**<br><br>
+
+So, here we have our **User Base #1**.</p><br>
+
+![Executive Rep User Persona](/img/portfolio/311_Chatbot/Robert_Persona.png)<br><br><br>
 
 
-One of the challenges presented to my team during this project was the fact that our user base was split into two groups.<br>
-The team I worked on during this project was primarily focused on creating applications to be presented to potential clients interested in learning more about IBM Watson's services and offerings.<br><br>
-These applications were thus targeted to an audience of CEO's, and other executives and representatives, of large companies interested in partnering with IBM to deepen and grow their own company's technological capabilites.<br><br>
+<p>However, one important catch:<br><br>
 
-So, it logically follows that a user base for this project would be representative of exactly this type of user: CEO of large company seeking to learn about IBM Watson.<br>
-This was our **User Base #1**.<br><br>
+These applications were presented by IBM employees called Engagement Leaders, who walked the clients through applications and answered any & all of their questions.<br><br>
 
-However, this wasn't the only group of users our application development needed to target.<br>These applications were meant to be presented to these potential clients by an IBM employee called an **Engagement Leader**, who was in charge of walking the client through the application.<br><br> In other words, this Engagement Leader was responsible for presenting the information in the application, walking through the app's storyline, clarifying any of the more technical aspects of the technology being presented, and answering _any_ client questions, as best as they could.<br>
-Engagement Leaders were **User Base #2** for my team's WCS demo project.<br><br>
+Enter, **User Base #2:**</p><br>
 
-My team realized that it was not only our job to create a great application, but also to keep in mind the needs and goals of both our target user bases.<br>
-If we empowered the Engagement Leader to be able to give the best presentation possible, they could then empower their audience (the client) to grasp the potentially complex topic of Watson Conversation Service.<br><br>
+![Engagement Leader User Persona](/img/portfolio/311_Chatbot/Gwen_Persona.png)<br><br>
 
-If we provided the best possible user experience for User Base #2, the Engagement Leader, we could improve the experience of User Base #1, the Client.<br><br>
+<p>Easy, right? Two user bases.<br><br>
 
-Armed with the knowledge of the interrelatedness of our user bases' needs and goals, I crafted the following User Personas for my team:<br><br>
+Well, maybe.<br>
+Here's the **key** ... <br>
+</p>
 
-**Primary User Persona: Gwen**<br>
-![Primary User Persona - Gwen](/img/portfolio/311_Chatbot/Gwen_Persona.png)<br><br>
+![User Base Key Graphic](/img/portfolio/311_Chatbot/user_base_key.png)<br><br>
 
-Because improving the experience of the Engagement Leader directly improved the experience of the Client, we decided to consider the Engagement Leader our **Primary User Persona**.<br><br>
+<p>Robert, our potential Client, benefits from viewing well-designed demo applications, yes.<br>
+But, he benefits even more from _truly excellent_ **presentations** of well-designed demo applications.<br><br>
 
-**Secondary User Persona: Robert**<br>
-![Secondary User Persona - Robert](/img/portfolio/311_Chatbot/Robert_Persona.png)<br><br>
+So, if we enabled Gwen to present our application as well as possible, we could provide Robert with the **best** user experience.<br><br>
 
-While the Client might be our **Secondary User Persona**, it didn't mean that the needs and goals of this persona were any less important.<br><br>
-
-Balancing the needs of each Persona was a major focus of crafting the UX of this immersive demo application.<br><br><br><br><br>
+And, that meant that I needed to target Gwen's user experience with my chatbot design.<br>
+Gwen would be the primary user of 311 Bot during her presentation of our application.</p><br><br><br>
 
 
 <h2 id=\"designing_the_dialog\" > Designing the Dialog</h2>
