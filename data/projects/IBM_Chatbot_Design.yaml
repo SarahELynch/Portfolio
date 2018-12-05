@@ -102,7 +102,7 @@ Our application's intended audience was:<br>
 
 So, here we have our **User Base #1**.</p><br>
 
-![Executive Rep User Persona](/img/portfolio/311_Chatbot/Robert_Persona.png)<br><br><br>
+![Executive Rep User Persona](/img/portfolio/311_Chatbot/Robert_Persona.png)<br><br>
 
 
 <p>However, one important catch:<br><br>
@@ -130,23 +130,28 @@ And, that meant that I needed to target Gwen's user experience with my chatbot d
 Gwen would be the primary user of 311 Bot during her presentation of our application.</p><br><br><br>
 
 
+
+
 <h2 id=\"designing_the_dialog\" > Designing the Dialog</h2>
 
-<h3 id=\"craft_real_conv_flow\" > Crafting a Realistic Conversation Flow</h3>
+<h3 id=\"craft_real_conv_flow\" > Crafting a Realistic Conversation Flow</h3><br>
 
-<p>The first step in designing the dialog for this 311 Operator Chatbot was to think about how a Human Operator would handle a 311 report.</p><br>
+<p>The first question to answer in designing the dialog for this 311 Operator chatbot:<br>
+**How would a Human Operator handle a 311 report?**<br><br>
+
+A human 311 operator would need to know:<br>
+**1.** What issue is the caller reporting?<br>
+**2.** Where is the issue happening?</p><br>
+
+![Basic Human Conversation Flow Graphic](/img/portfolio/311_Chatbot/Basic_Flow_graphic.png)<br><br>
+
+<p>The Operator would use these two pieces of information to pass the report on to the appropriate **agency** to handle it.<br><br>
+
+I needed to design a dialog flow to mirror the behavior of a human operator.</p><br>
 
 ![Human Operator Dialog Flow Graphic](/img/portfolio/311_Chatbot/Human_Bot_Flow.png)<br><br>
 
-<p>I decided that a Human 311 Operator would get a few pieces of information from the caller:<br>
-**1.** What is the issue the caller is trying to report?<br>
-**2.** Where is the issue happening? (Address)<br><br>
 
-The Human Operator would use these two pieces of information to accomplish two goals:<br>
-  **Issue Report**: Used to Route the caller's report to the correct Agency (Police Department, Department of Parks & Recreation, etc.)<br>
-  **Address**: Used to pass on to the Agency, so that the issue can be addressed<br><br>
-
-A goal for this Chatbot was to design a conversation flow that replicated as much as possible the natural progression of information collection that would occur during a conversation with a Human 311 Operator.</p><br><br><br>
 
 
 <h3 id=\"def_user_success\" > Explicitly Defining User Success</h3><br>
