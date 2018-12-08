@@ -47,12 +47,11 @@ description:
 <h4 id=\"jump_links_title\" > Jump Links:</h4><br>
 <div class=\"summary_and_jumps\">
   <div id=\"case_study_btn_grp\" class=\"flex-container\">
+    <a href=\"#def_user_bases\" class=\"case_study_button\"><button>Defining User Bases</button></a> <br>
     <a class=\"page-scroll\" href=\"#designing_the_dialog\" ><button>Designing The Dialog</button></a><br>
     <a href=\"#def_user_success\" class=\"case_study_button\"><button>Defining User Success</button></a><br>
     <a href=\"#flow_diagram\" class=\"case_study_button\"><button>User Flow Diagram</button></a><br>
     <a href=\"#dialog_design_spec\" class=\"case_study_button\"><button>Chatbot Dialog Design Specification</button></a><br>
-    <a href=\"#align_expectations\" class=\"case_study_button\"><button>Aligning Expectations</button></a> <br>
-    <a href=\"#dialog_struct_diagram\" class=\"case_study_button\"><button>Dialog Structure Diagram</button></a> <br>
     <a href=\"#info_arch\" class=\"case_study_button\"><button>Information Architecture</button></a> <br>
     <a href=\"#def_data_hierarchy\" class=\"case_study_button\"><button>Defining a Hierarchicy of Training Data</button></a> <br>
   </div>
@@ -75,15 +74,16 @@ In this project, I served on a team of roughly 6 IBMers who worked to create an 
 
 ![WCS Logo](/img/portfolio/311_Chatbot/wcs_logo_small.png)</p>
 
-<p>Though it has since been renamed to the IBM Watson Assistant, the Watson Conversation Service (or 'WCS', as i'll refer to it in this case study) is still _the_ Watson Service for creating Conversational Agents...<br> or, as they're more commonly called, **Chatbots**.<br><br>
+<p>Watson Conversation Service, or \"WCS\", is the IBM Service for creating **Chatbots**.<br><br>
 
-We decided to design an application simulating a 311 Issue-Report Routing System.<br><br>
+My team decided to design an application simulating a 311 Issue-Report Routing System.<br><br>
 
 ![Chatbot Icon](/img/portfolio/311_Chatbot/chatbot_icon_small.png)
 The interactive element of the application would be a 311 Operator Chatbot.</p>
 
-<p>We knew that humans learn best by doing things themselves, practicing, using trial-and-error, etc.<br>
-**So, it made sense to create a real chatbot that users could interact with.**<br><br>
+![Humans learn by doing textual graphic](/img/portfolio/311_Chatbot/humans_learn_by_doing_text.png)<br><br>
+
+<p>**So, it made sense to create a real chatbot that users could interact with.**<br><br>
 
 We thought an **Operator Chatbot** would be a familiar, relatable type of chat experience, leaving clients' cognitive energy available for learning about **classification**, **training**, and **dialog design**.</p><br>
 
@@ -142,7 +142,7 @@ Gwen would be the primary user of 311 Bot during her presentation of our applica
 
 A human 311 operator would need to know:<br>
 **1.** What issue is the caller reporting?<br>
-**2.** Where is the issue happening?</p><br>
+**2.** Where is the issue happening?</p>
 
 ![Basic Human Conversation Flow Graphic](/img/portfolio/311_Chatbot/Basic_Flow_graphic.png)<br><br>
 
@@ -159,32 +159,32 @@ I needed to design a dialog flow to mirror the behavior of a human operator.</p>
 
 <p>Chatbots converse with users based on well-defined dialog rules.<br><br>
 
-However, Gwen doesn't have to converse this way!<br><br>
+However, Gwen doesn't have to converse this way!</p>
 
 ![Graphic of Variation on Gwen's 311 Issue Report](/img/portfolio/311_Chatbot/Gwen_language_variation.png)<br><br>
 
-Therefore, for a conversation with the 311 Chatbot to feel natural, Gwen must have a clear understanding of **what** she should say, and **when**.<br><br>
+<p>Therefore, for a conversation with the 311 Chatbot to feel natural, Gwen must have a clear understanding of **what** she should say, and **when**.<br><br>
 
 A chatbot conversation's overall success is made up of small success along the way.<br><br>
 
-The 311 report dialog flow based off of real Human Operator behavior helped me to determine how the conversation could be segmented.<br><br>
+The 311 report dialog flow based off of real Human Operator behavior helped me to determine how the conversation could be segmented.</p>
 
 ![Graphic depicting Basic Dialog Flow Segments](/img/portfolio/311_Chatbot/Basic_Flow_graphic_checkmarks.png)<br><br>
 
-However, I knew that Gwen is used to conversing with other **humans**.<br>
+<p>However, I knew that Gwen is used to conversing with other **humans**.<br>
 Humans are really good at giving & receiving information out of order, and **interpreting it correctly anyway**.<br><br>
 
 Gwen might:<br>
 **1.** give an issue report first.<br>
 **2.** give an address first.<br>
-**3.** give both at the same time.<br><br>
+**3.** give both at the same time.</p>
 
 ![Graphic depicting Segment Order Variation](/img/portfolio/311_Chatbot/Conversation_segments.png)<br><br>
 
-Each of these variations of Gwen's input contains a key piece of information ... <br>
+<p>Each of these variations of Gwen's input contains a key piece of information ... <br>
 Each one represents a **small success**!<br><br>
 
-The chatbot should be flexible enough to recognize Gwen's success on each segment of the conversation, no matter what order they happen in.<br><br><br><br>
+The chatbot should be flexible enough to recognize Gwen's success on each segment of the conversation, no matter what order they happen in.</p><br><br><br>
 
 
 
@@ -192,26 +192,13 @@ The chatbot should be flexible enough to recognize Gwen's success on each segmen
 
 <h3 id=\"flow_diagram\" > Conversational User Flow Diagram</h3><br>
 
+<p>Next, I had to put everything together.<br><br>
 
-After deciding on the points of conversation that would replicate a realistic flow as compared to an interaction with a Human operator, and defining user success in each segment of a conversation, I was able to craft a dialog framework for the Chatbot that accomplished User Experience goals, and that would be easily scalable as we added intents and data.<br><br>
-
-The **User Flow Diagram** below depicts the framework I came to:<br><br>
-
-![Dialog User Flow Diagram](/img/portfolio/311_Chatbot/Chatbot_user_flow_diagram.png)<br><br><br>
+Here's the complete dialog flow that I designed for 311 Bot:</p>
+![Dialog User Flow Diagram](/img/portfolio/311_Chatbot/Chatbot_user_flow_diagram.png)<br><br>
 ![Dialog User Flow Location Extraction Diagram](/img/portfolio/311_Chatbot/Chatbot_user_flow_location_extraction_diagram.png)<br><br>
 
-
-You can see the logical flow of information exchange in this user flow diagram:<br>
-**1.** Collecting the issue report,<br>
-**2.** then the address, <br>
-**3.** then routing the report appropriately.<br><br>
-
-You can also see the explicit definition of sucess vs. failure in each segment of the conversation.<br>
-Relatedly, you can see that a large effort in defining success was in defining the number of failures allowed at each segment before prompting the user to start over and try again.<br><br>
-
-A big part of matining quality user experience when crafting Chatbot dialog is to ensure that a user can never get 'stuck' at any point in a conversation.<br><br>
-This can be accomplished in a few different ways, but I decided to limit the number of times a user could be allowed to enter unclassifiable input before the conversation was reset.<br><br>
-This way, a user could naturally get a sense of the pattern of the conversation, and easily start a fresh conversation with new input their wording or intended issue report could not be successfully interpreted by the bot.<br><br>
+<p>This flow diagram illustrates all possible paths through the conversation, including recovering from errors, misclassifications, and misinterpretations.</p>
 
 <br><br><br><br><br>
 
@@ -220,81 +207,29 @@ This way, a user could naturally get a sense of the pattern of the conversation,
 
 <h2 id=\"dialog_design_spec\" > Dialog Design Specification</h2><br>
 
+<p>I created a design specification for the 311 Bot.<br><br>
 
-I created a design specification for this chatbot's dialog in order to communicate how the bot was designed to function given certain input, its voice and tone it would use, the division of categories and keywords used by the bot, etc.<br><br>
-Creating this dialog spec required me to define all the possible different cases of user input, put them into clear categories, and define bot functionality for each case.<br>
-This series of demonstrated conversation cases were presented as the Dialog Design Specification, which was used to communicate with the lead designer on the team, and the other developers who worked on the chat interface, etc., to ensure the chatbot was accomplishing all the requirements it needed to meet.<br><br>
+This design spec was made up of a series of **test cases**, each one communicating how the bot was designed to function, given specific user input.<br><br>
 
-This spec proved to be quite useful to the development of the **user experience** of the chatbot dialog and **interaction**, because it included elements depicting the division of long bot responses into separate messages, and their separation by an alloted amount of milliseconds, etc.<br><br>
-
-Below is an example of one of these test cases. The conversation case depicted in this graphic is the dialog flow the bot would use in response to user input that had been correctly classified as a **'Graffiti'** report, but **no entities (special keywords)** had been detected, and an **address had been detected** in the user's initial report.<br><br>
-
-**Example Test Case, from Chatbot Design Spec:**<br><br>
-
+Example Test Case from Design Spec:</p>
 ![Test Case Snippet](/img/portfolio/311_Chatbot/Test_Case_Snippet.png)<br><br>
 
-If the user had indicated to the chatbot that it had **not classified** the report type correctly (meaning, the user had _not_ intended on reporting graffiti, and the bot had misclassified the report as being about 'Graffiti'), that would be included in the dialog spec as a separate test case, entitled 'Misclassified Report Flow'.<br><br>
-Changes to the dialog flow proliferated through the dialog spec just like that - each new change to the user input, at any stage along the dialog flow, meant creating a new test case.<br><br>
-This was how I created a robust dialog, capable of flexibility and accuracy, while also capable of preventing and recovering from errors.<br><br>
+<p>This design spec was used to align Gwen's and our Stakeholders' expectations of bot functionality.</p>
 
-This Dialog Design Spec, containing the full set of test cases, was also used to communicate bot functionality to our primary User Persona, Gwen...<br><br>
-
-![Gwen User Persona graphic](/img/portfolio/311_Chatbot/Gwen_Persona.png)<br><br>
-
-...and also to **align stakeholder expectations** of the bot's performance.<br><br><br>
-
-
-<h3 id=\"align_expectations\" > Align Stakeholder expectations of Chatbot performance</h3><br>
-
-
-One of the hardest things about designing and developing a chatbot is to ensure that the indivudals concerned with the success of the project understand the capabilities of the bot.<br><br>
-Chatbots are notorious for not providing a great conversational experience. This is certainly a shame, because crafting a chatbot that provides a natural, enjoyable user experience is absolutely possible - it just takes a lot of methodical conversational case definition, careful definition of scope, and attention to detail in communicating conversational navigation.<br><br>
-
-However, interacting with a chatbot is different than interacting with a human. Even the most perfect chatbot would never be able to handle all possible user input, and would certainly make at least occasional errors, and that level of expectation has to be communicated clearly for the bot to be accepted.<br><br>
-
-Our dialog specification's explicit detailing of bot functionality helped me and my team to align our stakeholders' expectations with what level of conversational flexibility, accuracy, etc., was possible.<br><br>
-
-Demonstrating the innerworkings of chatbot functionality is a complex task, and so showing as many **examples** as possible to demonstrate capabilities is the best way to establish a common ground in understanding.<br><br><br>
-
-
-<h3 id=\"crafting_personality_voice\" > Content Strategy: Crafting Chatbot Personality & Voice Design</h3><br>
-
-
-This Dialog Design Spec also served to help demonstrate to my team's lead designer the intended voice, tone, and consequent personality of the chatbot. To establish the proper chatbot voice and phrasing, I would update the Dialog Design Spec according to her feedback and present the Spec to her again to receive another round of feedback.<br>
-This iterative process is how we established a helpful, mostly neutral, yet friendly, tone of voice and personality for the chatbot.<br><br>
-
-You can observe that personality in the following sample responses from our 311 Bot:<br><br>
-![Graphic depicting Sample Chatbot Responses](/img/portfolio/311_Chatbot/Sample_Chatbot_Responses.png)<br><br>
 <br><br><br><br><br>
 
 
 
+<h3 id=\"crafting_personality_voice\" > Content Strategy: Crafting Chatbot Personality & Voice</h3><br>
 
-<h2 id=\"dialog_struct_diagram\" > Dialog Structure Diagram</h2><br>
+<p>I worked with our team's lead designer to establish the **helpful**, **neutral**, and **friendly** tone of the chatbot's personality.</p>
+
+![Graphic depicting Sample Chatbot Responses](/img/portfolio/311_Chatbot/Sample_Chatbot_Responses.png)
+
+<br><br><br><br><br>
 
 
-I constructed a large dialog structure diagram in order to provide a way to display the dialog structure in a visual way.<br>
-Though this diagram depicts the same chatbot dialog, this diagram looks very different from the **User Flow Diagram** shown above, because it depicts the dialog structure at a higher fidelity than the User Flow Diagram.<br><br>
-This diagram very closely represents the technical structure of dialog implemented in Watson Conversation Service.<br><br>
 
-You could consider this diagram as displaying what the chatbot dialog looks like 'zoomed in' in granularity of detail.<br><br>
-
-![311 Chatbot Dialog Snippet](/img/portfolio/311_Chatbot/311_Chatbot_Dialog_snippet.png)<br><br>
-
-The above graphic is only a small snippet of the entire dialog structure diagram that I created for this project.<br>
-This was quite a large visual asset, but it had a very specific purpose. I created this diagram to be shipped with the project, to our primary user base, the Engagement Leaders.<br><br>
-As you probably recall from our Engagement Leader User Persona, **Gwen**, the primary user base for this chatbot had a **medium-to-low Chatbot Technical Expertise**.<br>
-Engagement Leaders were required to be expert presenters, and able to answer general questions about Watson Services, but not necessarily to be experts on chatbots.<br><br>
-
-A better understanding of any system's innerworkings enables a user to prevent making errors, and to recover from any errors that _are_ made. **Error prevention and recovery** was an essential area of focus for the design & development of this chatbot. <br><br>
-
-So, the **empathy** I had for our Primary User Persona drove me to create this dialog structure diagram, which is meant to be used by following the path of the conversation through the dialog structure in real time, as the user interacts with the chatbot.<br><br>
-
-I knew that, in order for the Engagement Leaders to be able to best present this chatbot to a client curious about WCS, they would need to have a good understanding of how it worked, and thus an accurate **expectation** of how the bot would respond given a particular user input.<br><br>
-
-**Humans learn best by 'doing'**, so I wanted to provide our Engagement Leaders with tools to help them learn quickly by practicing interacting with the bot.<br><br>
-
-And, if we provided a good user experience for Primary User Persona, **Gwen**, we would enable her to provide the best experience for **Robert**, the client, our Secondary Persona.<br><br><br><br><br>
 
 
 <h2 id=\"info_arch\" > Information Architecture</h2><br>
@@ -303,55 +238,44 @@ And, if we provided a good user experience for Primary User Persona, **Gwen**, w
 <h3 id=\"scoping_data\" > Scoping & Organizating the Training Data</h3><br>
 
 
-One of the best things a chatbot designer can do to ensure the success of a chatbot is to explicitly define the scope of supported topics, variations in input & responses, and flexibility of dialog.<br><br>
+<p>To learn how to process 311 reports, our 311 bot needed categories to use to classify user input.<br><br>
 
-Chatbots do a better job of accomplishing conversational tasks when they only have to interpret & classify statements and interactions within a specific topic area.<br><br>
+We could assume any user trying to talk with 311 Bot would want to report a 311 issue ... **You don't call 311 just to chat!**<br><br>
 
-From an Information Architecture standpoint, it's always a good exercise to begin a chatbot design project with deciding what information your chatbot would be able to handle, and how far that boundary can be pushed by user input.<br><br>
+So, 311 Bot's categories needed to be based around the **types** of issues users could report.<br><br>
 
-For example, our 311 Chatbot was meant to handle reports of non-emergency civic issues, like a fallen tree, faded lane line paint on a roadway, cracked sidewalk, graffiti, etc.<br>
-For the purposes of our WCS demo application, we could assume that, if a user was interacting with the chatbot, they were reporting a 311 issue. They would likely not talk to the bot about the weather, food, the stock market, or other unrelated topics.<br><br>
-
-In order to 'teach' our chatbot how to respond to statements about 311 issues, however, we needed to come up with a framework of categories that the chatbot could use to identify different **_types_ of user input**.<br>
-Every chatbot system uses a slightly different word for this concept, but Watson Conversation Service calls these categories **'Intents'**.<br><br>
-
-WCS uses this name for a reason: the categories made to classify user input should reflect the underlying meaning/goal of the user's statement. In other words, category names should reflect the **user's _intent_**.<br><br>
-At first, it was suggested that we should start with an Intent titled 'Report an Issue', because that would reflect the intent behind a user's input.<br>
-However, it could already be assumed that, if a user was interacting with our bot, their intention was to report a 311 issue.<br><br>
-The information the chatbot needed to extract from the user input was what **type** of issue they were reporting.<br><br>
+I did some research into how New York City's 311 Reporting System categorizes citizens' reports, and based 311 Bot's categories off of that.</p>
 
 ![Graphic depicting Scope of User Intent](/img/portfolio/311_Chatbot/Intent_to_Report_graphic.png)<br><br>
 
-This is where I started when I began constructing an Intent framework to organize the information we would use to 'train' our chatbot, so that it could learn how to respond to each type of issue report appropriately.
+<p>In our first iteration, I started 311 Bot with four categories:<br>
+**1. Graffiti**<br>
+**2. Street Condition**<br>
+**3. Noise**<br>
+**4. Damaged Tree**</p>
+
 <br><br><br>
 
 
-<h3 id=\"def_data_hierarchy\" > Defining a Hierarchicy of Training Data (Intents vs. Entities)</h3>
-
-<p>There were two levels of hierarchy to the organization of training data used to train our 311 Bot.<br>
-The first level consisted of the list of 'Intents' that our bot could use to classify issue reports.<br><br>
-
-Here are some of the intents included in the final 311 Intent framework:<br>
-**1.** report-damaged-tree<br>
-**2.** report-graffiti<br>
-**3.** report-noise<br>
-**4.** report-street-condition<br><br>
-
-In addition to the list of Intents needed for classifying individual user statements, I also needed to create a list of special keywords, called Entities.<br>
-These keywords would be used to classify the user input even further, so that the Bot would be able to tell the user what Agency would handle their issue report.<br><br>
-
-That organization, and the corresponding Agency routing architecture, looked like this:</p><br>
-
-![Intent, Entity, and Agency Mapping graphic](/img/portfolio/311_Chatbot/Intent_Entity_Agency_Mapping.png)<br><br>
-
-<p>I used actual NYC 311 routing rules to base my Entity I.A. off of, so the organization you see above reflects the way real human NYC 311 operators route issue reports.<br><br>
-
-In addition to organizing the Intent-to-Entity hierarchy, I had to come up with a robust list of synonyms and word phrases for each entity that you see above, so that the Chatbot could identify variations upon the categories identified in this hierachy.<br><br>
-
-From here, combined with the planning of the overarching dialog structure, it was fairly straightforward to organize the dialog rules by condition, to construct a full-fledged 311 Chatbot.</p><br><br>
 
 
-<br><br><br><br>
+<h3 id=\"def_data_hierarchy\" > Defining a Hierarchicy of Training Data</h3><br>
+
+<p>311 Bot's ultimate goal was to simulate passing a user's report onto the right **Agency** responsible for that type of issue.<br>
+
+My research into NYC's 311 Reporting System showed that Agencies were assigned according to details in the report.<br>
+
+I constructed training data to train 311 Bot to identify these details by **keyword**.<br><br>
+
+I designed 311 Bot's back-end logic to use these keywords to mimic NYC's 311 Reporting System's Agency assignment.<br><br>
+
+The organization of logic looked like this:</p>
+
+![Intent, Entity, and Agency Mapping graphic](/img/portfolio/311_Chatbot/Intent_Entity_Agency_Mapping.png)
+
+<p>Once this logic was in place, 311 Bot was a fully-functioning 311 Issue Routing Operator Bot.</p>
+
+<br><br><br><br><br><br>
 
 
 
