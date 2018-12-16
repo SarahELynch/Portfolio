@@ -623,6 +623,7 @@ section h3.section-subheading {
   font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 16px;
   padding-left: 12px;
+  -moz-appearance: button;
 }
 
 
@@ -639,6 +640,7 @@ section h3.section-subheading {
     font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
     padding-left: 12px;
+    -moz-appearance: button;
   }
 
   .modal-content .summary_and_jumps #case_study_btn_grp button:hover {
@@ -662,6 +664,7 @@ section h3.section-subheading {
     font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
     padding-left: 12px;
+    -moz-appearance: button;
   }
 
   .modal-content .summary_and_jumps #case_study_btn_grp button:hover {

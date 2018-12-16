@@ -2,13 +2,206 @@ modalID: 1
 title: IBM Chatbot Design
 subtitle: A 311-operator-style Chatbot, as part of a larger Immersive Application designed to demonstrate the capabilities of IBM Watson Conversation Service (since renamed to "Watson Assistant").
 date: May - November 2017
-img: 311_Chatbot/Chatbot_image.png
+img: 311_Chatbot/wall_utterance.png
 preview: 311_Chatbot/Chatbot_image.png
 client: IBM
 clientLink: "https://www.ibm.com/watson/ai-assistant/"
 category: Chatbot Service (WCS) Application
 description:
- "**TEAM:** 4 Developers, 1 Designer, 1 Project Manager<br>
+ "<br><br><h4 id=\"Design_Problem\" > Design Problem</h4>
+<p>Design & Implement an **immersive experience** to educate clients on Watson Conversation Service.</p>
+
+<h4 id=\"Design_Hypothesis\" > Design Hypothesis</h4>
+<p>Clients will learn more easily if they can interact with an example WCS Chatbot.</p>
+
+<h4 id=\"Design_Solution\" > Design Solution</h4>
+<p>Create an **immersive experience** simulating a 311 Issue Reporting System, using a 311 Operator Chatbot.</p><br><br><br>
+
+<p>
+<h3 id=\"project_intro\" > Immersive Experience Overview</h3>
+</p>
+
+<p>
+Immersive Experiences are demo applications presented to potential clients in Client Experience Centers.<br>
+The applications are shown on a large wall of screens, along with additional displays, such as touch tables.<br>
+The presentations of Immersive Experiences are led by IBM employees called Engagement Leaders.<br><br>
+
+Our Immersive 311 Reporting Application was made up of two parts:<br>
+1. Visualizations displayed on the wall of screens, triggered by user interactions with ... <br>
+2. the **311 Operator Chatbot**, on the touch table.
+</p><br>
+
+
+
+
+<h4 id=\"def_user_bases\" > Defining our User Bases</h4><br>
+
+<p>Our Engagement Leader, **Gwen**, was the primary user of our app's **Chatbot**.</p><br>
+
+![User Personas Graphic](/img/portfolio/311_Chatbot/User_Personas.png)<br><br><br><br><br>
+
+
+
+<h3>Linguistic Design Challenge</h3><br>
+
+<p>
+My design challenge was to make a chatbot that:<br>
+**1.** interpreted and routed 311 reports while providing a good user experience, and<br>
+**2.** highlighted Watson Conversation Service capabilities.<br><br>
+
+This was essentially a **Linguistic Design Challenge**. Read further to learn about my 311 Chatbot design process!
+</p>
+
+
+
+
+<br><br><br>
+
+
+
+<hr>
+<br>
+
+<h3 id=\"chatbot_sections\" > Case Study Sections</h3>
+<h4 id=\"jump_links_title\" > Jump Links:</h4><br>
+<div class=\"summary_and_jumps\">
+  <div id=\"case_study_btn_grp\" class=\"flex-container\">
+    <a href=\"#craft_real_conv_flow\" ><button>Crafting a Realistic Flow</button></a><br>
+    <a href=\"#segmenting_dialog\" class=\"case_study_button\"><button>Segmenting The Dialog</button></a><br>
+    <a href=\"#flow_diagram\" class=\"case_study_button\"><button>User Flow Diagram</button></a><br>
+    <a href=\"#dialog_design_spec\" class=\"case_study_button\"><button>Dialog Design Specification</button></a><br>
+    <a href=\"#info_arch\" class=\"case_study_button\"><button>Information Architecture</button></a> <br>
+    <a href=\"#def_data_hierarchy\" class=\"case_study_button\"><button>Defining a Hierarchicy of Training Data</button></a> <br>
+  </div>
+<div id=\"summary_section\" class=\"flex-container\">
+
+    </div>
+</div>
+<a href=\"#chatbot_sections\" class=\"sections_jump\"><button>Go to Sections</button></a><br>
+
+<hr>
+
+<br><br>
+
+
+
+
+
+<h2 id=\"designing_the_dialog\" > Designing the Dialog</h2>
+
+<br>
+
+<h3 id=\"craft_real_conv_flow\" > Crafting a Realistic Conversation Flow</h3><br>
+
+<p>The first question to answer in designing the dialog for this 311 Operator chatbot:<br>
+**How would a Human Operator handle a 311 report?**<br><br>
+
+A human 311 operator would need to know:<br>
+**1.** What issue is the caller reporting?<br>
+**2.** Where is the issue happening?</p>
+
+![Basic Human Conversation Flow Graphic](/img/portfolio/311_Chatbot/Basic_Flow_graphic.png)<br><br>
+
+<p>The Operator would use these two pieces of information to pass the report on to the appropriate **agency** to handle it.<br>
+
+I needed to design a dialog flow to mirror the behavior of a human operator.</p><br>
+
+![Human Operator Dialog Flow Graphic](/img/portfolio/311_Chatbot/Human_Bot_Flow.png)<br><br><br><br>
+
+
+
+
+<h3 id=\"segmenting_dialog\" > Segmenting the Dialog</h3><br>
+
+<p>
+The 311 report dialog flow based off of real Human Operator behavior helped me to determine how the conversation could be segmented: by issue collection, and address collection.</p>
+
+![Graphic depicting Basic Dialog Flow Segments](/img/portfolio/311_Chatbot/Basic_Flow_graphic_checkmarks.png)<br><br>
+
+<p>However, I knew that Gwen is used to **conversing flexibly**.<br>
+
+Gwen might:<br>
+**1.** give an issue report first.<br>
+**2.** give an address first.<br>
+**3.** give both at the same time.</p>
+
+![Graphic depicting Segment Order Variation](/img/portfolio/311_Chatbot/Conversation_segments.png)<br><br>
+
+<p>The chatbot needed to be flexible enough to recognize each segment of the conversation, no matter the order.</p><br><br><br>
+
+
+
+
+
+<h3 id=\"flow_diagram\" > Conversational User Flow Diagram</h3><br>
+
+<p>Next, I had to put everything together.<br><br>
+
+Here's the complete dialog flow that I designed for 311 Bot:</p>
+![Dialog User Flow Diagram](/img/portfolio/311_Chatbot/Chatbot_user_flow_diagram.png)<br><br>
+![Dialog User Flow Location Extraction Diagram](/img/portfolio/311_Chatbot/Chatbot_user_flow_location_extraction_diagram.png)<br><br>
+
+<p>This flow diagram illustrates all possible paths through the conversation, including recovering from errors, misclassifications, and misinterpretations.</p>
+
+<br><br><br><br><br><br><br><br><br>
+
+
+
+
+<h2 id=\"dialog_design_spec\" > Dialog Design Specification</h2><br>
+
+<p>I created a design specification for the 311 Bot.<br><br>
+
+This design spec was made up of a series of **test cases**, each one communicating how the bot was designed to function, given specific user input. It was used to align Gwen's and our Stakeholders' expectations of bot functionality.<br><br>
+
+**Happy Path** Test Case from Design Spec:</p>
+![Test Case Snippet](/img/portfolio/311_Chatbot/Test_Case_Snippet.png)<br><br>
+
+
+<br><br><br><br><br><br><br>
+
+
+
+
+<p>
+<h2 id=\"info_arch\" > Information Architecture</h2><br>
+</p>
+
+<h3 id=\"scoping_data\" > Scoping & Organizing the Training Data</h3><br>
+
+
+<p>To learn how to process 311 reports, our 311 bot needed categories to use to classify user input.<br><br>
+
+I roughly based 311 Bot's categories off of how New York City's 311 Reporting System categorizes citizens' reports (https://www1.nyc.gov/311/).</p>
+
+![Graphic depicting Scope of User Intent](/img/portfolio/311_Chatbot/Intent_to_Report_graphic.png)
+
+
+<br><br>
+
+
+
+
+<h3 id=\"def_data_hierarchy\" > Defining a Hierarchicy of Training Data</h3><br>
+
+<p>My research into NYC's 311 Reporting System showed that Agencies were assigned according to details in a report.<br>
+
+I constructed training data to train 311 Bot to identify these details by **keyword**.<br><br>
+
+I designed 311 Bot's back-end logic to use these keywords to mimic NYC's 311 Reporting System's Agency assignment.</p><br>
+
+![Intent, Entity, and Agency Mapping graphic](/img/portfolio/311_Chatbot/Intent_Entity_Agency_Mapping.png)
+
+<p>Once this logic was in place, 311 Bot was a fully-functioning 311 Issue Routing Operator Bot.</p><br>
+
+
+<br><br><br>
+<hr><br>
+
+<p>
+<h4 id=\"project_summary\">Project Summary</h4>
+
+**TEAM:** 4 Developers, 1 Designer, 1 Project Manager<br>
 **MY ROLE:** Chatbot Developer<br>
 **DURATION OF PROJECT:** 6 months<br><br>
 
@@ -26,254 +219,11 @@ description:
 - Implementing Chatbot back-end<br>
 - Assessing UX quality of Chat Interaction<br><br>
 
-**SKILLS DEMONSTRATED:**<br> Interaction Design, Content Strategy, Crafting Chatbot Design Spec, User Flow Diagramming, User Error Prevention & Handling<br> Data gathering, Iterative ML Training<br> Implementing WCS Chatbot programmatically (Node.js) <br><br>
+**SKILLS DEMONSTRATED:**<br> Interaction Design, Content Strategy, Crafting Chatbot Design Spec, User Flow Diagramming, User Error Prevention & Handling<br> Data gathering, Iterative ML Training<br> Implementing WCS Chatbot programmatically (Node.js)
+</p><br>
 
 <hr><br>
 
-<h2 id=\"311_chatbot_summary\" > 311 Chatbot Project Summary</h2><br><br>
-![Design Problem Graphic](/img/portfolio/311_Chatbot/Problem.png)<br>
-<p>Design & Implement an application to educate clients on Watson Conversation Service.</p> <br><br>
-
-![Design Hypothesis Graphic](/img/portfolio/311_Chatbot/Hypothesis.png)<br>
-<p>Clients will learn more easily if they can interact with an example WCS Chatbot.</p><br><br>
-
-![Design Solution Graphic](/img/portfolio/311_Chatbot/Solution.png)<br>
-<p>Create an application simulating a 311 Issue Reporting System, using a 311 Operator Chatbot.</p><br>
-
-<hr>
-<br>
-
-<h3 id=\"chatbot_sections\" > Case Study Sections</h3>
-<h4 id=\"jump_links_title\" > Jump Links:</h4><br>
-<div class=\"summary_and_jumps\">
-  <div id=\"case_study_btn_grp\" class=\"flex-container\">
-    <a href=\"#def_user_bases\" class=\"case_study_button\"><button>Defining User Bases</button></a> <br>
-    <a class=\"page-scroll\" href=\"#designing_the_dialog\" ><button>Designing The Dialog</button></a><br>
-    <a href=\"#def_user_success\" class=\"case_study_button\"><button>Defining User Success</button></a><br>
-    <a href=\"#flow_diagram\" class=\"case_study_button\"><button>User Flow Diagram</button></a><br>
-    <a href=\"#dialog_design_spec\" class=\"case_study_button\"><button>Chatbot Dialog Design Specification</button></a><br>
-    <a href=\"#info_arch\" class=\"case_study_button\"><button>Information Architecture</button></a> <br>
-    <a href=\"#def_data_hierarchy\" class=\"case_study_button\"><button>Defining a Hierarchicy of Training Data</button></a> <br>
-  </div>
-<div id=\"summary_section\" class=\"flex-container\">
-
-    </div>
-</div>
-<a href=\"#chatbot_sections\" class=\"sections_jump\"><button>Go to Sections</button></a><br>
-
-<hr>
-
-<br><br>
-
-<p>
-<h1 id=\"project_intro\" > 311 BOT DESIGN PROCESS:</h1><br>
-</p>
-
-<p>
-In this project, I served on a team of roughly 6 IBMers who worked to create an application meant to educate potential clients on the technology underlying the **IBM Watson Conversation Service**.
-
-![WCS Logo](/img/portfolio/311_Chatbot/wcs_logo_small.png)</p>
-
-<p>Watson Conversation Service, or \"WCS\", is the IBM Service for creating **Chatbots**.<br><br>
-
-My team decided to design an application simulating a 311 Issue-Report Routing System.<br><br>
-
-![Chatbot Icon](/img/portfolio/311_Chatbot/chatbot_icon_small.png)
-The interactive element of the application would be a 311 Operator Chatbot.</p>
-
-![Humans learn by doing textual graphic](/img/portfolio/311_Chatbot/humans_learn_by_doing_text.png)<br><br>
-
-<p>**So, it made sense to create a real chatbot that users could interact with.**<br><br>
-
-We thought an **Operator Chatbot** would be a familiar, relatable type of chat experience, leaving clients' cognitive energy available for learning about **classification**, **training**, and **dialog design**.</p><br>
-
-
-
-<p>
-<h3 id=\"def_user_bases\" > Defining our User Base(s)</h3><br>
-</p>
-
-<p>
-One of the keys to our 311 Reporting Application's success was to ensure we had the correct user base in mind.<br><br>
-
-IBM's goal in presenting these applications was to encourage the adoption of IBM's services and technologies.<br><br>
-
-Our application's intended audience was:<br>
-**Executive Representatives of large Companies.**<br><br>
-
-So, here we have our **User Base #1**.</p><br>
-
-![Executive Rep User Persona](/img/portfolio/311_Chatbot/Robert_Persona.png)<br><br>
-
-
-<p>However, one important catch:<br><br>
-
-These applications were presented by IBM employees called Engagement Leaders, who walked the clients through applications and answered any & all of their questions.<br><br>
-
-Enter, **User Base #2:**</p><br>
-
-![Engagement Leader User Persona](/img/portfolio/311_Chatbot/Gwen_Persona.png)<br><br>
-
-<p>Easy, right? Two user bases.<br><br>
-
-Well, maybe.<br>
-Here's the **key** ... <br>
-</p>
-
-![User Base Key Graphic](/img/portfolio/311_Chatbot/user_base_key.png)<br><br>
-
-<p>Robert, our potential Client, benefits from viewing well-designed demo applications, yes.<br>
-But, he benefits even more from _truly excellent_ **presentations** of well-designed demo applications.<br><br>
-
-So, if we enabled Gwen to present our application as well as possible, we could provide Robert with the **best** user experience.<br><br>
-
-And, that meant that I needed to target Gwen's user experience with my chatbot design.<br>
-Gwen would be the primary user of 311 Bot during her presentation of our application.</p><br><br><br>
-
-
-
-
-<h2 id=\"designing_the_dialog\" > Designing the Dialog</h2>
-
-<h3 id=\"craft_real_conv_flow\" > Crafting a Realistic Conversation Flow</h3><br>
-
-<p>The first question to answer in designing the dialog for this 311 Operator chatbot:<br>
-**How would a Human Operator handle a 311 report?**<br><br>
-
-A human 311 operator would need to know:<br>
-**1.** What issue is the caller reporting?<br>
-**2.** Where is the issue happening?</p>
-
-![Basic Human Conversation Flow Graphic](/img/portfolio/311_Chatbot/Basic_Flow_graphic.png)<br><br>
-
-<p>The Operator would use these two pieces of information to pass the report on to the appropriate **agency** to handle it.<br><br>
-
-I needed to design a dialog flow to mirror the behavior of a human operator.</p><br>
-
-![Human Operator Dialog Flow Graphic](/img/portfolio/311_Chatbot/Human_Bot_Flow.png)<br><br><br><br>
-
-
-
-
-<h3 id=\"def_user_success\" > Explicitly Defining User Success</h3><br>
-
-<p>Chatbots converse with users based on well-defined dialog rules.<br><br>
-
-However, Gwen doesn't have to converse this way!</p>
-
-![Graphic of Variation on Gwen's 311 Issue Report](/img/portfolio/311_Chatbot/Gwen_language_variation.png)<br><br>
-
-<p>Therefore, for a conversation with the 311 Chatbot to feel natural, Gwen must have a clear understanding of **what** she should say, and **when**.<br><br>
-
-A chatbot conversation's overall success is made up of small success along the way.<br><br>
-
-The 311 report dialog flow based off of real Human Operator behavior helped me to determine how the conversation could be segmented.</p>
-
-![Graphic depicting Basic Dialog Flow Segments](/img/portfolio/311_Chatbot/Basic_Flow_graphic_checkmarks.png)<br><br>
-
-<p>However, I knew that Gwen is used to conversing with other **humans**.<br>
-Humans are really good at giving & receiving information out of order, and **interpreting it correctly anyway**.<br><br>
-
-Gwen might:<br>
-**1.** give an issue report first.<br>
-**2.** give an address first.<br>
-**3.** give both at the same time.</p>
-
-![Graphic depicting Segment Order Variation](/img/portfolio/311_Chatbot/Conversation_segments.png)<br><br>
-
-<p>Each of these variations of Gwen's input contains a key piece of information ... <br>
-Each one represents a **small success**!<br><br>
-
-The chatbot should be flexible enough to recognize Gwen's success on each segment of the conversation, no matter what order they happen in.</p><br><br><br>
-
-
-
-
-
-<h3 id=\"flow_diagram\" > Conversational User Flow Diagram</h3><br>
-
-<p>Next, I had to put everything together.<br><br>
-
-Here's the complete dialog flow that I designed for 311 Bot:</p>
-![Dialog User Flow Diagram](/img/portfolio/311_Chatbot/Chatbot_user_flow_diagram.png)<br><br>
-![Dialog User Flow Location Extraction Diagram](/img/portfolio/311_Chatbot/Chatbot_user_flow_location_extraction_diagram.png)<br><br>
-
-<p>This flow diagram illustrates all possible paths through the conversation, including recovering from errors, misclassifications, and misinterpretations.</p>
-
-<br><br><br><br><br>
-
-
-
-
-<h2 id=\"dialog_design_spec\" > Dialog Design Specification</h2><br>
-
-<p>I created a design specification for the 311 Bot.<br><br>
-
-This design spec was made up of a series of **test cases**, each one communicating how the bot was designed to function, given specific user input.<br><br>
-
-Example Test Case from Design Spec:</p>
-![Test Case Snippet](/img/portfolio/311_Chatbot/Test_Case_Snippet.png)<br><br>
-
-<p>This design spec was used to align Gwen's and our Stakeholders' expectations of bot functionality.</p>
-
-<br><br><br><br><br>
-
-
-
-<h3 id=\"crafting_personality_voice\" > Content Strategy: Crafting Chatbot Personality & Voice</h3><br>
-
-<p>I worked with our team's lead designer to establish the **helpful**, **neutral**, and **friendly** tone of the chatbot's personality.</p>
-
-![Graphic depicting Sample Chatbot Responses](/img/portfolio/311_Chatbot/Sample_Chatbot_Responses.png)
-
-<br><br><br><br><br>
-
-
-
-
-
-<h2 id=\"info_arch\" > Information Architecture</h2><br>
-
-
-<h3 id=\"scoping_data\" > Scoping & Organizating the Training Data</h3><br>
-
-
-<p>To learn how to process 311 reports, our 311 bot needed categories to use to classify user input.<br><br>
-
-We could assume any user trying to talk with 311 Bot would want to report a 311 issue ... **You don't call 311 just to chat!**<br><br>
-
-So, 311 Bot's categories needed to be based around the **types** of issues users could report.<br><br>
-
-I did some research into how New York City's 311 Reporting System categorizes citizens' reports, and based 311 Bot's categories off of that.</p>
-
-![Graphic depicting Scope of User Intent](/img/portfolio/311_Chatbot/Intent_to_Report_graphic.png)<br><br>
-
-<p>In our first iteration, I started 311 Bot with four categories:<br>
-**1. Graffiti**<br>
-**2. Street Condition**<br>
-**3. Noise**<br>
-**4. Damaged Tree**</p>
-
-<br><br><br>
-
-
-
-
-<h3 id=\"def_data_hierarchy\" > Defining a Hierarchicy of Training Data</h3><br>
-
-<p>311 Bot's ultimate goal was to simulate passing a user's report onto the right **Agency** responsible for that type of issue.<br>
-
-My research into NYC's 311 Reporting System showed that Agencies were assigned according to details in the report.<br>
-
-I constructed training data to train 311 Bot to identify these details by **keyword**.<br><br>
-
-I designed 311 Bot's back-end logic to use these keywords to mimic NYC's 311 Reporting System's Agency assignment.<br><br>
-
-The organization of logic looked like this:</p>
-
-![Intent, Entity, and Agency Mapping graphic](/img/portfolio/311_Chatbot/Intent_Entity_Agency_Mapping.png)
-
-<p>Once this logic was in place, 311 Bot was a fully-functioning 311 Issue Routing Operator Bot.</p>
 
 <br><br><br><br><br><br>
 
