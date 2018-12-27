@@ -8,7 +8,7 @@ client: IBM
 clientLink: "https://www.ibm.com/watson/ai-assistant/"
 category: Chatbot Service (WCS) Application
 description:
- "<br><br><h4 id=\"Design_Problem\" > Design Problem</h4>
+ "<br><h4 id=\"Design_Problem\" > Design Problem</h4>
 <p>Design & Implement an **immersive experience** to educate clients on Watson Conversation Service.</p>
 
 <h4 id=\"Design_Hypothesis\" > Design Hypothesis</h4>
@@ -25,6 +25,8 @@ description:
 Immersive Experiences are demo applications presented to potential clients in Client Experience Centers.<br>
 The applications are shown on a large wall of screens, along with additional displays, such as touch tables.<br>
 The presentations of Immersive Experiences are led by IBM employees called Engagement Leaders.<br><br>
+
+![IBM Client Experience Center image](/img/portfolio/311_Chatbot/ibm_cec_w_tt.png)<br><br>
 
 Our Immersive 311 Reporting Application was made up of two parts:<br>
 1. Visualizations displayed on the wall of screens, triggered by user interactions with ... <br>
