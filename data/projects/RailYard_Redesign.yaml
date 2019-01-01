@@ -8,35 +8,37 @@ client: RailYard
 clientLink: "https://www.railyard.com/"
 category: Desktop Website & Dashboard Redesign
 description: "<p><h4>Design Problem</h4></p>
-<p>
-Redesign RailYard's web presence to better target the company's **Marketing Personas.**
-</p>
+
+<p>Redesign RailYard's web presence to better target the company's Marketing Personas.</p>
 
 <p><h4>Design Challenge</h4></p>
-<p>
-Find the UX Design work in the Marketing Project Prompt.<br>
-Improve **look & feel** and **content** to target Marketing Personas, while also improving the User Experience for the **Main User Base** of RailYard's Dashboard.
-</p>
+
+<p>Find the UX Design work in the Marketing Project Prompt.<br>
+Improve look & feel and content to target Marketing Personas, while also improving the User Experience for the Main User Base of RailYard's Dashboard.</p>
 
 <p><h4>Design Solution</h4></p>
-<p>
-**Balance** Marketing goals with User Experience goals by:<br>
-**1.** Redesigning the look & feel and content of Home Page, and<br>
-**2.** Assessing & Improving UX of Dashboard
-</p><br>
+
+<p>Balance Marketing goals with User Experience goals by:<br>
+1. Redesigning the look & feel and content of Home Page, and<br>
+2. Assessing & Improving UX of Dashboard.</p>
+
+<br>
 
 
-<hr><br>
+<hr>
+<br>
+
 
 
 <h3 id=\"railyard_sections\" > Case Study Sections</h3>
 <h4> Jump Links:</h4><br>
+
 <div class=\"summary_and_jumps\">
   <div id=\"case_study_btn_grp\" class=\"flex-container\">
-    <a href=\"#sbo_interview\" class=\"case_study_button\"><button> Interview with Small Business Owner </button></a> <br>
-    <a href=\"#as_is_assessment\" class=\"case_study_button\"><button> As-Is Heuristic Assessment </button></a> <br>
-    <a href=\"#ry_info_arch\" class=\"case_study_button\"><button> Information Architecture </button></a> <br>
-    <a href=\"#wireframes\" class=\"case_study_button\"><button> Wireframes </button></a> <br>
+    <a href=\"#marketing_intro\" class=\"case_study_button\"><button> Marketing Personas </button></a> <br>
+    <a href=\"#busowner_intro\" class=\"case_study_button\"><button> Small Business Owner </button></a> <br>
+    <a href=\"#as_is_assessment\" class=\"case_study_button\"><button> As-Is Assessment </button></a> <br>
+    <a href=\"#prototype\" class=\"case_study_button\"><button> Prototype </button></a> <br>
     <a href=\"#user_flow_diagrams\" class=\"case_study_button\"><button> User Flow Diagrams </button></a> <br>
     <a href=\"#user_testing_diagrams\" class=\"case_study_button\"><button> User Testing Plan Strategy </button></a> <br>
     <a href=\"#card_sort\" class=\"case_study_button\"><button> Card Sort </button></a> <br>
@@ -55,65 +57,48 @@ Improve **look & feel** and **content** to target Marketing Personas, while also
 
 
 
-<h2 id=\"ry_project_header\" > RailYard: A Case Study</h2>
-
-
-
-<h3 id=\"project_intro\" > INTRODUCTION TO THE PROJECT:</h3>
-
-
-
-<p>In this project, my team was directly tasked with redesigning the desktop Home Page and Dashboard of an Austin-based telecom provider aggregator company named RailYard.<br>
-Our stakeholders were interested in better targeting their identified Marketing Personas. <br><br>
-
-Here's a look at the original Home Page.<br><br>
-
-**RailYard Original Home Page:**</p><br>
-
-![Screenshot of RailYard Home Page](/img/portfolio/RailYard/Home_Page_Screenshot.png)<br><br>
-
-<p>RailYard wanted my team to redesign the layout, content, visual appearance, etc., to better describe and advertise the business's offerings to potential partners, captured by their curated Marketing Personas. <br><br>
-These two Marketing Targets were:<br> **1) Internet Service Provider Marketing Executives** and<br> **2) Business Representatives for Commercial Real Estate Listing Websites**<br><br>
-RailYard's major Marketing Goal was to establish partnerships with both of these User Bases.<br><br>
-
-Based on these curated Marketing Personas described by our stakeholders, my team was able to formulate two User Personas.</p><br>
-
-![Internet Service Provider Marketing Exec User Persona](/img/portfolio/RailYard/Jack_User_Persona.png)<br><br>
-![CRE Listing Website Business Rep User Persona](/img/portfolio/RailYard/Steve_User_Persona.png)<br><br>
-
-<p>As UX Designers, our job was to evaluate and improve the user experience of RailYard's products, too, in addition to helping them with their Markting re-targeting goals.<br><br><br>
-Let's move on to considering the original **RailYard Dashboard**, the company's primary product.<br>
-
-Here's a look at the RailYard Dashboard, as it appeared at the beginning of our project with the company.<br><br>
-
-**RailYard Original Dashboard:**</p><br>
-
-![Screenshot of RailYard Dashboard](/img/portfolio/RailYard/Dashboard_Screenshot_600_congress.png)<br><br>
-
-<p>The Dashboard's primary user base is the Small Business Owner.<br>
-Thus, a Small Business Owner looking to find internet service provider availability for a business address would need a convenient way to reach this Dashboard if they arrived on the RailYard Homepage.</p><br><br>
+<p>
+<h2 id=\"marketing_intro\" > INTRO: USER PERSONAS</h2>
+</p>
 
 <p>
-<h3 id=\"sbo_interview\" > Interview with Small Business Owner</h3>
+<h3 id=\"marketing_intro\" > MARKETING PERSONAS</h3>
+</p>
+
+
+<p>In this project, my team was directly tasked with updating the look & feel and the content of the RailYard Home Page to better target
+two Marketing Personas.<br><br>
+
+Based on these curated Marketing Personas described by our stakeholders, my team was able to formulate two User Personas.</p>
+
+![Marketing Personas](/img/portfolio/RailYard/Marketing_Personas.png)<br><br>
+
+<br><br>
+
+<p>
+<h3 id=\"busowner_intro\" > SMALL BUSINESS OWNER</h3>
+</p>
+
+<p>As UX Designers, we couldn't leave out evaluating the user experience of RailYard's main product, their Dashboard.<br>
+
+The Dashboard's primary user base is the Small Business Owner.</p><br>
+
+<p>
+<h4 id=\"sbo_interview\" > Interview with Small Business Owner</h4>
 </p>
 <p>
-I wanted to validate the needs and goals of the Dashboard's primary user base, so I recruited a small business owner who had recently worked with an Internet Service Provider to set up internet for his business's new office.<br><br>
-
-I asked this small business owner about his experience getting his business's internet service set up.</p><br>
+I recruited a small business owner to ask him about his recent experience working with an Internet Service Provider to set up internet for his business's new office.</p>
 
 ![Quotes from Small Business Owner Interview](/img/portfolio/RailYard/SBO_interview_graphic.png)<br><br>
 
-<p>The summary of his experience is as follows:<br>
-- Signed up with Provider that the employees used for residential service - no research.<br>
-- Signed contract for a plan on sale at the time - did not assess business usage needs.<br>
-- Highly suspects current plan is for more speed than the business actually needs.<br>
-- Threw their own cables - didn’t want to pay extra for it, or wait for the provider to do it.<br>
-- Suspects they don’t get the speed they pay for - dedicated vs. shared, unclear?<br><br>
-
-I also asked this small business owner: <br>**'If you could go back in time and could have had somebody to give you helpful advice during the process ...<br> ... what would you have wanted to know?'**<br><br>
+<p>I also asked this small business owner: <br>
+**'If you could go back in time and could have had somebody to give you helpful advice during the process ...<br> ... what would you have wanted to know?'**<br><br>
 Here was what he said:</p>
 ![Small Business Owner Interview Conclusions](/img/portfolio/RailYard/SBO_conclusion.png)<br><br>
 
+<p>
+<h4> User Persona</h4>
+</p>
 
 <p>My team used this interview to construct a User Persona representing the **Small Business Owner**:</p><br>
 ![Small Business Owner User Persona](/img/portfolio/RailYard/Cassandra_User_Persona.png)<br><br>
@@ -122,168 +107,80 @@ Here was what he said:</p>
 
 
 <p>
-<h3 id=\"as_is_assessment\" > FEEDBACK, VISIBILITY, and UNDERSTANDABILITY: An Assessment</h3><br>
+<h2 id=\"as_is_assessment\" > As-Is Assessment</h2>
 </p>
 <p>
-To assess the current UX of RailYard's Home Page & Dashboard, I completed a heuristic evaluation.<br><br>
-
-I wanted to investigate where improvement could be made along the lines of **Feedback, Visibility, and Understandability**.</p><br>
-
-<p>
-<h4 id=\"inconsistent_addresses\" > Inconsistent Addresses from Home Page to Dashboard</h4>
-</p>
-
-<p>Because SBO's could be expected to commonly arrive at the Dashboard by entering a business address in the search bar on the Home Page,
-I wanted to address this experience in my assessment.<br><br>
-
-Here are some of my initial observations of that user experience:</p><br>
+The RailYard Home Page held the primary avenue for reaching the RY Dashboard: an address search bar.</p><br>
 
 ![Gif Depicting Address Suggestion/Selection & Flow to the Dashboard](/img/portfolio/RailYard/600_congress.gif)<br>
 
+<p>Since this Home Page-to-Dashboard workflow was so key to the Business Owner's experience, I wanted to evaluate its current design.<br><br>
+
+There were two main points in this workflow experience that I thought could be greatly improved upon:<br>
+1. address display inconsistency, and<br>
+2. non-functioning address suggestions.</p><br>
+
 <p>
-**1.** The user receives a list of suggested addresses as they are typing.<br>
-**2.** The user selects one of the suggested addresses,<br>
-**3.** and then hits 'go',<br>
-**4.** and is taken to the dashboard, where the address displayed does not exactly match the address the user just selected from the suggested list.</p><br>
+<h3 id=\"inconsistent_addresses\" > Inconsistent Addresses from Home Page to Dashboard</h3>
+</p>
+
+<p>When the User is taken to the dashboard, the address displayed does not exactly match the address the user just selected from the dropdown on the Home Page.</p><br>
 
 ![Image Comparing Address entered in search bar to Address displayed on Dashboard](/img/portfolio/RailYard/Screenshots_comparing_addresses.png)<br><br><br>
 
 <p>
-<h4 id=\"misleading_suggestions\" > Misleading Suggestions</h4>
+<h3 id=\"misleading_suggestions\" > Misleading Suggestions</h3>
 </p>
 
-<p>In addition to the inconsistencies described above, there was room for improvement in the user experience surrounding the **suggested list** of addresses itself.<br><br>
-
-The list of addresses that populated the address list in the suggestion dropdown was **not identical** to the list of addresses for which RailYard actually has internet service provider data.<br><br>
-
-
-In other words, it was possible for a user to start typing an address, select an auto-completed address suggested to them in the dropdown list, and then attempt to hit 'Go'...</p><br>
+<p>Because not all possible addresses included in the dropdown were functional, it was possible for a user to start typing an address in the search bar, select an auto-completed address suggested to them in the dropdown list, and then attempt to hit 'Go'...</p><br>
 
 ![Gif Depicting Address Completion for 100 Metric and Selection](/img/portfolio/RailYard/100_metric.gif)<br><br>
 
-<p>. . . and end up very confused because nothing would happen.<br><br>
-
-' _100 Metric Blvd_ ' was suggested to the user because it is a legitimate address in Austin, TX.<br>
-However, RailYard does not have ISP availability data for that address.<br><br>
-
-I concluded during my assessment that the UX surrounding this error state could be much improved.<br><br>
-
-My team used this usability assessment to address areas needing improvement, and to kick off brainstorming around how to approach the redesign.</p><br><br><br><br>
-
+<p>. . . and end up very confused because nothing would happen.</p><br>
 
 <p>
-<h3 id=\"ry_info_arch\" > INFORMATION ARCHITECTURE</h3>
+<h3 id=\"busown_needs\" > Addressing Small Business Owner Needs</h3>
 </p>
 
-<p>
-Our stakeholders had drafted quite a bit of content to propose to include on the Home Page.<br>
-The first task related to the Information Architecture in this project was to prioritize the proposed content.<br><br>
+<p>Tying this assessment back to my findings from the interview with our Small Business Owner:<br><br>
 
-Our biggest challenge in doing this was to ensure that each of our User Personas were provided with the information they needed, while limiting the cognitive load place on them.</p><br>
+![Small Business Owner Needs Assessed](/img/portfolio/RailYard/SBO_conclusion_2highlighted.png)<br><br>
 
-<p><h4 id=\"home_page_site_map\" > Home Page Site Map</h4></p>
-
-<p>
-Here is the **Home Page Site Map** to depict the content and organization we arrived at:</p><br>
-![Redesigned RailYard Home Page Site Map](/img/portfolio/RailYard/HomePage_Site_Map.png)<br><br>
-
-<p>We decided to highly prioritize the search bar on the Home Page.<br>
-All three of our User Personas could benefit from the ability to quickly access the RailYard Dashboard from the Home Page.<br><br>
-
-**\"Target Offerings\" and \"User Benefits\"**<br><br>
-
-After our initial prioritization exercises, these sections had been entitled \"How it Works\" and \"What you Get\".<br><br>
-
-As the project developed, the content in these sections was adjusted.<br>
-I, as the IA, continually evaluated the content as it was developed, and ensured the Site Map stayed up-to-date.<br><br>
-
-This was necessary to ensure that all content included served a clear, dinstinct purpose that fulfilled our User Personas' goals.</p><br><br>
-
-<p>
-<h4 id=\"dashboard_site_map\" > Dashboard Site Map</h4>
-</p>
-
-<p>
-A large focus of the IA work on the Dashboard was to reduce the multiple avenues available to the user to accomplish certain tasks,
-therefore reducing the **cognitive load** place on the user.</p><br>
-
-![Redesigned RailYard Dashboard Site Map](/img/portfolio/RailYard/Dashboard_Site_Map.png)<br><br>
-
-<p>We also interviewed users to validate the **microcopy** used in the dashboard interface, specifically the labels used for filter options.</p><br>
-
+The current design of RailYard's Dashboard addressed our Business Owner's first need: displaying ISP info in one place.<br>
+I concluded after my as-is assessment that the second need could be addressed better.</p>
+<br><br><br>
 <br><br><br>
 
 
 <p>
-<h3 id=\"wireframes\" > WIREFRAMES</h3>
+<h2 id=\"prototype\" > Prototype</h2>
 </p>
 
 <p>
-After conducting some design studio exercises to come up with the basic layout of the Home Page
-and Dashboard, my teammates and I mocked up our first iterations of our wireframes.<br><br>
+My teammates and I mocked up wireframes and created a Prototype, focusing on the User Experience of the Small Business Owner on the RailYard Dashboard,
+and in the user flow traveling to the Dashboard from the Home Page.<br><br>
 
-My contributions to the wireframes focused on the micro-interactions and transitions needed to examine the experience of each User Persona's flow through the interfaces.</p><br>
-<p>
-<h4 > Summary of my additions to the Wireframes:</h4>
-</p>
-<p>
-**Home Page:**<br>
-- Adding transition screens to simulate address auto-complete suggestion<br><br>
-**Dashboard:**<br>
-- Ensuring that the address displayed matches the address selected in auto-complete suggestion list on Home Page<br>
-- Adding a hover state description to the icons depicting types of services offered by a provider<br>
-- Adding dropdowns for filters with appropriate checkboxes/single select patterns<br>
-- Mark to indicate provider(s) viewed so far when returning to dashboard from provider site<br>
-- Adding a prompt at the top of the 'Get in Touch' modal<br>
-- Altering 'Schedule a Call' to 'Schedule a Chat' in 'Get in Touch' modal, based on Stakeholder feedback in prior meetings<br>
-- Added screens to depict a 'Get a Quote' user flow, from the 'Get in Touch' modal<br><br>
-**Home Page & Dashboard:**<br>
-- Alignment adjustments, font size corrections</p><br>
+We created a side panel in the RailYard Dashboard in order to address the Small Business Owner's need for guidance on deciding their business's Internet Service needs.
+</p><br>
 
 <br><p>
 **Click the following wireframe snippets to view our wireframe prototype:**<br>
 (HINT: You might want to right-click and 'Open in New Tab')</p><br>
 [![Image Link to Wireframe Prototype](/img/portfolio/RailYard/Wireframes_link_to_prototype.png)](https://invis.io/6DOKEVRW3SG)<br><br>
 
-<p>
-<h4 id=\"address_auto_completion\" > Address Auto-Completion & Traveling to the Dashboard</h4>
-</p>
-
-<p>The user flow of traveling to the RailYard Dashboard from the Home Page, using the search bar, presented some interesting interaction design exploration.<br>
-Here is a graphic detailing the thought process that went into designing that interaction:</p><br>
-
-![Graphic depicting address suggestion and selection user flow](/img/portfolio/RailYard/Address_Suggestion_Graphic.png)<br><br>
 
 <br><br><br><br><br>
 
 
 <p>
-<h3 id=\"user_flow_diagrams\" > USER FLOW DIAGRAMMING</h3>
-</p>
-
-<p>
-I created a series of User Flow diagrams to illustrate:<br>
-**1.** the path each User Persona would take to reach the RailYard Home Page/Dashboard, and<br>
-**2.** the actions each would teak once they were there.<br><br>
-
-I made User Flow diagrams for each User Persona - 2 Diagrams for Cassandra, 1 for Steve and Jack, each.<br>
-However, here I'll just show the **User Flows for Cassandra**, our Small Business Owner Persona.<br><br>
-
-**User Flow Diagrams:**</p><br>
-
-![Diagram depicting Cassandra's User Flow](/img/portfolio/RailYard/User_Flow_BO_recolored.png)<br><br>
-<p>Flow for 'Getting in Touch', on the Dashboard:</p>
-![Diagram depicting Cassandra's User Flow for Getting In Touch](/img/portfolio/RailYard/User_Flow_BO_get_in_touch_recolored.png)
-
-<br><br><br><br><br>
-
-
+<h2 id=\"user_flow_diagrams\" > USER TESTING</h2>
+</p><br>
 
 <p>
 <h3 id=\"user_testing_diagrams\" > USER TESTING PLAN STRATEGY</h3>
 </p>
 
-<p>I used the above User Flow diagrams to devise a User Testing Plan for my team.<br><br>
+<p>I created User Flow diagrams for each User Persona and used them to devise a User Testing Plan for my team.<br><br>
 To do this, I isolated points along each User Flow that depicted a testable action, and created second versions of the User Flow diagrams to bring emphasis to these actionable points.</p><br>
 
 ![Diagram depicting Cassandra's User Flow with isolated Testing Tasks](/img/portfolio/RailYard/BO_user_flow.gif)<br><br>
@@ -293,12 +190,7 @@ For the sake of conciseness, here's a good look at just Cassandra's User Flow di
 
 ![Diagram depicting Cassandra's User Flow with isolated Testing Tasks](/img/portfolio/RailYard/User_Flow_BO_with_tasks.png)<br><br>
 
-<p>And Cassandra's User Flow for 'Getting in Touch' on the Dashboard:</p><br>
-
-![Diagram depicting Cassandra's User Flow for Getting In Touch with isolated Touch Testing Tasks](/img/portfolio/RailYard/User_Flow_BO_Get_In_Touch_with_tasks.png)<br><br>
-
-<p>This diagramming process was done to ensure that we were testing the right functionality and motivations to represent what our User Personas would actually want to do in the interfaces. <br><br>
-We took this testing plan and strategy, and moved on to testing our prototype with users.</p><br><br><br><br>
+<p>We took this testing plan and strategy, and moved on to testing our prototype with users.</p><br><br><br><br>
 
 
 <p>
@@ -306,7 +198,7 @@ We took this testing plan and strategy, and moved on to testing our prototype wi
 </p>
 
 <p>
-I knew that we needed to perform Card Sort exercises with users in order to investigate user instincts surrounding the filter labels used in the Dashboard.<br><br>
+I wanted to investigate user instincts surrounding the filter labels used in the Dashboard.<br><br>
 
 To conduct these Card Sorts, I presented each participant of our user tests with a list of items that belonged to a category, and asked them what they thought the name of the category should be.</p><br>
 
@@ -317,42 +209,20 @@ To conduct these Card Sorts, I presented each participant of our user tests with
 ![Card Sort graphic, with labels](/img/portfolio/RailYard/Card_Sort_Graphic.png)<br><br>
 
 <p>The summary of the participants' feedback on the names of these categories were:<br>
-**'Primary Usage'** for the first category,<br>
-and a tie between **'Reason for Shopping'** and **'Primary Need'** for the second category.<br><br>
-After discussing with our stakeholders, we settled on **'Reason for Shopping'** for this second category.
-
-</p><br><br><br><br>
-
-
-
-<p>
-<h3 id=\"user_testing_findings\" > User Testing Findings</h3>
+**1. 'Primary Usage'** for the first category, and<br>
+**2. 'Primary Need'** for the second category.
 </p>
 
-<p>In addition to conducting card sort exercises, we tested the functionality of our prototype during our user tests.<br>
-The summary of our findings from observing users during testing, and listening to their feedback during and after testing, is as follows:<br><br>
-
-- Users had trouble finding contact information for help<br>
-- Users did not know what upload or download speed meant<br>
-- 'Go' button on Dashboard should be deactivated when user has succesfully searched an address<br>
-- 'Go' button on Dashboard should be reactivated in search bar when user clicks in the input field<br>
-- List of products displayed on Provider site should match the number referenced on the dashboard provider tile<br>
-- Thought the side bar was hard to see ('way too small')<br>
-- When the user returns to the dashboard tab from a provider site, scroll position should be maintained<br>
-- Icon depicting 'IT Services' on Dashboard provider tile should be a different icon<br>
-- 'IT Services' not a clear name - confusion around what that meant ('Help desk', troubleshooting, hardware help, etc.)<br>
-- Unclear how 'Reason for Shopping' filter would alter the data displayed on dashboard</p>
 <br><br><br><br>
 
 
 
-
-<h3 id=\"iteration_on_design\" > Iteration on Design</h3>
+<h2 id=\"iteration_on_design\" > Iteration on Design</h2>
 
 
 
 <p>
-We took the above user testing findings and made changes to our design of the Dashboard.<br><br>
+We took our findings from user testing and made changes to our design of the Dashboard.<br><br>
 
 **Dashboard, Version 1 & 2:**</p><br>
 
@@ -380,102 +250,75 @@ We took the above user testing findings and made changes to our design of the Da
 **3.** Updated filter labels to reflect feedback from card sort exercises and client feedback</p><br>
 
 <p>
-<h4 > Trading Filters for a Form:</h4>
+<h3 > Trading Filters for a Form:</h3>
 </p>
 
 <p>
-Users told us that they did not think selecting a \"Reason for Shopping\" would affect the list of Providers in the Dashboard.<br><br>
+Our stakeholders confirmed that the user's specified requirements for the Dashboard filters - **Timeframe, Primary Usage, Reason for Shopping, & Company Size** - _should_ cause the displayed provider list to refresh ... <br>
+but their back-end was not yet technically capable of accomplishing a refresh.<br><br>
 
-It was therefore confusing to users that \"Reason for Shopping\" would be displayed as a filter.<br><br>
+We decided that collecting these pieces of information via filters on the dashboard interface without the functionality to support them, would not be a good user experience.<br><br>
 
-We conferred with our stakeholders, and they re-iterated that it was important to collect the user's \"Reason for Shopping\" because it was valuable to pass along to the internet service providers.<br><br>
-
-Our stakeholders confirmed that the user's specified requirements for the other filters - **Timeframe, Primary Usage, & Company Size** - _should_ cause the provider list to refresh ... <br>
-but their back-end was not yet technically capable of accomplishing this.<br><br>
-
-We decided that collecting these pieces of information via filters on the dashboard interface without the functionality to support them, would not be a good user experience.</p><br>
+So, we decided to move this information collection to a short form in the \"Know Before You Go\" modal.<br>
+This way, the information could still be collected and passed along as the user traveled to the Provider's site.</p><br>
 
 ![Graphic depicting Iteration on Filter Placement](/img/portfolio/RailYard/filter_placement_iteration.png)<br><br>
 
 
-<p>So, we decided to move this information collection to a short form in the \"Know Before You Go\" modal.<br>
-This way, the information could still be collected and passed along as the user traveled to the Provider's site.</p><br>
 <br><br><br><br><br>
 
 
 
 <p>
-<h3 id=\"user_testing_widget\" > User Testing of Widget</h3>
+<h2 id=\"user_testing_widget\" > User Testing of Widget</h2>
 </p>
 
-<p>I did additional user testing on a separate aspect of RailYard's web presence - the RailYard widget.<br><br>
+<p>RailYard offers a Widget integration as part of a partnership with Commercial Real Estate Listing Websites.<br><br>
 
-RailYard's widget is a webpage element that displays concise ISP availability data for a business address.<br>
-It can be easily integrated into an existing webpage.<br><br>
-
-If you'll think back to our User Persona representing the **CRE Listing Website Business Rep, Steve:**</p>
-
-![Steve Persona Photo](/img/portfolio/RailYard/Steve_Icon_w_background.png)<br><br>
-
-<p>
-One of Steve's main goals is to:<br>
-Find new ways to engage users with the information included in his company's CRE listings.<br><br>
-
-RailYard offers integration of their widget as part of a partnership with CRE Listing Website companies.<br><br>
+RailYard's widget displays concise ISP availability data for a business address.<br><br>
 
 This partnership is mutually beneficial because:<br>
-**1.** CRE Partners are able to display ISP data in their listings, and ... <br>
+**1.** CRE Partners are able to display ISP data in their listings, and<br>
 **2.** Integration of the RailYard widget **drives traffic** to the RailYard Dashboard.<br><br>
 
 User Flow depicting traffic coming from CRE Listing site:</p><br>
 
 ![User Flow Snippet for Widget Testing](/img/portfolio/RailYard/User_Flow_Snippet_for_widget_testing.png)<br>
 
-<p>The element of the RailYard widget facilitating this user flow is the Call-To-Action.<br>
-I wanted to investigate the UX surrounding the wording of the CTA.<br><br>
+<p>I wanted to investigate the UX surrounding the wording of the Widget CTA, shown as \"Visit RailYard\" above.<br><br>
 
-I made the following mock-up of the RailYard widget to present to participants of these user tests.</p>
+I made the following mock-up of the RailYard widget to present to participants of these user tests.</p><br>
 
 ![Widget Mockup with Testing Prompts](/img/portfolio/RailYard/Widget_Mockup_with_testing_prompts.png)<br><br>
 
-<p>I asked users to tell me what they expected to happen if they clicked on the widget's button, and, consequently, what they expected the button's label to say.<br><br>
-
-We were reassured to learn that users' expectation of what would happen when they clicked the button matched what actually _does_ happen:<br>
-Users are taken to the RailYard dashboard to view internet service provider information for the address of the office they had been viewing on the CRE Listing site.<br><br>
+<p>Users' expectations of what would happen when they clicked the button matched what actually _does_ happen:<br>
+Users are taken to the RailYard dashboard to view ISP information for the address of the office they had been viewing on the CRE Listing site.<br><br>
 
 Users expected the label on the button to say:<br>
-  **1. 'See more providers on RailYard'** or **2. 'See more prices on RailYard'**</p><br>
+**1. 'See more providers on RailYard'** or **2. 'See more prices on RailYard'**</p><br>
 
 ![Widget Button Feedback Graphic](/img/portfolio/RailYard/Widget_button_feedback.png)<br><br>
 
-<p>I reported a summary of these findings to our stakeholders in hopes that they could be better informed on how to improve the user experience of business owners traveling to their dashboard from a CRE Listing site.</p>
-<br><br><br><br>
+<br><br><br><br><br><br>
 
 
 
 
 
 
-<h3 id=\"next_steps\"> Next Steps</h3>
+<h2 id=\"next_steps\"> Next Steps</h2>
 
 
-We only had 3 weeks to complete this web presence redesign project, so we did our best to get to an MVP ('Minimal Viable Product') in that time. Here is what we would have done next, if we had had time to begin a second iteration.<br><br>
+<p>If my team had had more time to begin a second iteration for this project, we would have performed tests to<br>
+**1)** validate home page copy, and **2)** validate placement of filters on the dashbaord.</p><br>
 
+<p>
+<h3 id=\"copy_validation\"> Home Page Copy Validation</h3>
+<p>
 
-<h4 id=\"copy_validation\"> Home Page Copy Validation</h4>
-
-
+<p>
 The first major component of a second iteration on this project would include a series of user tests to validate the copy we were given by our stakeholders to include in the Home Page.<br>
-My team would have needed more time during this project to gain access to user bases more representative of RailYard's Marketing Personas.<br><br>
-
-![Steve Persona Photo](/img/portfolio/RailYard/Steve_Icon_w_background.png)
-![Jack Persona Photo](/img/portfolio/RailYard/Jack_Icon_w_background.png)<br><br>
-
-To truly know if the copy included in the Home Page describes and advertises RailYard's offerings in a way that targets the needs of Steve and Jack, we would need to recruit Internet Service Provider Marketing Personnel and CRE Listing Website Business Representatives.<br><br>
-Only these people could give us true, accurate insight into whether the content itself was effective.<br><br>
-
 After isolating a group of representative users, we would ask each participant the following questions while they were actively looking at the Home Page.<br><br>
-
 
 **Copy Validation Interview Questions:**<br>
 **1.** Visit RailYard.com’s HomePage<br>
@@ -487,16 +330,20 @@ After isolating a group of representative users, we would ask each participant t
 **7.** Do you believe that partnering with RailYard would benefit you?<br>
 **8.** Is there any information you’d like to see here, that isn’t here already?<br><br>
 
-We would then take users' feedback during these interviews to iterate on the copy and content included in the Home Page.<br><br>
-
-<h4 id=\"a/b_testing_filters\" > A/B Testing of \"Filter\" Placement</h4>
+We would then take users' feedback during these interviews to iterate on the copy and content included in the Home Page.</p><br><br>
 
 
-The other major component of a second iteration on this project would be a series of A/B tests to investigate the effectiveness of the placement of filters on the top of the Dashboard vs. included in the 'Know Before You Go' modal.<br><br>
+<p>
+<h3 id=\"a/b_testing_filters\" > A/B Testing of \"Filter\" Placement</h3>
+</p>
+
+<p>The other major component of a second iteration on this project would be a series of A/B tests to investigate the effectiveness of the placement of filters on the top of the Dashboard vs. included in the 'Know Before You Go' modal.<br><br>
+
+We would measure the number of conversions of users traveling to provider sites with each option for placement of the filters, and report back to our stakeholders which placement option proved most effective.</p>
 
 ![AB Testing Graphic](/img/portfolio/RailYard/AB_Testing_graphic.png)<br><br>
 
-We would measure the number of conversions of users traveling to provider sites with each option for placement of the filters, and report back to our stakeholders which placement option proved most effective.</p><br><br><br>
+<br><br><br>
 
 
 
