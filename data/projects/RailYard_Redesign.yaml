@@ -39,7 +39,6 @@ Improve look & feel and content to target Marketing Personas, while also improvi
     <a href=\"#busowner_intro\" class=\"case_study_button\"><button> Small Business Owner </button></a> <br>
     <a href=\"#as_is_assessment\" class=\"case_study_button\"><button> As-Is Assessment </button></a> <br>
     <a href=\"#prototype\" class=\"case_study_button\"><button> Prototype </button></a> <br>
-    <a href=\"#user_flow_diagrams\" class=\"case_study_button\"><button> User Flow Diagrams </button></a> <br>
     <a href=\"#user_testing_diagrams\" class=\"case_study_button\"><button> User Testing Plan Strategy </button></a> <br>
     <a href=\"#card_sort\" class=\"case_study_button\"><button> Card Sort </button></a> <br>
     <a href=\"#iteration_on_design\" class=\"case_study_button\"><button> Iteration on Design </button></a> <br>
@@ -166,7 +165,7 @@ We created a side panel in the RailYard Dashboard in order to address the Small 
 <br><p>
 **Click the following wireframe snippets to view our wireframe prototype:**</p><br>
 <a href=\"https://invis.io/6DOKEVRW3SG\" target=\"_blank\">
-  <img src=\"/img/portfolio/RailYard/Wireframes_link_to_prototype.png\" alt=\"Image Link to Wireframe Prototype\">
+  <img src=\"/img/portfolio/RailYard/Wireframes_prototype.png\" alt=\"Image Link to Wireframe Prototype\">
 </a>
 
 
@@ -284,13 +283,13 @@ This partnership is mutually beneficial because:<br>
 
 User Flow depicting traffic coming from CRE Listing site:</p><br>
 
-![User Flow Snippet for Widget Testing](/img/portfolio/RailYard/User_Flow_Snippet_for_widget_testing.png)<br>
+![User Flow Snippet for Widget Testing](/img/portfolio/RailYard/Snippet_for_widget_testing.png)<br>
 
 <p>I wanted to investigate the UX surrounding the wording of the Widget CTA, shown as \"Visit RailYard\" above.<br><br>
 
 I made the following mock-up of the RailYard widget to present to participants of these user tests.</p><br>
 
-![Widget Mockup with Testing Prompts](/img/portfolio/RailYard/Widget_Mockup_with_testing_prompts.png)<br><br>
+![Widget Mockup with Testing Prompts](/img/portfolio/RailYard/Widget_Mockup.png)<br><br>
 
 <p>Users' expectations of what would happen when they clicked the button matched what actually _does_ happen:<br>
 Users are taken to the RailYard dashboard to view ISP information for the address of the office they had been viewing on the CRE Listing site.<br><br>
