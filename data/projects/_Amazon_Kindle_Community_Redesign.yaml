@@ -7,35 +7,27 @@ preview: Kindle_Community/Amazon_Kindle_Community_2.png
 client: Amazon Kindle Community (Goodreads)
 clientLink: "https://www.goodreads.com/blog/show/1070-your-goodreads-friends-are-now-just-a-tap-away-in-kindle-for-iphone-and"
 category: Mobile App Redesign
-description: "**TEAM:** 3 UX Designers<br>
-**MY ROLE:** Information Architect and Interaction Designer<br>
-**DURATION OF PROJECT:** 2 weeks<br><br>
-
-**MY TASKS ACCOMPLISHED:**<br>
-- Recruiting & interviewing Subject Matter Experts and Representative Users<br>
-- Feature prioritization & User Story formulation<br>
-- Site Mapping (& ideation to inspire it)<br>
-- Mapping User Flows through the App experience<br>
-- Usability Testing (preparation for & leading the interviews)<br>
-- Card Sorting<br>
-- Synthesis of data from Usability Testing<br><br>
-
-**SKILLS DEMONSTRATED:**<br> Card Sorting, Site (App) Mapping, User Flow Diagramming, User Interviews, Usability Testing, Data Synthesis
-
-<hr><br><br>
-
-<h1 id=\"Kindle_Community_summary\" > Kindle Community Project Summary</h1><br><br><br>
-![Design Problem Graphic](/img/portfolio/Kindle_Community/Design_Problem.png)<br>
+description: "
+<p>
+<h3>Design Problem</h3>
+</p>
+![Design Problem Graphic](/img/portfolio/Kindle_Community/Design_Problem_v2.png)<br>
 <p>Kindle iOS App users are **dissatisfied** with the current \"Community\" feature.<br><br>
-The Community feature is a wrapper for a pared-down version of **Goodreads**, a company bought by Amazon in 2013.<br><br>
-It enables users to view and comment on **book reviews**.</p> <br><br>
+The Community feature is a wrapper for a pared-down version of **Goodreads**, a company bought by Amazon in 2013.<br>
+It enables users to view and comment on **book reviews**.</p><br>
 
-![Design Hypothesis Graphic](/img/portfolio/Kindle_Community/Design_Hypothesis.png)<br>
-<p> **OUR HYPOTHESIS:** Kindle App users would rather have the ability to read & participate in **discussions** on books with other readers.</p><br><br>
+<p>
+<h3>Design Hypothesis</h3>
+</p>
+![Design Hypothesis Graphic](/img/portfolio/Kindle_Community/Design_Hypothesis_v2.png)<br>
+<p> Kindle App users would rather have the ability to read & participate in **discussions** on books with other readers.</p><br>
 
-![Design Solution Graphic](/img/portfolio/Kindle_Community/Design_Solution.png)<br>
-<p>Design a **forum-based discussion platform** to replace the current Community feature.<br><br>
-Enable users to find, read, and participate in discussions about books.</p><br>
+<p>
+<h3>Design Solution</h3>
+</p>
+
+<p>Enable users to find, read, and participate in discussions about books, by designing a **forum-based discussion platform** to replace the current Community feature.
+![Design Solution Graphic](/img/portfolio/Kindle_Community/Design_Solution_v2.png)</p>
 
 <br><hr><br>
 
@@ -61,6 +53,8 @@ Enable users to find, read, and participate in discussions about books.</p><br>
 <a href=\"#kindle_comm_sections\" class=\"sections_jump\"><button>Go to Sections</button></a><br>
 <br><br><br>
 
+
+<hr><br><br><br>
 
 <h2 id=\"amazon_community_intro\" > Kindle Community Redesign:</h2>
 
@@ -196,8 +190,29 @@ I have begun this second iteration by starting with some hand sketches of a few 
 **1.** to create some lo-fi wireframes based on these sketches,<br>
 **2.** and to create a testable prototype to start testing with users.</p>
 
-<br><br><br><br>
+<br><br><br><br><br><br>
 
+
+<hr>
+
+<p><h4>Project Summary</h4></p>
+
+**TEAM:** 3 UX Designers<br>
+**MY ROLE:** Information Architect and Interaction Designer<br>
+**DURATION OF PROJECT:** 2 weeks<br><br>
+
+**MY TASKS ACCOMPLISHED:**<br>
+- Recruiting & interviewing Subject Matter Experts and Representative Users<br>
+- Feature prioritization & User Story formulation<br>
+- Site Mapping (& ideation to inspire it)<br>
+- Mapping User Flows through the App experience<br>
+- Usability Testing (preparation for & leading the interviews)<br>
+- Card Sorting<br>
+- Synthesis of data from Usability Testing<br><br>
+
+**SKILLS DEMONSTRATED:**<br> Card Sorting, Site (App) Mapping, User Flow Diagramming, User Interviews, Usability Testing, Data Synthesis
+
+<br><br><hr><br><br><br><br>
 
 
 **Thank you for reading!** <br>
