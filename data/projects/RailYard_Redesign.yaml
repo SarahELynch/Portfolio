@@ -58,7 +58,7 @@ Improve look & feel and content to target Marketing Personas, while also improvi
 
 <p>
 <h2 id=\"marketing_intro\" > INTRO: USER PERSONAS</h2>
-</p>
+</p><br>
 
 <p>
 <h3 id=\"marketing_intro\" > MARKETING PERSONAS</h3>
@@ -99,10 +99,13 @@ Here was what he said:</p>
 <h4> User Persona</h4>
 </p>
 
-<p>My team used this interview to construct a User Persona representing the **Small Business Owner**:</p><br>
+<p>My team used this interview to construct a User Persona representing the **Small Business Owner**.<br>
+A lot of my work in this project focused on the user experience of this User Persona.</p><br>
 ![Small Business Owner User Persona](/img/portfolio/RailYard/Cassandra_User_Persona.png)<br><br>
 
-<p>A lot of my work in this project focused on the user experience of this User Persona.</p><br><br><br><br>
+
+
+<br><br><br><br><br><br><br>
 
 
 <p>
@@ -146,9 +149,9 @@ There were two main points in this workflow experience that I thought could be g
 ![Small Business Owner Needs Assessed](/img/portfolio/RailYard/SBO_conclusion_2highlighted.png)<br><br>
 
 The current design of RailYard's Dashboard addressed our Business Owner's first need: displaying ISP info in one place.<br>
-I concluded after my as-is assessment that the second need could be addressed better.</p>
-<br><br><br>
-<br><br><br>
+I concluded after my as-is assessment that the second need could be addressed better.</p><br><br>
+
+<br><br><br><br><br><br><br>
 
 
 <p>
@@ -169,7 +172,8 @@ We created a side panel in the RailYard Dashboard in order to address the Small 
 </a>
 
 
-<br><br><br><br><br>
+<br><br>
+<br><br><br><br><br><br><br>
 
 
 <p>
@@ -190,7 +194,7 @@ For the sake of conciseness, here's a good look at just Cassandra's User Flow di
 
 ![Diagram depicting Cassandra's User Flow with isolated Testing Tasks](/img/portfolio/RailYard/User_Flow_BO_with_tasks.png)<br><br>
 
-<p>We took this testing plan and strategy, and moved on to testing our prototype with users.</p><br><br><br><br>
+<p>We took this testing plan and strategy, and moved on to testing our prototype with users.</p><br><br><br>
 
 
 <p>
@@ -213,7 +217,9 @@ To conduct these Card Sorts, I presented each participant of our user tests with
 **2. 'Primary Need'** for the second category.
 </p>
 
-<br><br><br><br>
+<br><br>
+
+<br><br><br><br><br><br><br>
 
 
 
@@ -265,7 +271,7 @@ This way, the information could still be collected and passed along as the user 
 ![Graphic depicting Iteration on Filter Placement](/img/portfolio/RailYard/filter_placement_iteration.png)<br><br>
 
 
-<br><br><br><br><br>
+<br><br><br><br><br><br><br>
 
 
 
@@ -299,7 +305,7 @@ Users expected the label on the button to say:<br>
 
 ![Widget Button Feedback Graphic](/img/portfolio/RailYard/Widget_button_feedback.png)<br><br>
 
-<br><br><br><br><br><br>
+<br><br><br><br><br><br><br>
 
 
 
