@@ -7,11 +7,9 @@ preview: Kindle_Community/Amazon_Kindle_Community_2.png
 client: Amazon Kindle Community (Goodreads)
 clientLink: "https://www.goodreads.com/blog/show/1070-your-goodreads-friends-are-now-just-a-tap-away-in-kindle-for-iphone-and"
 category: Mobile App Redesign
-description: "
-<p>
+description: "<p>
 <h3>Design Problem</h3>
 </p>
-![Design Problem Graphic](/img/portfolio/Kindle_Community/Design_Problem_v2.png)<br>
 <p>Kindle iOS App users are **dissatisfied** with the current \"Community\" feature.<br><br>
 The Community feature is a wrapper for a pared-down version of **Goodreads**, a company bought by Amazon in 2013.<br>
 It enables users to view and comment on **book reviews**.</p><br>
@@ -26,25 +24,20 @@ It enables users to view and comment on **book reviews**.</p><br>
 <h3>Design Solution</h3>
 </p>
 
-<p>Enable users to find, read, and participate in discussions about books, by designing a **forum-based discussion platform** to replace the current Community feature.
-![Design Solution Graphic](/img/portfolio/Kindle_Community/Design_Solution_v2.png)</p>
+<p>Enable users to find, read, and participate in discussions about books, by designing a **forum-based discussion platform** to replace the current Community feature.</p>
 
-<br><hr><br>
+<br><br><br><hr><br><br><br>
 
-
+<p>
 <h3 id=\"kindle_comm_sections\" > Case Study Sections</h3>
-<h4> Jump Links:</h4><br>
+<h4> Jump Links:</h4></p>
 <div class=\"summary_and_jumps\">
   <div id=\"case_study_btn_grp\" class=\"flex-container\">
-    <a href=\"#user_personas\" class=\"case_study_button\"><button> User Personas </button></a> <br>
-    <a href=\"#user_stories\" class=\"case_study_button\"><button> User Stories </button></a> <br>
-    <a href=\"#site_map\" class=\"case_study_button\"><button> Site Map </button></a> <br>
-    <a href=\"#kindle_flow_diagrams\" class=\"case_study_button\"><button> User Flow Diagrams </button></a> <br>
+    <a href=\"#user_research\" class=\"case_study_button\"><button> User Research </button></a> <br>
+    <a href=\"#SME_interview\" class=\"case_study_button\"><button> Subject Matter Expert Interview </button></a> <br>
+    <a href=\"#hand_sketches\" class=\"case_study_button\"><button> Hand Sketches </button></a> <br>
     <a href=\"#prototype\" class=\"case_study_button\"><button> Prototype </button></a> <br>
-    <a href=\"#usability_testing\" class=\"case_study_button\"><button> Usability Testing </button></a> <br>
-    <a href=\"#kindle_card_sort\" class=\"case_study_button\"><button> Card Sort </button></a> <br>
-    <a href=\"#testing_results\" class=\"case_study_button\"><button> User Testing Results </button></a> <br>
-    <a href=\"#second_iter\" class=\"case_study_button\"><button> Second Iteration (MOST RECENT WORK!) </button></a>
+    <a href=\"#next_steps\" class=\"case_study_button\"><button> Next Steps </button></a> <br>
   </div>
 <div id=\"summary_section\" class=\"flex-container\">
 
@@ -56,147 +49,106 @@ It enables users to view and comment on **book reviews**.</p><br>
 
 <hr><br><br><br>
 
-<h2 id=\"amazon_community_intro\" > Kindle Community Redesign:</h2>
-
 <p>
-In this project, our group was challenged with redesigning the Community feature of the Amazon Kindle iOS app.<br><br>
-We collected survey data and conducted interviews with representative users in order to get a good idea of what users of the Amazon Kindle Community would want in a new Community feature.<br><br>
-
-I assisted in the recruiting of Subject Matter Experts who could speak to their experiences reading and discussing books with other readers, and I helped interview representative users and synthesize data gathered from our user research.<br><br>
+<h2 id=\"user_research\" > User Research:</h2>
 </p>
 
-<h3 id=\"user_personas\" > User Personas</h3>
+<p>I helped implement multiple types of User Research for this project, including:<br>
+**1.** conducting an Online Survey <br>
+**2.** conducting in-person User Interviews, and <br>
+**3.** analyzing User Reviews of the GoodReads app.<br><br>
+
+Through this research, we learned that users were dissatisfied with the review/rating functionality of GoodReads, and were disinterested in seeing book ratings made by people they didn't know.<br><br>
+
+We also gained insight into how users behave on discussion platforms (social media, forums, etc.). <br>
+We found that behavioral patterns were split:<br>
+Some of our users were **active participators**. Others preferred to **observe**.</p>
+
+![User Online Participation Behavior](/img/portfolio/Kindle_Community/Interview_Insights.png)<br><br>
 
 
-By observing the major trends in our User Research data, we were able to craft two User Personas: one primary persona, and one secondary persona.<br><br>
+<p>
+<h3 id=\"SME_interview\" > Interview with Subject Matter Expert:</h3>
+</p>
 
-**Primary Persona:**<br><br>
-![Primary User Persona - Jeff Bloom](/img/portfolio/Kindle_Community/Jeff_Bloom_User_Persona.png)<br><br>
+<p>
+I recruited a user who served as my Subject Matter Expert for this project.<br>
+She is an avid reader and has attended multiple bookclubs over the years. We spoke in depth about her experience discussing what she read with other readers.<br><br>
 
-**Secondary Persona:**<br><br>
-![Secondary User Persona - Jenny Coolidge](/img/portfolio/Kindle_Community/Jenny_Coolidge_User_Persona.png)<br>
+My SME described her love for hearing how stories affected other readers, and how their interpretations differed in unique and interesting ways. She lamented about how book club attendance had dwindled and how new clubs were few and far between.</p>
 
-Our team worked together to prioritize features for our redesign in order to ensure we could complete a project by our designated deadline (total project duration: 2 weeks).<br>
-To do this prioritization, we completed a MoSCoW method chart, and to ensure that the features we prioritized for the project scope were aligned with our users' needs, I wrote a User Story corresponding with each feature.<br><br>
+![Subject Matter Expert Quote](/img/portfolio/Kindle_Community/Quote_from_Interview.png)<br><br>
 
+<br><br><br><br><br><br>
 
-<h3 id=\"user_stories\" > Feature Prioritization & User Stories</h3>
+<p>
+<h2 id=\"hand_sketches\" > Hand Sketches:</h2>
+</p>
 
+<p>
+I hand-sketched a few major screens for a discussion platform concept to replace Kindle's current GoodReads Community feature.<br><br>
 
-Here are two examples of **User Stories** we used to align our progress during the project development:<br><br>
+This discussion platform would live inside the \"Community\" tab, similar to the current GoodReads review functionality, but would instead allow users to
+read and participate in discussions about books, genres, authors, etc.</p><br>
 
-![Must-Include Features](/img/portfolio/Kindle_Community/MoSCoW_Must_features.png)<br><br>
+![Hand Sketch of Community Home Screen](/img/portfolio/Kindle_Community/All_Discs.png)<br><br>
+![Hand Sketch of Search & Filter Screen](/img/portfolio/Kindle_Community/Search_Filter.png)<br><br>
+![Hand Sketch of Filtered Discussions Screen](/img/portfolio/Kindle_Community/Disc_Spec_Book.png)<br><br>
+![Hand Sketch of New Discussion Form Screen](/img/portfolio/Kindle_Community/New_Disc_Form.png)<br><br>
 
-These two User Stories represent features that are tailored to the major goals of our User Personas: 1) having the ability to search for discussions easily, and 2) contribute to already existing discussions, and start a brand new discussion.<br><br>
+<br><br><br><br><br><br>
 
-After our group did a few rounds of ideation and sketching, I was able to create a Site Map, which I iterated on multiple times throughout the project, as our design solidified.<br><br>
+<p>
+<h2 id=\"prototype\" > Prototype:</h2>
+</p>
 
+<p>
+I created wireframes based on these hand-sketched ideas and built a clickable prototype.<br><br>
 
-<h3 id=\"site_map\" > Site Map</h3>
-
-
-![Site Map](/img/portfolio/Kindle_Community/Site_map_colors_adjusted.png)<br><br>
-
-As you can see, the organization of our application revolves around two main concepts:<br>
-1) **books, genres, and authors**, or in other words, the topic categories that avid readers would discuss, and<br>
-2) **functionality of a forum-style app**, including how a user would view different types of discussions associated with their activity in the app, and how they would create new discussions.<br><br>
-To ground this organizational schema in our users' needs, we considered our two personas' tendencies for participating in discussions.<br>
-**Jeff**, our primary persona, tends to prefer reading and **observing** discussions started by other users.<br>
-**Jenny**, our secondary persona, is much more likely to **start** a new discussion herself.<br><br>
-
-When constructing this site map, I ensured that our organizational schema accommodated the participatory tendencies of both our User Personas, but to better illustrate how our users would
-interact with our application according to their individual motivations, I also created a User Flow diagram.<br><br>
-
-
-<h3 id=\"kindle_flow_diagrams\" > User Flow Diagrams</h3>
-
-
-This User Flow Diagram maps out all the possible task flows in the application, and I constructed some overlays to highlight each Persona's task flow within the User Flow mapping.<br><br>
-
-**Jeff's User Flow**<br>
-Jeff's participation preference: **Discovery & Observation**<br>
-![User Flow Diagram with Jeff's Task Flow](/img/portfolio/Kindle_Community/Jeff's_User_Flow_diagram.png)<br><br>
-Our organizational schema captures the needs of Jeff by facilitating the discovery and observation of discussions: Jeff can look for discussions to read by using the left-hand-side hamburger menu options to filter his discussions by topic (discovery),<br>
-and he can view a great variety of individual discussions through his main feed (observation).<br><br>
-
-**Jenny's User Flow**<br>
-Jenny's participation preference: **Starting Discussions**<br>
-![User Flow Diagram with Jenny's Task Flow](/img/portfolio/Kindle_Community/Jenny's_User_Flow_Diagram.png)<br><br>
-Jenny's needs are met by this organizational schema, as well. She is able to start a discussion by viewing the options included in the right-hand-side User Avatar Icon menu
-and creating a new discussion by providing all the information needed: topic (7), discussion post title (8), and discussion post body (9).<br><br>
-
-After ideation, research, a few rounds of hand sketching, organizational mapping, our team's visual designer dove into Sketch, and we soon had a prototype in place.<br><br>
-
-
-<h3 id=\"prototype\" > Prototype</h3>
-
-
-**Digital Wireframes**<br><br>
-![Digital Wireframes](/img/portfolio/Kindle_Community/Digital_Wireframes.png)<br>
-
-
-<h3 id=\"usability_testing\" > Usability Testing</h3>
-
-
-We conducted Usability Tests with three users to find out where we could improve the usability of our design.<br>
-I lead the preparation for our team's usability tests, and also lead and facilitated the tests.<br><br>
-As the Information Architect, I wanted to get an idea of what kind of topic category users would look in first to find a discussion, so that I could suggest the best hierarchical ordering of categories (Books, Authors, and Genres) in our side menu, to better accommodate the mental models of our users.<br>
-I didn't want our test participants' answers to be influenced by any element of the visual design, so, I conducted a 'hypothetical, reverse' card sort at the beginning of each usability test before even opening the laptop.<br><br>
-
-
-<h4 id=\"kindle_card_sort\" > Card Sort</h4>
-
-
-I showed each participant three cards, with the categories 'Book', 'Author', and 'Genre' written on them, and I asked the participant,<br>
-'If you had these three categories to choose from in order to find a new discussion, what category would you pick first?'<br><br>
-
-Two out of the three participants we tested prioritized categories in the order 1 - **'Genre'**, 2 - **'Book'**, then 3 - **'Author'**, while our third participant ordered the categories 1 - 'Genre', 2 - 'Author', 3 - 'Book'.<br>
-I decided to take this information as a suggestion to reorder our categories in the hierarchy: **'Genre', 'Book', 'Author'**.<br><br>
-
-<h4 id=\"testing_tasks\" > Testing Tasks</h4>
-
-<p>After completing the card sort, I lead each participant through a usability test, during which I asked them to conduct four tasks in the prototype.</p><br>
-![Usability Testing Tasks](/img/portfolio/Kindle_Community/Usability_Tasks_Graphic.png)<br>
-
-<h4 id=\"testing_results\" > User Testing Results</h4>
-
-<p>I worked with our team's lead Researcher to synthesize our data gathered from testing into actionable takeaways.<br>
-**The  action items we came up with were:**</p><br>
-![Usability Testing Results](/img/portfolio/Kindle_Community/Usability_Test_Results_Graphic.png)<br><br>
-
-<p>Our team implemented these takeaways in our prototype and our Visual Designer took our wireframes to a higher level of fidelity.<br>
-Here is a high-fidelty screen to demonstrate the visual design of our finished product:<br><br>
-**High Fidelity Wireframe:**</p>
-![High Fidelity Wireframe](/img/portfolio/Kindle_Community/Main_Feed_high_fidelity.png)<br><br><br><br><br>
-
-
-<h2 id=\"second_iter\" > Second Iteration</h2><br>
-
-<p>I decided to go back to this project on my own after our class's 3rd project time period was finished.<br><br>
-
-I wanted to rethink and re-address three major aspects of our team's design:<br><br>
-**1.** The forum-specific language/jargon used in the interface<br>
-**2.** The complexity in the multiple ways users can save/bookmark discussions<br>
-**3.** The navigation schema</p><br>
-
-<h3>Hand Sketches</h3><br>
-
-<p>I began this second iteration by starting with some hand sketches of a few major screens:</p><br>
-
-![Sketch of Home Page](/img/portfolio/Kindle_Community/Home_Page_Your_Account.png)<br>
-![Sketch of Bookmarked Discussions Page](/img/portfolio/Kindle_Community/Bookmarks_Bookmarked_Books.png)<br>
-![Sketch of Specific Book Discussions Page](/img/portfolio/Kindle_Community/Specific_Book_Discussions.png)<br>
-![Sketch of Starting a Discussion Page](/img/portfolio/Kindle_Community/Start_Discussion_w_expanded_details.png)<br><br><br><br><br>
-
-
-<h3>Protoype</h3><br>
-
-<p>I've created some wireframes and constructed a prototype based on these sketched ideas.<br>
 **Click the following screen to view the InVision prototype:**</p>
 
 <a href=\"https://invis.io/4NPU7IG9JXR\" target=\"_blank\">
-  <img src=\"/img/portfolio/Kindle_Community/Home_Screen_V2_iphoneX_skin.png\" alt=\"Image Link to Wireframe Prototype\">
-</a>
+  <img src=\"/img/portfolio/Kindle_Community/Prototype_Image.png\" alt=\"Image Link to Wireframe Prototype\">
+  </a>
+
+
+<br><br><br><br><br><br>
+
+
+
+
+<h2 id=\"next_steps\" > Next Steps:</h2>
+
+
+
+The next steps for this project are:<br><br>
+**1.** recruiting users to conduct usability tests<br>
+**2.** creating a usability testing plan, and<br>
+**3.** conducting usability tests & documenting findings.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 <br><br><br><br>
@@ -204,7 +156,8 @@ I wanted to rethink and re-address three major aspects of our team's design:<br>
 
 <hr>
 
-<p><h4>Project Summary</h4></p>
+<h4>Project Summary</h4>
+
 
 **TEAM:** 3 UX Designers<br>
 **MY ROLE:** Information Architect and Interaction Designer<br>
@@ -224,8 +177,9 @@ I wanted to rethink and re-address three major aspects of our team's design:<br>
 <br><br><hr><br><br><br><br>
 
 
+
 **Thank you for reading!** <br>
-If you have any questions, feel free to reach out. You can find my contact information by closing this project and scrolling down to the 'Contact' section on the home page of my website.<br><br>
+If you have any questions, feel free to reach out. You can find my contact information by closing this project and scrolling down to the 'Contact' section on the home page of my website.
 
 
 "
