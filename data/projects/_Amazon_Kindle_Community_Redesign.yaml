@@ -36,8 +36,8 @@ It enables users to view and comment on **book reviews**.</p><br>
     <a href=\"#user_research\" class=\"case_study_button\"><button> User Research </button></a> <br>
     <a href=\"#SME_interview\" class=\"case_study_button\"><button> Subject Matter Expert Interview </button></a> <br>
     <a href=\"#hand_sketches\" class=\"case_study_button\"><button> Hand Sketches </button></a> <br>
-    <a href=\"#prototype\" class=\"case_study_button\"><button> Prototype </button></a> <br>
-    <a href=\"#next_steps\" class=\"case_study_button\"><button> Next Steps </button></a> <br>
+    <a href=\"#kindle_comm_prototype\" class=\"case_study_button\"><button> Prototype </button></a> <br>
+    <a href=\"#kindle_comm_next_steps\" class=\"case_study_button\"><button> Next Steps </button></a> <br>
   </div>
 <div id=\"summary_section\" class=\"flex-container\">
 
@@ -99,7 +99,7 @@ read and participate in discussions about books, genres, authors, etc.</p><br>
 <br><br><br><br><br><br>
 
 <p>
-<h2 id=\"prototype\" > Prototype:</h2>
+<h2 id=\"kindle_comm_prototype\" > Prototype:</h2>
 </p>
 
 <p>
@@ -117,7 +117,7 @@ I created wireframes based on these hand-sketched ideas and built a clickable pr
 
 
 
-<h2 id=\"next_steps\" > Next Steps:</h2>
+<h2 id=\"kindle_comm_next_steps\" > Next Steps:</h2>
 
 
 
