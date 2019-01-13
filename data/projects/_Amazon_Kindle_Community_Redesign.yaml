@@ -2,7 +2,7 @@ modalID: 2
 title: Amazon Kindle Community
 subtitle: A General Assembly spec project, to design a forum-based platform for literary discussion.
 date: September 2018
-img: Kindle_Community/intro_image_blue.png
+img: Kindle_Community/iPhone_skin_Kindle_Community.png
 preview: Kindle_Community/Amazon_Kindle_Community_2.png
 client: Amazon Kindle Community (Goodreads)
 clientLink: "https://www.goodreads.com/blog/show/1070-your-goodreads-friends-are-now-just-a-tap-away-in-kindle-for-iphone-and"
@@ -34,7 +34,7 @@ Kindle iOS App users are **dissatisfied** with the current \"Community\" feature
   <div id=\"case_study_btn_grp\" class=\"flex-container\">
     <a href=\"#user_research\" class=\"case_study_button\"><button> User Research </button></a> <br>
     <a href=\"#SME_interview\" class=\"case_study_button\"><button> Subject Matter Expert Interview </button></a> <br>
-    <a href=\"#comp_analysis\" class=\"case_study_button\"><button> Comparative Analysis </button></a> <br>
+    <a href=\"#comp_analysis\" class=\"case_study_button\"><button> Competitive Analysis </button></a> <br>
     <a href=\"#hand_sketches\" class=\"case_study_button\"><button> Hand Sketches </button></a> <br>
     <a href=\"#kindle_comm_prototype\" class=\"case_study_button\"><button> Prototype </button></a> <br>
     <a href=\"#kindle_comm_next_steps\" class=\"case_study_button\"><button> Next Steps </button></a> <br>
@@ -86,7 +86,7 @@ My SME described her love for hearing how stories affected other readers, and ho
 
 
 <p>
-<h2 id=\"comp_analysis\" > Comparative Analysis:</h2>
+<h2 id=\"comp_analysis\" > Competitive Analysis:</h2>
 </p>
 <p>
 I examined navigation & UI elements used in popular applications that allow free discussion, namely Social Media apps.<br>

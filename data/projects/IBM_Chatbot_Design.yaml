@@ -1,6 +1,6 @@
 modalID: 1
 title: IBM Chatbot Design
-subtitle: A 311-operator-style Chatbot, as part of a larger Immersive Application designed to demonstrate the capabilities of IBM Watson Conversation Service (since renamed to "Watson Assistant").
+subtitle: A 311-operator-style Chatbot, as part of a larger "Immersive Experience" designed to demonstrate the capabilities of IBM Watson Conversation Service (since renamed to "Watson Assistant").
 date: May - November 2017
 img: 311_Chatbot/wall_utterance.png
 preview: 311_Chatbot/Chatbot_image.png
@@ -8,17 +8,10 @@ client: IBM
 clientLink: "https://www.ibm.com/watson/ai-assistant/"
 category: Chatbot Service (WCS) Application
 description:
- "<br><h4 id=\"Design_Problem\" > Design Problem</h4>
-<p>Design & Implement an **immersive experience** to educate clients on Watson Conversation Service.</p>
-
-<h4 id=\"Design_Hypothesis\" > Design Hypothesis</h4>
-<p>Clients will learn more easily if they can interact with an example WCS Chatbot.</p>
-
-<h4 id=\"Design_Solution\" > Design Solution</h4>
-<p>Create an **immersive experience** simulating a 311 Issue Reporting System, using a 311 Operator Chatbot.</p><br><br><br>
+ "<br><br><br><br>
 
 <p>
-<h3 id=\"project_intro\" > Immersive Experience Overview</h3>
+<h3> Immersive Experience Overview</h3>
 </p>
 
 <p>
@@ -26,7 +19,21 @@ Immersive Experiences are demo applications presented to potential clients in Cl
 The applications are shown on a large wall of screens, along with additional displays, such as touch tables.<br>
 The presentations of Immersive Experiences are led by IBM employees called Engagement Leaders.<br><br>
 
-![IBM Client Experience Center image](/img/portfolio/311_Chatbot/ibm_cec_w_tt.png)<br><br>
+![IBM Client Experience Center image](/img/portfolio/311_Chatbot/ibm_cec_w_tt.png)<br><br><br><br><br>
+
+<p>
+<h3> Our 311-Reporting Immersive Experience</h3>
+</p>
+
+<h4 id=\"Design_Problem\" > Design Problem</h4>
+<p>Design & Implement an **immersive experience** to educate clients on Watson Conversation Service.</p>
+
+<h4 id=\"Design_Hypothesis\" > Design Hypothesis</h4>
+<p>Clients will learn more easily if they can interact with an example WCS Chatbot.</p>
+
+<h4 id=\"Design_Solution\" > Design Solution</h4>
+<p>Create an **immersive experience** simulating a 311 Issue Reporting System, using a 311 Operator Chatbot.</p>
+
 
 Our Immersive 311 Reporting Application was made up of two parts:<br>
 1. Visualizations displayed on the wall of screens, triggered by user interactions with ... <br>
@@ -44,7 +51,7 @@ Our Immersive 311 Reporting Application was made up of two parts:<br>
 
 
 
-<h3>Linguistic Design Challenge</h3><br>
+<h3>My Linguistic Design Challenge</h3><br>
 
 <p>
 My design challenge was to make a chatbot that:<br>
@@ -57,7 +64,7 @@ This was essentially a **Linguistic Design Challenge**. Read further to learn ab
 
 
 
-<br><br><br>
+<br><br><br><br><br>
 
 
 
@@ -83,7 +90,7 @@ This was essentially a **Linguistic Design Challenge**. Read further to learn ab
 
 <hr>
 
-<br><br>
+<br><br><br><br><br><br>
 
 
 
