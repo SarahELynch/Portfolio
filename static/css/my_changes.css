@@ -6,13 +6,14 @@
 
 body {
     overflow-x: hidden;
-    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .text-muted {
     /* color: #777; */
     /* color: #33140E; */
-    color: rgba(51,20,14,.85);
+    /* color: rgba(51,20,14,.85); */
+    color: #333333;
 }
 
 .text-muted-modal {
@@ -41,14 +42,14 @@ a.active {
 }
 
 a {
-    color: #C9A029;
+    color: #FFC335;
 }
 
 a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #ECBD32;
+    color: #DF9D00;
 }
 
 h1,
@@ -68,7 +69,7 @@ h6 {
 
 .bg-light-gray {
     /* background-color: #E2E1CE; */
-    background-color: rgba(226,225,206,.40);
+    background-color: #EEF8FB;
 }
 
 .bg-darkest-gray {
@@ -126,14 +127,14 @@ fieldset[disabled] .btn-primary.active {
 
 .btn-xl {
     padding: 20px 40px;
-    border-color: #C9A029;
+    border: none;
     border-radius: 3px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
     font-weight: 700;
-    color: #E2E1CE;
-    background-color: #C9A029;
+    color: #FFFBF2;
+    background-color: rgba(66,193,231,0.3);
 }
 
 .btn-xl:hover,
@@ -142,9 +143,9 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
     /* border-color: #C9A029; */
-    border-color: #E2E1CE;
-    color: #E2E1CE;
-    background-color: #C9A029;
+    color: #FFFBF2;
+    background-color: #42C1E7;
+    border: none;
 }
 
 .btn-xl:active,
@@ -184,14 +185,14 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-    color: #fed136;
+    color: #42C1E7;
 }
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: #fec503;
+    color: #FFC335;
 }
 
 .navbar-brand>img {
@@ -239,15 +240,16 @@ fieldset[disabled] .btn-xl.active {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
-    color: #E2E1CE;
+    color: #FFC335;
 }
 
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 5;
-    color: #C9A029;
+    color: #FFC335;
     /* background-color: rgba(41,65,50,.3); */
-    background-color: rgba(226,225,206,0.1);
+    background-color: rgba(66,193,231,0.1);
+    font-weight: bold;
 }
 
 .navbar-default .navbar-nav>.active>a {
@@ -297,7 +299,7 @@ header {
     text-align: center;
     color: #E2E1CE;
     background-attachment: scroll;
-    background-image: url(../img/sunflower_green_hue.png);
+    background-image: url(../img/new_hero_image.png);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -309,14 +311,16 @@ header {
 header .intro-text {
     padding-top: 100px;
     padding-bottom: 50px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 22px;
     font-style: italic;
     line-height: 22px;
+    opacity: 0;
 }
 
 header .intro-text .intro-heading {
@@ -327,20 +331,25 @@ header .intro-text .intro-heading {
     font-size: 30px;
     font-weight: 700;
     line-height: 50px;
+    opacity: 0;
 }
 
 @media(min-width:768px) {
     header .intro-text {
         padding-top: 300px;
         padding-bottom: 200px;
+        font-family: 'Open Sans', sans-serif;
+
     }
 
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
-        font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-family: 'Open Sans', sans-serif;
         font-size: 40px;
         font-style: italic;
         line-height: 40px;
+        opacity: 0;
+
     }
 
     header .intro-text .intro-heading {
@@ -350,6 +359,8 @@ header .intro-text .intro-heading {
         font-size: 75px;
         font-weight: 700;
         line-height: 75px;
+        opacity: 0;
+
     }
 }
 
@@ -361,16 +372,18 @@ section h2.section-heading {
     margin-top: 0;
     margin-bottom: 15px;
     font-size: 40px;
-    color: #33140E;
+    color: #333333;
+    font-family: 'Open Sans', sans-serif;
 }
 
 section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     font-style: italic;
     font-weight: 400;
+    color: #333333;
 }
 
 @media(min-width:768px) {
@@ -406,7 +419,7 @@ section h3.section-subheading {
     height: 100%;
     opacity: 0;
     /* background: rgba(254,209,54,.9); */
-    background: #C9A029;
+    background: #FFC335;
     -webkit-transition: all ease .7s;
     -moz-transition: all ease .7s;
     transition: all ease .7s;
@@ -424,7 +437,7 @@ section h3.section-subheading {
     margin-top: -12px;
     text-align: center;
     font-size: 20px;
-    color: #E2E1CE;
+    color: #EEF8FB;
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
@@ -447,15 +460,15 @@ section h3.section-subheading {
 #portfolio .portfolio-item .portfolio-caption h4 {
     margin: 0;
     text-transform: none;
-    color: rgba(51,20,14,75);
+    color: #333333;
 }
 
 #portfolio .portfolio-item .portfolio-caption p {
     margin: 0;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     font-style: italic;
-    /* color: #33140E; */
+    color: #333333;
 }
 
 #portfolio * {
@@ -532,17 +545,17 @@ section h3.section-subheading {
     width: 80px;
     height: 80px;
     margin-left: 0;
-    border: 7px solid #f1f1f1;
+    border: 7px solid #EFEFEF;
     border-radius: 100%;
     text-align: center;
-    color: #fff;
+    color: #333333;
     /* background-color: #294132; */
-    background-color: #f1f1f1;
+    background-color: #EEF8FB;
     background-image: none;
 }
 
 .timeline>li.timeline-inverted>.timeline-image {
-    background-color: #C9A029;
+    background-color: #EEF8FB;
     /* background-color: #f1f1f1; */
 }
 
@@ -579,12 +592,12 @@ section h3.section-subheading {
 .timeline .timeline-heading h4 {
     margin-top: 0;
     /* color: inherit; */
-    color: #33140E;
+    color: #333333;
 }
 
 .timeline .timeline-heading h4.subheading {
     text-transform: none;
-    color: #294132;
+    color: #333333;
 }
 
 .timeline .timeline-body>p,
@@ -827,7 +840,7 @@ section h3.section-subheading {
 
 .team-member img {
     margin: 0 auto;
-    border: 7px solid rgba(221,176,46,0.7);
+    border: 7px solid #FFCB51;
 }
 
 .team-member p {
@@ -836,15 +849,14 @@ section h3.section-subheading {
 .team-member h3 {
     text-transform: none;
     font-weight: 600;
-    /* color: #333; */
-    color: #33140E;
+    color: #333333;
 }
 
 .team-member h4 {
     font-size: 16px;
     text-transform: none;
     font-weight: 500;
-    color: rgba(51,20,14,1);
+    color: #333333;
     margin-bottom: 0px;
 }
 
@@ -857,7 +869,7 @@ section h3.section-subheading {
     text-transform: none;
     font-style: italic;
     font-weight: 200;
-    color: rgba(51,20,14,.8);
+    color: #333333;
     margin-bottom: 15px
 }
 
@@ -867,7 +879,7 @@ section h3.section-subheading {
 
 .team-member h5 a {
     text-transform: none;
-    color: #C9A029;
+    color: #42C1E7;
 }
 
 .team-member ul {
@@ -876,12 +888,12 @@ section h3.section-subheading {
     margin-top: 15px;
     margin-bottom: 15px;
     padding: 0;
-    color: rgba(51,20,14,1);
+    color: #333333;
 }
 
 .team-bio {
     padding: 15px;
-    color: rgba(51,20,14,1);
+    color: #333333;
 }
 
 @media(min-width:992px) {
@@ -902,21 +914,21 @@ aside .heading {
 }
 
 section#contact {
-    background-color: #294132;
-    background-image: url(../img/Contact_me_section.png);
+    background-color: #222;
+    /* background-image: url(../img/Contact_me_section.png); */
+    background-image: none;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 section#contact .section-heading {
-    color: #E2E1CE;
+    color: #FFFBF2;
     margin-bottom: 30px;
 }
 
 section#contact .section-subheading {
-    color: #C9A029;
-    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
-    /* font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif; */
+    color: #FFC335;
+    font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-size: 18px;
     font-weight: 400;
@@ -985,7 +997,7 @@ section#contact .text-success {
 footer {
     padding: 25px 0;
     text-align: center;
-    background-color: #F4F4ED;
+    background-color: #FFFBF2;
 }
 
 footer span.copyright {
@@ -1021,8 +1033,9 @@ ul.social-buttons li a {
     font-size: 20px;
     line-height: 40px;
     outline: 0;
-    color: #E2E1CE;
-    background-color: #294132;
+    color: #FFFBF2;
+    /* background-color: #42C1E7; */
+    background-color: #222222;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
@@ -1031,7 +1044,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-    background-color: #C9A029;
+    background-color: #FFC335;
 }
 
 .btn:focus,
@@ -1063,7 +1076,7 @@ ul.social-buttons li a:active {
 
 .portfolio-modal .modal-content p.item-intro {
     margin: 20px 0 30px;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     font-style: italic;
 }

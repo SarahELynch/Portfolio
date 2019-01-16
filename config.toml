@@ -77,8 +77,8 @@ googleAnalytics = ""
   [params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
-    title = "I believe in the power of deconstructing"
-    subtitle = "Communication"
+    title = "awefwefewf"
+    subtitle = "asdfawefwefe"
     buttonText = "See My Best Work"
 
 
@@ -116,7 +116,7 @@ googleAnalytics = ""
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
     title = "Portfolio"
-    subtitle = "Uncovering user motivations is key to crafting interactive experiences that make sense.</br>"
+    subtitle = ""
 
     [params.portfolio.modal]
       client = "Client"
@@ -129,39 +129,39 @@ googleAnalytics = ""
   [params.about]
     enable = true
     title = "About My Journey"
-    subtitle = "My Growth as a UX Designer"
-    endpoint = "I'm Still <br> Digging <br> Deep."
+    subtitle = "A multi-disciplinary path to UX Design"
+    endpoint = "I<br>_choose_<br>UX Design."
 
     # The events will be listed from the top to the bottom.
     # All images are stored under 'static/img/about'.
     # Replace them with your own.
     [[params.about.events]]
       # img = "seed.png"
-      img = "Seed_Timeline_Image.png"
+      img = "book_bubble.png"
       date = "Spring 2016"
-      title = "Seed Planted."
-      description = "My Introduction to User Experience Design: <br>**Human Computer Interaction** course, at OU. <br></br> I was lucky enough to enroll in an HCI course during my last semester of college, as a Linguistics major and Computer Science minor. I still vividly remember the exact moment, sitting in HCI lecture about halfway through the semester, that I thought, <br>'This is what I want to do.'"
+      title = "Intro to UX"
+      description = "My Intro to User Experience Design: <br>**Human Computer Interaction** course, at OU. <br></br> I took an HCI course during my last semester of college, as a Linguistics major & CompSci minor. At the time, I didn't know that UX was a design discipline, but I remember thinking, <br>'This is what I want to do.'"
 
     [[params.about.events]]
       # img = "sprout.png"
-      img = "Sprout_Timeline_Image.png"
+      img = "binary_bubble.png"
       date = "Summer 2016 - Summer 2018"
-      title = "Sprouting my Passion."
-      description = "Application Support Engineer at **IBM**<br></br>I had the privilege of working on an array of different projects during my time at IBM. During these experiences, I continually encountered the practice and process of UX Design, and gained experience advocating for it and applying it in my own work. <br>I sprouted curious green UX tendrils (that would one day grow into strong, sturdy roots) at IBM."
+      title = "Exposure to the Field"
+      description = "Application Support Engineer at **IBM**<br></br>I got to work on an array of different projects during my time at IBM. During this time, I was exposed to UX Design, and gained experience advocating for it and applying it in my own work."
 
     [[params.about.events]]
       # img = "seedling.png"
-      img = "Seedling_Timeline_Image.png"
+      img = "mobile_frame_bubble.png"
       date = "Summer - Fall 2018"
-      title = "Nurturing my Passion."
-      description = "Pursuing UX Design: GA's **UX Design Immersive**<br></br>I decided to rise to the challenge of cultivating my growing passion, and began to till the field of my knowledge and skills. I attended General Assembly's UXDI in Austin, TX, where I gained hands-on experience executing all the steps in the UX Design process, and worked to solve a real world problem for a real client, using UX Design fundamentals."
+      title = "Hands-On Practice"
+      description = "Pursuing UX Design: GA's **UX Design Immersive**<br></br>I decided to take up the reins and follow my passion. I gained hands-on, immersive experience executing the full UX Design process, and worked to solve a real-world UX problem for a real client."
 
     [[params.about.events]]
       # img = "bloom.png"
-      img = "Bloom_Timeline_Image.png"
-      date = "Fall 2018"
-      title = "Diligently Cultivated, now Thriving."
-      description = "UX Designer, at last.<br></br>Now that I've finished my UXDI program and am turning my face towards the sun, I'm ready to face the challenges that the world of UX Design will bring. With a diverse background touching many parts along the spectrum from anthropology to logic, I know I can make an impact and bring a unique perspective to the challenges I face."
+      img = "pencil_bubble.png"
+      date = "2019"
+      title = "A Multi-Faceted UX Designer"
+      description = "UX Designer, at last.<br></br>Over the last 3 years, I have learned how to use my diverse background (from developing technical logic to observing human behavior) to look at design problems from many angles and bring a unique perspective to the challenges I face."
 
   # Team section
   [params.team]
@@ -170,7 +170,7 @@ googleAnalytics = ""
     #center = true
     title = "About Me"
     subtitle = "An attentive listener, sincere communicator, and fierce advocate for quality content."
-    description = "As a UX Designer, it is my duty to keep an open mind and have the courage to ask questions."
+    description = ""
 
     # All team member's pictures are stored under 'static/img/team'.
     # Replace them with your own too.
@@ -192,11 +192,12 @@ googleAnalytics = ""
       position = "UX Designer"
       livesIn = "Austin, TX"
       scope = [
-        "Chatbot Design & Data Curation",
-        "Information Architecture, Content Strategy, Interaction Design"
+        "Conversational Designer",
+        "User Researcher",
+        "Interaction Designer"
       ]
       # For bio markdown and even multiline strings are available.
-      bio = """I am a language-lover, a foodie, a sucker for animals, and a word nerd. I believe in doing my best possible work - because it's just <br>the right thing to do.<br>Though my work will always be grounded in my Linguistic and technical origins, what keeps me coming back to UX Design is my instinct for striving to understand people, <br>what they do, <br>& why they do it."""
+      bio = """As a UX Designer, Linguist, and Developer, I have a passion for finding patterns and studying communication.<br>I am a language-lover, a foodie, a sucker for animals, and a word nerd. I have always had a love of helping people. The endless creativity and genius of human beings constantly inspires me."""
       social = [
         ["fa-twitter", "https://twitter.com/SarahELynch93"],
         ["fa-medium", "https://medium.com/@lynch.se22"],
