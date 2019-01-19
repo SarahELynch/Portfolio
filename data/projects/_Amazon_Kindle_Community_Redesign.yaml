@@ -37,6 +37,7 @@ Kindle iOS App users are **dissatisfied** with the current \"Community\" feature
     <a href=\"#comp_analysis\" class=\"case_study_button\"><button> Competitive Analysis </button></a> <br>
     <a href=\"#hand_sketches\" class=\"case_study_button\"><button> Hand Sketches </button></a> <br>
     <a href=\"#kindle_comm_prototype\" class=\"case_study_button\"><button> Prototype </button></a> <br>
+    <a href=\"#form_feedback\" class=\"case_study_button\"><button> Form Input Feedback </button></a> <br>
     <a href=\"#kindle_comm_next_steps\" class=\"case_study_button\"><button> Next Steps </button></a> <br>
   </div>
 <div id=\"summary_section\" class=\"flex-container\">
@@ -81,7 +82,7 @@ My SME described her love for hearing how stories affected other readers, and ho
 
 ![Subject Matter Expert Quote](/img/portfolio/Kindle_Community/Quote_from_Interview.png)<br><br>
 
-<br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br>
 
 
 
@@ -121,7 +122,7 @@ read and participate in discussions about books, genres, authors, etc.</p><br>
 ![Hand Sketch of Filtered Discussions Screen](/img/portfolio/Kindle_Community/Disc_Spec_Book.png)<br><br>
 ![Hand Sketch of New Discussion Form Screen](/img/portfolio/Kindle_Community/New_Disc_Form.png)<br><br>
 
-<br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br>
 
 <p>
 <h2 id=\"kindle_comm_prototype\" > Prototype:</h2>
@@ -137,7 +138,19 @@ I created wireframes based on these hand-sketched ideas and built a clickable pr
   </a>
 
 
-<br><br><br><br><br><br>
+<br><br><br>
+
+<p>
+<h3 id=\"form_feedback\" > Form Input Feedback</h3>
+</p>
+
+<p>
+Depending on the user's topic input criteria, the New Discussion Form interface will provide feedback according to the appropriate data cross-section.<br>
+An examination of the interface feedback upon user input of a book title, author name, or genre name:
+</p>
+![Data to Interface Feedback graphic](/img/portfolio/Kindle_Community/Data_Form_Interface.png)<br><br>
+
+<br><br><br><br><br><br><br><br>
 
 
 
@@ -176,7 +189,7 @@ The next steps for this project are:<br><br>
 
 
 
-<br><br><br><br>
+<br><br><br><br><br><br>
 
 
 <hr>
