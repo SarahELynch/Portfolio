@@ -145,9 +145,11 @@ Gwen might:<br>
 <h3 id=\"scoping_data\" > Scoping & Organizing the Training Data</h3><br>
 
 <p>
-To learn how to process 311 reports, our 311 bot needed categories to use to classify user input.<br><br>
+To learn how to process 311 reports, our 311 bot needed categories to use to classify user input.<br>
 
-I roughly based 311 Bot's categories off of how New York City's 311 Reporting System categorizes citizens' reports (https://www1.nyc.gov/311/).</p>
+I roughly based 311 Bot's categories off of how New York City's 311 Reporting System categorizes citizens' reports.</p>
+
+<a href=\"https://www1.nyc.gov/311/\" target=\"_blank\">See NYC's categories here.</a><br><br>
 
 ![Graphic depicting Scope of User Intent](/img/portfolio/311_Chatbot/Intent_to_Report_graphic.png)
 
@@ -167,7 +169,6 @@ I designed 311 Bot's back-end logic to use these keywords to mimic NYC's 311 Rep
 
 ![Intent, Entity, and Agency Mapping graphic](/img/portfolio/311_Chatbot/Intent_Entity_Agency_Mapping.png)
 
-<p>Once this logic was in place, 311 Bot was a fully-functioning 311 Issue Routing Operator Bot.</p><br>
 
 
 <br><br><br><br>
