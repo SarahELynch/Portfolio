@@ -49,6 +49,7 @@ Our Immersive 311 Reporting Application was made up of two parts:<br>
 
 ![User Personas Graphic](/img/portfolio/311_Chatbot/User_Personas.png)<br><br><br><br><br>
 
+<br><br><br>
 
 
 <h3>My Linguistic Design Challenge</h3><br>
@@ -77,10 +78,10 @@ This was essentially a **Linguistic Design Challenge**. Read further to learn ab
   <div id=\"case_study_btn_grp\" class=\"flex-container\">
     <a href=\"#craft_real_conv_flow\" ><button>Crafting a Realistic Flow</button></a><br>
     <a href=\"#segmenting_dialog\" class=\"case_study_button\"><button>Segmenting The Dialog</button></a><br>
+    <a href=\"#scoping_data\" class=\"case_study_button\"><button>Scoping the Bot</button></a> <br>
+    <a href=\"#def_data_hierarchy\" class=\"case_study_button\"><button>Defining a Hierarchicy of Training Data</button></a> <br>
     <a href=\"#flow_diagram\" class=\"case_study_button\"><button>User Flow Diagram</button></a><br>
     <a href=\"#dialog_design_spec\" class=\"case_study_button\"><button>Dialog Design Specification</button></a><br>
-    <a href=\"#info_arch\" class=\"case_study_button\"><button>Information Architecture</button></a> <br>
-    <a href=\"#def_data_hierarchy\" class=\"case_study_button\"><button>Defining a Hierarchicy of Training Data</button></a> <br>
   </div>
 <div id=\"summary_section\" class=\"flex-container\">
 
@@ -118,6 +119,7 @@ I needed to design a dialog flow to mirror the behavior of a human operator.</p>
 ![Human Operator Dialog Flow Graphic](/img/portfolio/311_Chatbot/Human_Bot_Flow.png)<br><br><br><br>
 
 
+<br><br>
 
 
 <h3 id=\"segmenting_dialog\" > Segmenting the Dialog</h3><br>
@@ -139,6 +141,39 @@ Gwen might:<br>
 <p>The chatbot needed to be flexible enough to recognize each segment of the conversation, no matter the order.</p><br><br><br>
 
 
+<br><br>
+
+
+<h3 id=\"scoping_data\" > Scoping & Organizing the Training Data</h3><br>
+
+
+<p>To learn how to process 311 reports, our 311 bot needed categories to use to classify user input.<br><br>
+
+I roughly based 311 Bot's categories off of how New York City's 311 Reporting System categorizes citizens' reports (https://www1.nyc.gov/311/).</p>
+
+![Graphic depicting Scope of User Intent](/img/portfolio/311_Chatbot/Intent_to_Report_graphic.png)
+
+
+<br><br><br><br>
+
+
+
+
+<h3 id=\"def_data_hierarchy\" > Defining a Hierarchicy of Training Data</h3><br>
+
+<p>My research into NYC's 311 Reporting System showed that Agencies were assigned according to details in a report.<br>
+
+I constructed training data to train 311 Bot to identify these details by **keyword**.<br><br>
+
+I designed 311 Bot's back-end logic to use these keywords to mimic NYC's 311 Reporting System's Agency assignment.</p><br>
+
+![Intent, Entity, and Agency Mapping graphic](/img/portfolio/311_Chatbot/Intent_Entity_Agency_Mapping.png)
+
+<p>Once this logic was in place, 311 Bot was a fully-functioning 311 Issue Routing Operator Bot.</p><br>
+
+
+
+<br><br><br><br>
 
 
 
@@ -152,7 +187,7 @@ Here's the complete dialog flow that I designed for 311 Bot:</p>
 
 <p>This flow diagram illustrates all possible paths through the conversation, including recovering from errors, misclassifications, and misinterpretations.</p>
 
-<br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 
 
@@ -172,36 +207,6 @@ This design spec was made up of a series of **test cases**, each one communicati
 
 
 
-<p>
-<h2 id=\"info_arch\" > Information Architecture</h2><br>
-</p>
-
-<h3 id=\"scoping_data\" > Scoping & Organizing the Training Data</h3><br>
-
-
-<p>To learn how to process 311 reports, our 311 bot needed categories to use to classify user input.<br><br>
-
-I roughly based 311 Bot's categories off of how New York City's 311 Reporting System categorizes citizens' reports (https://www1.nyc.gov/311/).</p>
-
-![Graphic depicting Scope of User Intent](/img/portfolio/311_Chatbot/Intent_to_Report_graphic.png)
-
-
-<br><br>
-
-
-
-
-<h3 id=\"def_data_hierarchy\" > Defining a Hierarchicy of Training Data</h3><br>
-
-<p>My research into NYC's 311 Reporting System showed that Agencies were assigned according to details in a report.<br>
-
-I constructed training data to train 311 Bot to identify these details by **keyword**.<br><br>
-
-I designed 311 Bot's back-end logic to use these keywords to mimic NYC's 311 Reporting System's Agency assignment.</p><br>
-
-![Intent, Entity, and Agency Mapping graphic](/img/portfolio/311_Chatbot/Intent_Entity_Agency_Mapping.png)
-
-<p>Once this logic was in place, 311 Bot was a fully-functioning 311 Issue Routing Operator Bot.</p><br>
 
 
 <br><br><br>
