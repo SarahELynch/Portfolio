@@ -80,6 +80,7 @@ This was essentially a **Linguistic Design Challenge**. Read further to learn ab
     <a href=\"#segmenting_dialog\" class=\"case_study_button\"><button>Segmenting The Dialog</button></a><br>
     <a href=\"#scoping_data\" class=\"case_study_button\"><button>Scoping the Bot</button></a> <br>
     <a href=\"#def_data_hierarchy\" class=\"case_study_button\"><button>Defining a Hierarchicy of Training Data</button></a> <br>
+    <a href=\"#memorable_exp\" class=\"case_study_button\"><button>Creating a Memorable Experience</button></a> <br>
     <a href=\"#flow_diagram\" class=\"case_study_button\"><button>User Flow Diagram</button></a><br>
     <a href=\"#dialog_design_spec\" class=\"case_study_button\"><button>Dialog Design Specification</button></a><br>
   </div>
@@ -125,11 +126,8 @@ I needed to design a dialog flow to mirror the behavior of a human operator.</p>
 <h3 id=\"segmenting_dialog\" > Segmenting the Dialog</h3><br>
 
 <p>
-The 311 report dialog flow based off of real Human Operator behavior helped me to determine how the conversation could be segmented: by issue collection, and address collection.</p>
-
-![Graphic depicting Basic Dialog Flow Segments](/img/portfolio/311_Chatbot/Basic_Flow_graphic_checkmarks.png)<br><br>
-
-<p>However, I knew that Gwen is used to **conversing flexibly**.<br>
+The 311 report dialog flow based off of real Human Operator behavior helped me to determine how the conversation could be segmented: by issue collection, and address collection.<br><br>
+However, I knew that Gwen is used to **conversing flexibly**.<br>
 
 Gwen might:<br>
 **1.** give an issue report first.<br>
@@ -146,8 +144,8 @@ Gwen might:<br>
 
 <h3 id=\"scoping_data\" > Scoping & Organizing the Training Data</h3><br>
 
-
-<p>To learn how to process 311 reports, our 311 bot needed categories to use to classify user input.<br><br>
+<p>
+To learn how to process 311 reports, our 311 bot needed categories to use to classify user input.<br><br>
 
 I roughly based 311 Bot's categories off of how New York City's 311 Reporting System categorizes citizens' reports (https://www1.nyc.gov/311/).</p>
 
@@ -170,6 +168,20 @@ I designed 311 Bot's back-end logic to use these keywords to mimic NYC's 311 Rep
 ![Intent, Entity, and Agency Mapping graphic](/img/portfolio/311_Chatbot/Intent_Entity_Agency_Mapping.png)
 
 <p>Once this logic was in place, 311 Bot was a fully-functioning 311 Issue Routing Operator Bot.</p><br>
+
+
+<br><br><br><br>
+
+
+
+<h3 id=\"memorable_exp\" > Creating a Memorable Experience</h3><br>
+
+<p>
+I also used this keyword framework to create a good chat user experience.<br>
+By carefully crafting variations of these keywords (training data), I created a 311 Bot that was able to occasionally surprise users when it recognized words within their utterances.
+</p>
+
+![Graphic depicting Intersection of Data and Chat Interface](/img/portfolio/311_Chatbot/chat_interaction.png)
 
 
 
