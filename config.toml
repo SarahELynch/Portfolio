@@ -130,7 +130,7 @@ googleAnalytics = ""
     enable = true
     title = "About My Journey"
     subtitle = "A multi-disciplinary path to UX Design"
-    endpoint = "I<br>_choose_<br>UX Design."
+    endpoint = "I<br>_choose_<br>UX."
 
     # The events will be listed from the top to the bottom.
     # All images are stored under 'static/img/about'.
@@ -193,8 +193,9 @@ googleAnalytics = ""
       livesIn = "Austin, TX"
       scope = [
         "Conversational Designer",
-        "User Researcher",
-        "Interaction Designer"
+        "Interaction Designer",
+        "Information Architect",
+        "User Researcher"
       ]
       # For bio markdown and even multiline strings are available.
       bio = """As a UX Designer, Linguist, and Developer, I have a passion for finding patterns and studying communication.<br>I am a language-lover, a foodie, a sucker for animals, and a word nerd. I have always had a love of helping people. The endless creativity and genius of human beings constantly inspires me."""
