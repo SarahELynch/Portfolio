@@ -169,7 +169,7 @@ googleAnalytics = ""
     # Possibility to center items
     #center = true
     title = "About Me"
-    subtitle = "An attentive listener, sincere communicator, and fierce advocate for quality content."
+    subtitle = "As a UX Designer, Linguist, and Developer, I have a passion for finding patterns and studying communication."
     description = ""
 
     # All team member's pictures are stored under 'static/img/team'.
@@ -192,13 +192,10 @@ googleAnalytics = ""
       position = "UX Designer"
       livesIn = "Austin, TX"
       scope = [
-        "Conversational Designer",
-        "Interaction Designer",
-        "Information Architect",
-        "User Researcher"
+        "Conversational Design Enthusiast"
       ]
       # For bio markdown and even multiline strings are available.
-      bio = """As a UX Designer, Linguist, and Developer, I have a passion for finding patterns and studying communication.<br>I am a language-lover, a foodie, a sucker for animals, and a word nerd. I have always had a love of helping people. The endless creativity and genius of human beings constantly inspires me."""
+      bio = """I am an attentive listener, sincere communicator, and fierce advocate for quality content.<br>I am a language-lover, a foodie, a sucker for animals, and a word nerd. I have always had a love of helping people, and the endless creativity of human beings constantly inspires me."""
       social = [
         ["fa-twitter", "https://twitter.com/SarahELynch93"],
         ["fa-medium", "https://medium.com/@lynch.se22"],
