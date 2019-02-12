@@ -169,7 +169,7 @@ googleAnalytics = ""
     # Possibility to center items
     #center = true
     title = "About Me"
-    subtitle = "As a UX Designer, Linguist, and Developer, I have a passion for finding patterns and studying communication."
+    subtitle = "As a UX Designer, Linguist, and Data Strategist, I have a passion for finding patterns and studying communication."
     description = ""
 
     # All team member's pictures are stored under 'static/img/team'.
