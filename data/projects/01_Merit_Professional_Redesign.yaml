@@ -62,31 +62,33 @@ Here's a look at it:
 </p>
 
 <p>
-I've created Content Patterns for the redesign of the content structure on Merit's Service/Partner Page(s), and the Certification & Education page.
+I've created Content Patterns for the redesign of the content structure on Merit's Service Pages, Partner Pages, and the Certification & Education page.<br>
+
+These Content Patterns are meant to illustrate the overall layout/hierarchy of the content in a particular page category.
+
 </p>
 
 <br>
 
 
 <p>
-<h4>Service/Partner Page</h4>
+<h4>Service Page</h4>
 </p>
 
 
-Service & Partner Pages can be treated as the same Content Pattern category because the structure of the content Merit has for both is the same.<br><br>
+On the Service Pages, I wanted to:<br>
+**1.** **Remove** the secondary navigation links and search bar because I felt they were redundant,<br>
+**2.** **Remove** the social links because Merit Professional is not active on social media, and<br>
+**3.** **Move** testimonials underneath the Service description because this section currently causes the length of the webpage to expand/contract as the length of each testimonial changes.<br><br>
 
-Here is the content pattern for Service/Partner Pages:
+Here is the content pattern for the new Service Page, compared with the current site's Service Page layout:
 <br><br>
 
-![Service/Partner Page vs. new Content Pattern](/img/portfolio/Merit_Professional/Service_Partner_Page_Content_Pattern_comparison.png)
+![Service/Partner Page vs. new Content Pattern](/img/portfolio/Merit_Professional/Service_Page_Content_Pattern_comparison.png)
 
 <br>
 
 
-**Content Pattern Summary:**<br>
-I wanted to **remove** the secondary navigation links and search bar because I felt they were redundant.<br>
-I also wanted to **remove** the social links because Merit Professional is not active on social media.<br><br>
-Finally, I wanted to **move** testimonials underneath the Service/Partner description because, when located in a right-hand panel, the section would cause the length of the webpage to expand/contract as the length of each testimonial changed.
 
 
 
@@ -116,18 +118,19 @@ Here is how the Content Pattern for the Training Page translated into a hi-fi mo
 
 
 <p>
-I am currently in the process of redesigning Merit Professional Services' website visual style.<br>
+I wanted to alter the current **color scheme** to blend more cohesively with the Merit Logo.<br>
+I also wanted to update the font pairing choices, but limit it to two major fonts: **Open Sans and Signika**.<br><br>
 
-Here is a **sneak peek** at the preliminary visual style update for Merit Professional's home page:
+Here is a concise Style Guide for the typography & color update:
 </p>
 
-![Graphic Comparing current site and hi-fi mockup](/img/portfolio/Merit_Professional/Mockup_Current_site_comparison.png)
+![Visual Style Card for Merit redesign](/img/portfolio/Merit_Professional/Visual_Style_Card.png)
 
 
 
 <p>
 **Want to take a closer look at the home page hi-fi mockup?**</p>
-<a href=\"https://projects.invisionapp.com/static-signed/live-embed/276646685/344923627/1/latest/Txn7Pso1TxKpkVm6lnWPwNZYXDLRJFTwKyfdluhQqVheqfkMwh9oMo0d49UNXKi4tIOlTVJR5IhkWH8th7ePVwlE/Merit-Home-Page-Mockup---no-browser-mockup.png\" target=\"_blank\">Click here!</a>
+<a href=\"https://invis.io/4NQC5RVWFVE\" target=\"_blank\">Click here!</a>
 
 
 
