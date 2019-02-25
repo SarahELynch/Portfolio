@@ -122,7 +122,30 @@ read and participate in discussions about books, genres, authors, etc.</p><br>
 ![Hand Sketch of Filtered Discussions Screen](/img/portfolio/Kindle_Community/Disc_Spec_Book.png)<br><br>
 ![Hand Sketch of New Discussion Form Screen](/img/portfolio/Kindle_Community/New_Disc_Form.png)<br><br>
 
+
+<br><br><br><br><br><br>
+
+<p>
+<h2 id=\"site_flow_maps\" > Site Map & User Flows:</h2>
+</p>
+
+<p>
+I created a site map to outline the structure and navigation of the discussion platform concept.<br><br>
+</p>
+
+![Site Map of the Community Tab](/img/portfolio/Kindle_Community/Site_Map.png)<br><br>
+
+<p>
+I also created two **User Flow Overlays** to help illustrate possible user flows aligning to the User Behavior patterns I found during user research: **Observation and Active Participation**.<br><br>
+(Note: These are certainly not the only two user flows for these behaviors, nor are these behaviors the only possible patterns users could exhibit.)<br><br>
+</p>
+
+![User Flow Overlays for Site Map](/img/portfolio/Kindle_Community/User_Flow_Overlays.gif)<br><br>
+
+
+
 <br><br><br><br><br><br><br><br>
+
 
 <p>
 <h2 id=\"kindle_comm_prototype\" > Prototype:</h2>
@@ -138,7 +161,7 @@ I created wireframes based on these hand-sketched ideas and built a clickable pr
   </a>
 
 
-<br><br><br>
+<br><br><br><br><br>
 
 <p>
 <h3 id=\"form_feedback\" > Form Input Feedback</h3>
@@ -149,6 +172,21 @@ Depending on the user's topic input criteria, the New Discussion Form interface 
 An examination of the interface feedback upon user input of a book title, author name, or genre name:
 </p>
 ![Data to Interface Feedback graphic](/img/portfolio/Kindle_Community/Data_Form_Interface.png)<br><br>
+
+
+<br><br><br><br><br>
+
+<p>
+<h3 id=\"feed_content\" > Feed Content Hierarchy</h3>
+</p>
+
+<p>
+The types of discussions that should appear in a user's feed, and in which order, is important to the overall user experience.
+</p>
+![Graphic depicting Feed Content Ordering](/img/portfolio/Kindle_Community/Feed_Content_order.png)<br><br>
+
+
+
 
 <br><br><br><br><br><br><br><br>
 
