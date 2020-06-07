@@ -126,42 +126,42 @@ googleAnalytics = ""
 
 
     # About section
-  [params.about]
-    enable = true
-    title = "About My Journey"
-    subtitle = "A multi-disciplinary path to UX Design"
-    endpoint = "I<br>_choose_<br>UX."
-
-    # The events will be listed from the top to the bottom.
-    # All images are stored under 'static/img/about'.
-    # Replace them with your own.
-    [[params.about.events]]
-      # img = "seed.png"
-      img = "book_bubble.png"
-      date = "Spring 2016"
-      title = "Intro to UX"
-      description = "My Intro to User Experience Design: <br>**Human Computer Interaction** course, at OU. <br></br> I took an HCI course during my last semester of college, as a Linguistics major & CompSci minor. At the time, I didn't know that UX was a design discipline, but I remember thinking, <br>'This is what I want to do.'"
-
-    [[params.about.events]]
-      # img = "sprout.png"
-      img = "binary_bubble.png"
-      date = "Summer 2016 - Summer 2018"
-      title = "Exposure to the Field"
-      description = "Application Support Engineer at **IBM**<br></br>I got to work on an array of different projects during my time at IBM. During this time, I was exposed to UX Design, and gained experience advocating for it and applying it in my own work."
-
-    [[params.about.events]]
-      # img = "seedling.png"
-      img = "mobile_frame_bubble.png"
-      date = "Summer - Fall 2018"
-      title = "Hands-On Practice"
-      description = "Pursuing UX Design: GA's **UX Design Immersive**<br></br>I decided to take up the reins and follow my passion. I gained hands-on, immersive experience executing the full UX Design process, and worked to solve a real-world UX problem for a real client."
-
-    [[params.about.events]]
-      # img = "bloom.png"
-      img = "pencil_bubble.png"
-      date = "2019"
-      title = "A Multi-Faceted UX Designer"
-      description = "UX Designer, at last.<br></br>Over the last 3 years, I have learned how to use my diverse background (from developing technical logic to observing human behavior) to look at design problems from many angles and bring a unique perspective to the challenges I face."
+  # [params.about]
+  #   enable = true
+  #   title = "About My Journey"
+  #   subtitle = "A multi-disciplinary path to UX Design"
+  #   endpoint = "I<br>_choose_<br>UX."
+  #
+  #   # The events will be listed from the top to the bottom.
+  #   # All images are stored under 'static/img/about'.
+  #   # Replace them with your own.
+  #   [[params.about.events]]
+  #     # img = "seed.png"
+  #     img = "book_bubble.png"
+  #     date = "Spring 2016"
+  #     title = "Intro to UX"
+  #     description = "My Intro to User Experience Design: <br>**Human Computer Interaction** course, at OU. <br></br> I took an HCI course during my last semester of college, as a Linguistics major & CompSci minor. At the time, I didn't know that UX was a design discipline, but I remember thinking, <br>'This is what I want to do.'"
+  #
+  #   [[params.about.events]]
+  #     # img = "sprout.png"
+  #     img = "binary_bubble.png"
+  #     date = "Summer 2016 - Summer 2018"
+  #     title = "Exposure to the Field"
+  #     description = "Application Support Engineer at **IBM**<br></br>I got to work on an array of different projects during my time at IBM. During this time, I was exposed to UX Design, and gained experience advocating for it and applying it in my own work."
+  #
+  #   [[params.about.events]]
+  #     # img = "seedling.png"
+  #     img = "mobile_frame_bubble.png"
+  #     date = "Summer - Fall 2018"
+  #     title = "Hands-On Practice"
+  #     description = "Pursuing UX Design: GA's **UX Design Immersive**<br></br>I decided to take up the reins and follow my passion. I gained hands-on, immersive experience executing the full UX Design process, and worked to solve a real-world UX problem for a real client."
+  #
+  #   [[params.about.events]]
+  #     # img = "bloom.png"
+  #     img = "pencil_bubble.png"
+  #     date = "2019"
+  #     title = "A Multi-Faceted UX Designer"
+  #     description = "UX Designer, at last.<br></br>Over the last 3 years, I have learned how to use my diverse background (from developing technical logic to observing human behavior) to look at design problems from many angles and bring a unique perspective to the challenges I face."
 
   # Team section
   [params.team]
