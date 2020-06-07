@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sarah Lynch&#39;s UX Design Portfolio</title>
-    <link>http://sarahlynch.net/</link>
+    <link>https://sarahlynch.net/</link>
     <description>Recent content on Sarah Lynch&#39;s UX Design Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://sarahlynch.net/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://sarahlynch.net/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

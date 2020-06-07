@@ -1,6 +1,6 @@
 # digital ocean
 [ubuntu-s-1vcpu-1gb-sfo2-01]
-159.65.100.4 ansible_user=root
+104.248.219.12 ansible_user=root
 
 [_sarahlynch:children]
 ubuntu-s-1vcpu-1gb-sfo2-01
